@@ -1,6 +1,6 @@
 .PHONY:clean
 SERVER_BUILD_PATH ?= .
-SRC_PATH ?= $(SERVER_BUILD_PATH)/../deploy
+SRC_PATH ?= $(SERVER_BUILD_PATH)/../source
 
 include $(SRC_PATH)/common.mk
 
