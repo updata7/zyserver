@@ -1,0 +1,15 @@
+#本文件等于号右边的配置关联machine.conf 的设置
+
+#数据库特有设置
+dbenable = 1
+dbname = test_db
+dbhost = 127.0.0.1
+dbport = 3308
+dbuser = root
+dbpwd = 123456
+
+#本服务器
+address = dbmgr
+port = dbmgr-port
+prefix = dbmgr-prefix
+thread = 2

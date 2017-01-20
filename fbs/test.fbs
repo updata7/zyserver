@@ -1,0 +1,8 @@
+table request {
+	task_id: int;
+	oper_type: int;
+}
+
+table response {
+	retcode: int;
+}

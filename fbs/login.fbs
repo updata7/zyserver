@@ -1,0 +1,17 @@
+table request {
+	nick_name: string;
+	password: string;
+}
+
+table response {
+	retcode: int;
+	player_id: string;
+	session: string;
+}
+
+table Protocol {
+	request: request;
+	response: response;
+}
+
+root_type response;

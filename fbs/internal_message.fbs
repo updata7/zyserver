@@ -1,0 +1,6 @@
+table message {
+	servant: string;
+	msg: string;
+}
+
+root_type message;

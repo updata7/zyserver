@@ -1,0 +1,283 @@
+COMMONCLASS_H	CommonClass.h	2;"	d
+CommonClass	CommonClass.h	/^	CommonClass()$/;"	f	class:CommonClass
+CommonClass	CommonClass.h	/^class CommonClass$/;"	c
+DeleteInstance	CommonClass.h	/^	void DeleteInstance()$/;"	f	class:CommonClass
+GetInstance	CommonClass.h	/^	T* GetInstance()$/;"	f	class:CommonClass
+m_pInstance	CommonClass.h	/^	T* m_pInstance;$/;"	m	class:CommonClass
+EndpointServer	EndpointServer.cpp	/^EndpointServer::EndpointServer(const char *Address, int Port, int Prefix)$/;"	f	class:EndpointServer
+GetAddress	EndpointServer.cpp	/^const char *EndpointServer::GetAddress()$/;"	f	class:EndpointServer
+GetPort	EndpointServer.cpp	/^int EndpointServer::GetPort()$/;"	f	class:EndpointServer
+GetPrefix	EndpointServer.cpp	/^int EndpointServer::GetPrefix()$/;"	f	class:EndpointServer
+~EndpointServer	EndpointServer.cpp	/^EndpointServer::~EndpointServer()$/;"	f	class:EndpointServer
+ENDPOINTSERVER_H	EndpointServer.hpp	2;"	d
+EndpointServer	EndpointServer.hpp	/^class EndpointServer$/;"	c
+address	EndpointServer.hpp	/^	const char *address;$/;"	m	class:EndpointServer
+port	EndpointServer.hpp	/^	int port;$/;"	m	class:EndpointServer
+prefix	EndpointServer.hpp	/^	int prefix;$/;"	m	class:EndpointServer
+MASTERDBINFO_H	MasterDbInfo.h	2;"	d
+MasterDbInfo	MasterDbInfo.h	/^	MasterDbInfo() {}$/;"	f	class:MasterDbInfo
+MasterDbInfo	MasterDbInfo.h	/^class MasterDbInfo$/;"	c
+dbhost	MasterDbInfo.h	/^	static char *dbhost;$/;"	m	class:MasterDbInfo
+dbhost	MasterDbInfo.h	/^char *MasterDbInfo::dbhost = NULL;$/;"	m	class:MasterDbInfo
+dbname	MasterDbInfo.h	/^	static char *dbname;$/;"	m	class:MasterDbInfo
+dbname	MasterDbInfo.h	/^char *MasterDbInfo::dbname = NULL;$/;"	m	class:MasterDbInfo
+dbport	MasterDbInfo.h	/^	static int dbport;$/;"	m	class:MasterDbInfo
+dbport	MasterDbInfo.h	/^int MasterDbInfo::dbport = 0;$/;"	m	class:MasterDbInfo
+dbpwd	MasterDbInfo.h	/^	static char *dbpwd;$/;"	m	class:MasterDbInfo
+dbpwd	MasterDbInfo.h	/^char *MasterDbInfo::dbpwd = NULL;$/;"	m	class:MasterDbInfo
+dbuser	MasterDbInfo.h	/^	static char *dbuser;$/;"	m	class:MasterDbInfo
+dbuser	MasterDbInfo.h	/^char *MasterDbInfo::dbuser = NULL;$/;"	m	class:MasterDbInfo
+DELETE	Memory.hpp	5;"	d
+MEMORY	Memory.hpp	2;"	d
+NEW	Memory.hpp	4;"	d
+DispatchMessage	MessageDispatch.cpp	/^void MessageDispatch::DispatchMessage(void *userdata)$/;"	f	class:MessageDispatch
+MessageDispatch	MessageDispatch.cpp	/^MessageDispatch::MessageDispatch()$/;"	f	class:MessageDispatch
+Start	MessageDispatch.cpp	/^void MessageDispatch::Start()$/;"	f	class:MessageDispatch
+~MessageDispatch	MessageDispatch.cpp	/^MessageDispatch::~MessageDispatch()$/;"	f	class:MessageDispatch
+MESSAGEQUEUE_H	MessageDispatch.hpp	2;"	d
+MessageDispatch	MessageDispatch.hpp	/^class MessageDispatch$/;"	c
+GetBev	NetConn.cpp	/^struct bufferevent * NetConn::GetBev()$/;"	f	class:NetConn
+GetFd	NetConn.cpp	/^socket_t NetConn::GetFd()$/;"	f	class:NetConn
+NetConn	NetConn.cpp	/^NetConn::NetConn(struct bufferevent *Bev, socket_t Fd)$/;"	f	class:NetConn
+NetConn	NetConn.cpp	/^NetConn::NetConn(struct bufferevent *Bev, socket_t Fd, int Prefix)$/;"	f	class:NetConn
+~NetConn	NetConn.cpp	/^NetConn::~NetConn()$/;"	f	class:NetConn
+NETCONN_H	NetConn.hpp	3;"	d
+NetConn	NetConn.hpp	/^class NetConn$/;"	c
+bev	NetConn.hpp	/^	struct bufferevent *bev;$/;"	m	class:NetConn	typeref:struct:NetConn::bufferevent
+fd	NetConn.hpp	/^	socket_t fd;$/;"	m	class:NetConn
+prefix	NetConn.hpp	/^	int prefix;$/;"	m	class:NetConn
+socket_t	NetConn.hpp	8;"	d
+NetWork	NetWork.cpp	/^NetWork::NetWork(struct server_config_t *sc)$/;"	f	class:NetWork
+OnClientClose	NetWork.cpp	/^void NetWork::OnClientClose(socket_t fd, void *userdata)$/;"	f	class:NetWork
+OnServerConnected	NetWork.cpp	/^void NetWork::OnServerConnected(socket_t fd, void *userdata)$/;"	f	class:NetWork
+Start	NetWork.cpp	/^void NetWork::Start()$/;"	f	class:NetWork
+~NetWork	NetWork.cpp	/^NetWork::~NetWork()$/;"	f	class:NetWork
+MAX_SERVER	NetWork.hpp	18;"	d
+NETWORK_HPP	NetWork.hpp	2;"	d
+NetWork	NetWork.hpp	/^class NetWork$/;"	c
+address	NetWork.hpp	/^	char address[MAX_SERVER][24];$/;"	m	class:NetWork
+base	NetWork.hpp	/^	struct event_base* base;$/;"	m	class:NetWork	typeref:struct:NetWork::event_base
+endpointServerList	NetWork.hpp	/^	std::list<EndpointServer> endpointServerList;$/;"	m	class:NetWork
+port	NetWork.hpp	/^	char port[MAX_SERVER][8];$/;"	m	class:NetWork
+prefix	NetWork.hpp	/^	char prefix[MAX_SERVER][7];$/;"	m	class:NetWork
+server_config	NetWork.hpp	/^	struct server_config_t *server_config;$/;"	m	class:NetWork	typeref:struct:NetWork::server_config_t
+sin	NetWork.hpp	/^	struct sockaddr_in sin[MAX_SERVER]; $/;"	m	class:NetWork	typeref:struct:NetWork::sockaddr_in
+CallBack	ServantBase.cpp	/^void ServantBase::CallBack(std::string msg)$/;"	f	class:ServantBase
+Init	ServantBase.cpp	/^void ServantBase::Init()$/;"	f	class:ServantBase
+ServantBase	ServantBase.cpp	/^ServantBase::ServantBase()$/;"	f	class:ServantBase
+~ServantBase	ServantBase.cpp	/^ServantBase::~ServantBase()$/;"	f	class:ServantBase
+SERVANTBASE_H	ServantBase.hpp	2;"	d
+ServantBase	ServantBase.hpp	/^class ServantBase$/;"	c
+AddHandler	ServantHandler.cpp	/^void ServantHandler::AddHandler(SERVANT_TYPE servant, ServantBase *servantClass)$/;"	f	class:ServantHandler
+ExecuteHandler	ServantHandler.cpp	/^void ServantHandler::ExecuteHandler(SERVANT_TYPE servant)$/;"	f	class:ServantHandler
+LoadHandler	ServantHandler.cpp	/^void ServantHandler::LoadHandler()$/;"	f	class:ServantHandler
+ReleaseHandler	ServantHandler.cpp	/^void ServantHandler::ReleaseHandler()$/;"	f	class:ServantHandler
+RunHandlerByServant	ServantHandler.cpp	/^bool ServantHandler::RunHandlerByServant(SERVANT_TYPE servant, std::string msg)$/;"	f	class:ServantHandler
+ServantCallBack	ServantHandler.cpp	/^void ServantHandler::ServantCallBack(void *userdata, SERVANT_TYPE servant, char *msg)$/;"	f	class:ServantHandler
+ServantHandler	ServantHandler.cpp	/^ServantHandler::ServantHandler()$/;"	f	class:ServantHandler
+~ServantHandler	ServantHandler.cpp	/^ServantHandler::~ServantHandler()$/;"	f	class:ServantHandler
+SERVANTHANDLER_H	ServantHandler.hpp	2;"	d
+SERVANT_TYPE	ServantHandler.hpp	9;"	d
+ServantHandler	ServantHandler.hpp	/^class ServantHandler$/;"	c
+ServantMap	ServantHandler.hpp	/^	typedef std::map<SERVANT_TYPE, ServantBase*> ServantMap;$/;"	t	class:ServantHandler
+servantMap	ServantHandler.hpp	/^	ServantMap servantMap;$/;"	m	class:ServantHandler
+InsertServant	ServantMgr.cpp	/^void ServantMgr::InsertServant(string servant, class *T)$/;"	f	class:ServantMgr
+RealseServant	ServantMgr.cpp	/^void ServantMgr::RealseServant()$/;"	f	class:ServantMgr
+ServantMgr	ServantMgr.cpp	/^ServantMgr::ServantMgr()$/;"	f	class:ServantMgr
+SERVANT_MGR	ServantMgr.h	2;"	d
+ServantList	ServantMgr.h	/^	typedef std::map<string, class *> ServantList;$/;"	t	class:ServantMgr
+ServantMgr	ServantMgr.h	/^class ServantMgr$/;"	c
+servantList	ServantMgr.h	/^	ServantList servantList;$/;"	m	class:ServantMgr
+ServerStart	ServerStart.cpp	/^ServerStart::ServerStart(struct server_config_t *sc)$/;"	f	class:ServerStart
+Start	ServerStart.cpp	/^void ServerStart::Start()$/;"	f	class:ServerStart
+SERVERSTART_H	ServerStart.hpp	2;"	d
+ServerStart	ServerStart.hpp	/^class ServerStart$/;"	c
+server_config	ServerStart.hpp	/^	struct server_config_t *server_config;$/;"	m	class:ServerStart	typeref:struct:ServerStart::server_config_t
+THREADMUTEX_H	ThreadMutex.hpp	2;"	d
+ThreadMutex	ThreadMutex.hpp	/^	ThreadMutex()$/;"	f	class:ThreadMutex
+ThreadMutex	ThreadMutex.hpp	/^class ThreadMutex$/;"	c
+mutex	ThreadMutex.hpp	/^	pthread_mutex_t mutex;$/;"	m	class:ThreadMutex
+~ThreadMutex	ThreadMutex.hpp	/^	~ThreadMutex()$/;"	f	class:ThreadMutex
+Execute	TimerMgr.cpp	/^void *TimerMgr::Execute(void *userdata)$/;"	f	class:TimerMgr
+Start	TimerMgr.cpp	/^void TimerMgr::Start()$/;"	f	class:TimerMgr
+TimerMgr	TimerMgr.cpp	/^TimerMgr::TimerMgr()$/;"	f	class:TimerMgr
+~TimerMgr	TimerMgr.cpp	/^TimerMgr::~TimerMgr()$/;"	f	class:TimerMgr
+TIMERMGR_H	TimerMgr.hpp	2;"	d
+TimerMgr	TimerMgr.hpp	/^class TimerMgr$/;"	c
+INTERFACE_H	interface.h	2;"	d
+REGISTER_SERVANT	interface.h	4;"	d
+LOG	log.c	/^static struct log_t LOG;$/;"	v	typeref:struct:log_t	file:
+LOG_DATE_SIZE	log.c	13;"	d	file:
+LOG_DEBUG	log.c	/^	LOG_DEBUG,$/;"	e	enum:log_level_e	file:
+LOG_ERROR	log.c	/^	LOG_ERROR,$/;"	e	enum:log_level_e	file:
+LOG_INFO	log.c	/^	LOG_INFO,$/;"	e	enum:log_level_e	file:
+LOG_LEVEL	log.c	/^}LOG_LEVEL;$/;"	t	typeref:enum:log_level_e	file:
+LOG_MESSAGE_SIZE	log.c	12;"	d	file:
+LOG_WARN	log.c	/^	LOG_WARN,$/;"	e	enum:log_level_e	file:
+_get_date_buf	log.c	/^static void _get_date_buf(char *buf)$/;"	f	file:
+_log	log.c	/^static void _log(LOG_LEVEL log_level, const char *log_msg)$/;"	f	file:
+lock	log.c	/^	struct spinlock lock;$/;"	m	struct:log_t	typeref:struct:log_t::spinlock	file:
+log_debug	log.c	/^void log_debug(const char *fmt, ...)$/;"	f
+log_error	log.c	/^void log_error(const char *fmt, ...)$/;"	f
+log_fp	log.c	/^	FILE *log_fp;$/;"	m	struct:log_t	file:
+log_info	log.c	/^void log_info(const char *fmt, ...)$/;"	f
+log_init	log.c	/^void log_init(const char *logpath)$/;"	f
+log_level_e	log.c	/^typedef enum log_level_e {$/;"	g	file:
+log_release	log.c	/^void log_release()$/;"	f
+log_t	log.c	/^struct log_t {$/;"	s	file:
+log_warn	log.c	/^void log_warn(const char *fmt, ...)$/;"	f
+logpath	log.c	/^	const char *logpath;$/;"	m	struct:log_t	file:
+zy_evutil_vsnprintf	log.c	11;"	d	file:
+LOG_H	log.h	2;"	d
+Free	malloc.c	/^void Free(void *ptr)$/;"	f
+Malloc	malloc.c	/^void *Malloc(size_t size)$/;"	f
+MALLOC_H_	malloc.h	2;"	d
+Q	mq.c	/^struct global_queue *Q = NULL;$/;"	v	typeref:struct:global_queue
+global_mq_init	mq.c	/^void global_mq_init()$/;"	f
+mq_create	mq.c	/^static struct message_queue * mq_create(struct bufferevent *bev, char *msg)$/;"	f	file:
+mq_dispatch	mq.c	/^void mq_dispatch() $/;"	f
+mq_pop	mq.c	/^struct message_queue *mq_pop()$/;"	f
+mq_push	mq.c	/^void mq_push(struct bufferevent *bev, char *msg)$/;"	f
+mq_release	mq.c	/^void mq_release(struct message_queue *mq)$/;"	f
+MQ_H	mq.h	2;"	d
+bev	mq.h	/^	struct bufferevent *bev;$/;"	m	struct:message_queue	typeref:struct:message_queue::bufferevent
+global_queue	mq.h	/^struct global_queue {$/;"	s
+head	mq.h	/^	struct message_queue *head;$/;"	m	struct:global_queue	typeref:struct:global_queue::message_queue
+len	mq.h	/^	int len;$/;"	m	struct:message_queue
+lock	mq.h	/^	struct spinlock lock;$/;"	m	struct:global_queue	typeref:struct:global_queue::spinlock
+lock	mq.h	/^	struct spinlock lock;$/;"	m	struct:message_queue	typeref:struct:message_queue::spinlock
+message_queue	mq.h	/^struct message_queue {$/;"	s
+msg	mq.h	/^	char *msg;$/;"	m	struct:message_queue
+next	mq.h	/^	struct message_queue *next;$/;"	m	struct:message_queue	typeref:struct:message_queue::message_queue
+tail	mq.h	/^	struct message_queue *tail;$/;"	m	struct:global_queue	typeref:struct:global_queue::message_queue
+BASE	net_work.c	/^struct event_base *BASE = NULL;$/;"	v	typeref:struct:event_base
+IO_MAX_MESSAGE_SIZE	net_work.c	19;"	d	file:
+MAX_CONNECT	net_work.c	20;"	d	file:
+MESSAGE_LEN_SIZE	net_work.c	18;"	d	file:
+SERVANT_TYPE	net_work.c	21;"	d	file:
+accepted_cb	net_work.c	/^void accepted_cb(struct evconnlistener *listener, socket_t fd,$/;"	f
+address	net_work.c	/^static char address[MAX_CONNECT][24];$/;"	v	file:
+bev	net_work.c	/^	struct bufferevent *bev;$/;"	m	struct:socket_internal_t	typeref:struct:socket_internal_t::bufferevent	file:
+callback_t	net_work.c	/^struct callback_t {$/;"	s	file:
+client_conn	net_work.c	/^static int client_conn = 0;$/;"	v	file:
+clientclose	net_work.c	/^static callback_t clientclose;$/;"	v	file:
+connect_eventcb	net_work.c	/^static void connect_eventcb(struct bufferevent *bev, short events, void *userdata)$/;"	f	file:
+event_cb	net_work.c	/^static void event_cb(struct bufferevent *bev, short events, void *userdata)$/;"	f	file:
+fd	net_work.c	/^	socket_t fd;$/;"	m	struct:socket_internal_t	file:
+get_client_conn	net_work.c	/^int get_client_conn()$/;"	f
+get_server_conn	net_work.c	/^int get_server_conn()$/;"	f
+net_work_connect	net_work.c	/^void net_work_connect(const char *endpointlist)$/;"	f
+net_work_init	net_work.c	/^void net_work_init()$/;"	f
+net_work_reg_onclientclose	net_work.c	/^void net_work_reg_onclientclose(net_work_callback onclientclose_cb, void *userdata)$/;"	f
+net_work_reg_onserverconnected	net_work.c	/^void net_work_reg_onserverconnected(net_work_callback onserverconnected_cb, void *userdata)$/;"	f
+net_work_run	net_work.c	/^void net_work_run(const char *address, int port, const char *endpointlist, int prefix)$/;"	f
+nw_cb	net_work.c	/^	net_work_callback nw_cb;$/;"	m	struct:callback_t	file:
+param	net_work.c	/^	void *param;$/;"	m	struct:callback_t	file:
+port	net_work.c	/^static char port[MAX_CONNECT][8];$/;"	v	file:
+prefix	net_work.c	/^static char prefix[MAX_CONNECT][10];$/;"	v	file:
+px	net_work.c	/^SERVANT_TYPE px[MAX_CONNECT];$/;"	v
+read_cb	net_work.c	/^void read_cb(struct bufferevent *bev, void *userdata)$/;"	f
+read_helper	net_work.c	/^void read_helper(struct bufferevent *bev)$/;"	f
+run_thread	net_work.c	/^void *run_thread(void *userdata)$/;"	f
+self_servant_prefix	net_work.c	/^SERVANT_TYPE self_servant_prefix = 0;$/;"	v
+servant_prefix	net_work.c	/^	SERVANT_TYPE servant_prefix;$/;"	m	struct:socket_internal_t	file:
+server_conn	net_work.c	/^static int server_conn = 0;$/;"	v	file:
+serverconnected	net_work.c	/^static callback_t serverconnected;$/;"	v	file:
+set_tcp_no_delay	net_work.c	/^static void set_tcp_no_delay(socket_t fd)$/;"	f	file:
+sin	net_work.c	/^static struct sockaddr_in sin[MAX_CONNECT];$/;"	v	typeref:struct:sockaddr_in	file:
+socket_internal_t	net_work.c	/^struct socket_internal_t {$/;"	s	file:
+NETWROK_H	net_work.h	2;"	d
+net_work_callback	net_work.h	/^typedef void (*net_work_callback)(socket_t, void *);$/;"	t
+socket_t	net_work.h	18;"	d
+S	servant.c	/^static struct servant_t S;$/;"	v	typeref:struct:servant_t	file:
+cb	servant.c	/^	servant_cb cb;$/;"	m	struct:servant_t	file:
+servant_dispatch	servant.c	/^void servant_dispatch(struct message_queue *mq)$/;"	f
+servant_init	servant.c	/^static bool servant_init = false; 	\/\/ 注册完回调之后则认为初始化成功$/;"	v	file:
+servant_reg_callback	servant.c	/^void servant_reg_callback(servant_cb cb, void *userdata)$/;"	f
+servant_t	servant.c	/^struct servant_t {$/;"	s	file:
+userdata	servant.c	/^	void *userdata;$/;"	m	struct:servant_t	file:
+_SERVANT_H_	servant.h	2;"	d
+servant_cb	servant.h	/^typedef void (*servant_cb)(void *userdata, SERVANT_TYPE servant, char *msg);$/;"	t
+get_server_config	server_config.c	/^struct server_config_t * get_server_config()$/;"	f
+init_server_config	server_config.c	/^void init_server_config(const char *address, int port, int prefix, const char *logpath, const char *endpointlist, int thread, int dbenable)$/;"	f
+server_config	server_config.c	/^static server_config_t server_config;$/;"	v	file:
+SERVER_IMP_H	server_config.h	2;"	d
+address	server_config.h	/^	const char *address;$/;"	m	struct:server_config_t
+dbenable	server_config.h	/^	int dbenable;$/;"	m	struct:server_config_t
+endpointlist	server_config.h	/^	const char *endpointlist;$/;"	m	struct:server_config_t
+logpath	server_config.h	/^	const char *logpath;$/;"	m	struct:server_config_t
+port	server_config.h	/^	int port;$/;"	m	struct:server_config_t
+prefix	server_config.h	/^	int prefix;$/;"	m	struct:server_config_t
+server_config_t	server_config.h	/^struct server_config_t {$/;"	s
+thread	server_config.h	/^	int thread;$/;"	m	struct:server_config_t
+CONF_MAX	server_env.c	10;"	d	file:
+E	server_env.c	/^static struct server_env E[ENV_MAX];$/;"	v	typeref:struct:server_env	file:
+ENV_MAX	server_env.c	9;"	d	file:
+MAX_ENDPOINT_COUNT	server_env.c	12;"	d	file:
+STR_MAX	server_env.c	11;"	d	file:
+env_index	server_env.c	/^static int env_index = 0;$/;"	v	file:
+env_init	server_env.c	/^void env_init(const char *machine_conf, const char *config)$/;"	f
+get_env_value	server_env.c	/^char * get_env_value(char *key, char *def_value)$/;"	f
+key	server_env.c	/^	char key[128];$/;"	m	struct:server_env	file:
+server_env	server_env.c	/^struct server_env {$/;"	s	file:
+value	server_env.c	/^	char value[128];$/;"	m	struct:server_env	file:
+SERVER_ENV_H	server_env.h	2;"	d
+main	server_main.cpp	/^int main(int argc, char *argv[])$/;"	f
+create_thread	server_thread.c	/^void create_thread(pthread_t *thread, void *(*start_routine) (void *), void *arg)$/;"	f
+exit_thread	server_thread.c	/^void exit_thread()$/;"	f
+SERVER_THREAD_H	server_thread.h	2;"	d
+SPIN_DESTROY	spinlock.h	11;"	d
+SPIN_INIT	spinlock.h	8;"	d
+SPIN_LOCK	spinlock.h	9;"	d
+SPIN_UNLOCK	spinlock.h	10;"	d
+_SPINLOCK_H_	spinlock.h	2;"	d
+lock	spinlock.h	/^	int lock;$/;"	m	struct:spinlock
+lock	spinlock.h	/^	pthread_mutex_t lock;$/;"	m	struct:spinlock
+spinlock	spinlock.h	/^struct spinlock {$/;"	s
+spinlock_destroy	spinlock.h	/^spinlock_destroy(struct spinlock *lock) {$/;"	f
+spinlock_init	spinlock.h	/^spinlock_init(struct spinlock *lock) {$/;"	f
+spinlock_lock	spinlock.h	/^spinlock_lock(struct spinlock *lock) {$/;"	f
+spinlock_trylock	spinlock.h	/^spinlock_trylock(struct spinlock *lock) {$/;"	f
+spinlock_unlock	spinlock.h	/^spinlock_unlock(struct spinlock *lock) {$/;"	f
+T	timer.c	/^struct timer *T = NULL;$/;"	v	typeref:struct:timer
+TF	timer.c	/^struct timer_f *TF = NULL;$/;"	v	typeref:struct:timer_f
+currenttime	timer.c	/^	zy_uint64_t currenttime; 	\/\/ 当前时间戳$/;"	m	struct:timer	file:
+func	timer.c	/^	timer_execute_func func;$/;"	m	struct:timer_f	file:
+get_currenttime	timer.c	/^zy_uint64_t get_currenttime()$/;"	f
+get_starttime	timer.c	/^zy_uint64_t get_starttime()$/;"	f
+interval_time	timer.c	/^	zy_uint32_t interval_time; 		\/\/ 间隔多少时间执行一次$/;"	m	struct:timer_f	file:
+last_call_time	timer.c	/^	zy_uint32_t last_call_time; 	\/\/ 上一次执行时间;$/;"	m	struct:timer_f	file:
+next	timer.c	/^	struct timer_f *next;$/;"	m	struct:timer_f	typeref:struct:timer_f::timer_f	file:
+starttime	timer.c	/^	zy_uint64_t starttime; 	\/\/ 启动时的时间戳$/;"	m	struct:timer	file:
+timer	timer.c	/^struct timer {$/;"	s	file:
+timer_f	timer.c	/^struct timer_f {$/;"	s	file:
+timer_init	timer.c	/^void timer_init()$/;"	f
+timer_register	timer.c	/^void timer_register(timer_execute_func func, int interval_time)$/;"	f
+timer_release	timer.c	/^void timer_release()$/;"	f
+timer_update	timer.c	/^void timer_update()$/;"	f
+zy_gettimeofday	timer.c	9;"	d	file:
+zy_uint32_t	timer.c	8;"	d	file:
+zy_uint64_t	timer.c	7;"	d	file:
+TIMER_H	timer.h	2;"	d
+timer_execute_func	timer.h	/^typedef void (*timer_execute_func)(void);$/;"	t
+Strdup	util.c	/^char * Strdup(char *str)$/;"	f
+ch_apear_times	util.c	/^int ch_apear_times(const char *str, const char c)$/;"	f
+pack	util.c	/^void pack(char *dest, int len, SERVANT_TYPE servant, char *message)$/;"	f
+str_all_space	util.c	/^int str_all_space(char *str)$/;"	f
+str_split	util.c	/^void str_split(const char *str, char *left, char *right, const char c)$/;"	f
+str_trim	util.c	/^void str_trim(char *str)$/;"	f
+str_trim_special_ch	util.c	/^void str_trim_special_ch(char *str, const char c)$/;"	f
+trim_crlf	util.c	/^void trim_crlf(char *str)$/;"	f
+IO_MAX_MESSAGE_SIZE	util.h	11;"	d
+MESSAGE_LEN_SIZE	util.h	13;"	d
+SERVANT_MASK	util.h	12;"	d
+SERVANT_SHIFT	util.h	9;"	d
+SERVANT_SIZE	util.h	10;"	d
+SERVANT_TYPE	util.h	8;"	d
+UTIL_H	util.h	2;"	d
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/

@@ -1,0 +1,15 @@
+table request {
+	task_id: int;
+	oper_type: int;
+}
+
+table response {
+	retcode: int;
+}
+
+table Protocol {
+	request: request;
+	response: response;
+}
+
+root_type Protocol;

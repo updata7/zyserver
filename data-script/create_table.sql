@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS `test`;
+CREATE TABLE `test` (
+	`id` smallint(8) unsigned NOT NULL AUTO_INCREMENT,
+	`count` bigint(20) NOT NULL DEFAULT 99,
+	PRIMARY KEY (`id`)
+)ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='测试表';
