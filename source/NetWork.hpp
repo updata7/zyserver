@@ -26,12 +26,6 @@ public:
 	static void SendMsg(SERVANT_TYPE servant, const char *msg);
 
 private:
-	char address[MAX_SERVER][24];
-	char port[MAX_SERVER][8];
-	char prefix[MAX_SERVER][7];
-	struct sockaddr_in sin[MAX_SERVER]; 
-	std::list<EndpointServer> endpointServerList;
-	struct event_base* base;
 	struct server_config_t *server_config;
 	static void OnClientClose(socket_t fd, void *userdata);
 	static void OnServerConnected(socket_t fd, void *userdata);

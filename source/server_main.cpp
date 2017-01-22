@@ -66,10 +66,22 @@ int main(int argc, char *argv[])
 	int dbenable = atoi(get_env_value("dbenable", "0"));
 	init_server_config(address, port, prefix, logpath, endpointlist, thread, dbenable);
 
-	ServerStart *server = NEW ServerStart(get_server_config());
-	server->Start();
+	if (dbenable) {
+		int dbport = atoi(get_env_value("dbport", "3306"));
+		const char *dbhost = get_env_value("dbhost", "127.0.0.1");
+		const char *dbname = get_env_value("dbname", "test_db");
+		const char *dbuser = get_env_value("dbuser", "test");
+		const char *dbpwd = get_env_value("dbpwd", "666");
+		init_db_config(dbhost, dbport, dbname, dbuser, dbpwd);
+		ServerStart *server = NEW ServerStart(get_server_config(), get_db_config());
+		server->Start();
+		DELETE server;
+	} else {
+		ServerStart *server = NEW ServerStart(get_server_config());
+		server->Start();
+		DELETE server;
+	}
 
-	DELETE server;
 	log_release();
 	return 0;
 }

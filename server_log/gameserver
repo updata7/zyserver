@@ -11744,3 +11744,5 @@
 2017-01-22 14:36:29.851 [DEBUG] net_work:connect_eventcb servant_prefix(0x0003) success 
 2017-01-22 14:45:08.761 [DEBUG] servant_prefix(0x0002) disconnected 
 2017-01-22 14:45:10.563 [DEBUG] servant_prefix(0x0003) disconnected 
+2017-01-22 15:03:30.674 [DEBUG] cant connect to servant_prefix(0x0002). 
+2017-01-22 15:03:30.675 [DEBUG] cant connect to servant_prefix(0x0003). 

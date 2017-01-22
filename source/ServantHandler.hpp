@@ -5,6 +5,7 @@
 #include "ServantBase.hpp"
 #include "servant.h"
 #include "Memory.hpp"
+#include "log.h"
 
 #ifndef SERVANT_TYPE 
 #define SERVANT_TYPE long

@@ -1,6 +1,5 @@
 #include "ServerStart.hpp"
 #include "server_config.h"
-#include "ThreadMutex.hpp"
 #include "NetWork.hpp"
 #include "timer.h"
 #include "MessageDispatch.hpp"
@@ -19,6 +18,13 @@ ServerStart::ServerStart(struct server_config_t *sc)
 {
 	server_config = sc;
 }
+
+ServerStart::ServerStart(struct server_config_t *sc, struct db_config_t *db)
+{
+	server_config = sc;
+	db_config = db;
+}
+
 
 void ServerStart::Start()
 {

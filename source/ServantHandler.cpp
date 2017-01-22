@@ -1,5 +1,4 @@
 #include "ServantHandler.hpp"
-#include "log.h"
 
 ServantHandler::ServantHandler()
 {
