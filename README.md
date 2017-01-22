@@ -1,13 +1,13 @@
 # zyserver
 
-libevent:2.0.22 stable
+#libevent:2.0.22 stable
 	./configure -prefix=/usr
 	make
 	make install
-if success：
+#if success：
 	ls -al /usr/lib | grep libevent
 
-mysql in ubuntu:
+#mysql in ubuntu:
 	install: sudo apt-get install mysql-server-5.5
 	start: sudo start mysql
 	stop: sudo stop mysql
