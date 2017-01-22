@@ -4,8 +4,8 @@
 	./configure -prefix=/usr
 	make
 	make install
-#if success：
-	ls -al /usr/lib | grep libevent
+	if success：
+		ls -al /usr/lib | grep libevent
 
 #mysql in ubuntu:
 	install: sudo apt-get install mysql-server-5.5
