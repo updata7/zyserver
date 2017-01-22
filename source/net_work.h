@@ -14,6 +14,8 @@ extern "C" {
 #include <event2/event_compat.h>
 #include <event2/event_struct.h>
 
+#include "util.h"
+
 #ifndef socket_t
 #define socket_t int
 #endif 	// socket_t
@@ -35,6 +37,7 @@ int get_server_conn();
 
 void net_work_reg_onclientclose(net_work_callback onclientclose_cb, void *userdata); 		// 某个客户端断线的回调
 void net_work_reg_onserverconnected(net_work_callback onserverconnected_cb, void *userdata); 	// 连接上某个服务器的回调
+void send_msg(SERVANT_TYPE servant, const char *msg, int size);
 
 #ifdef __cplusplus
 }

@@ -1,6 +1,6 @@
 #include "Interface.hpp"
-#include "Servant1.hpp"
-#include "Servant2.hpp"
+#include "GsTask.hpp"
+#include "GsLogin.hpp"
 
 #include <iostream>
 
@@ -27,13 +27,13 @@ void Interface::RegisterTimer(timer_execute_func func, void *userdata, int msec)
 
 static void test_timer(void *userdata)
 {
-	log_debug("test_timer %d %d", 9, 9);
+	// log_debug("test_timer %d %d", 9, 9);
 }
 
 void Interface::Start()
 {
-	RegisterHandler(0x00010001, sh, Servant1);
-	RegisterHandler(0x00020001, sh, Servant2);
+	RegisterHandler(GS_LOGIN, sh, GsLogin);
+	RegisterHandler(GS_TASK, sh, GsTask);
 
 	RegisterTimer(test_timer, NULL, 1000);
 }

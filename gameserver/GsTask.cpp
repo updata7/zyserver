@@ -1,23 +1,24 @@
 
-#include "Servant1.hpp"
+#include "GsTask.hpp"
 
 
-Servant1::Servant1()
+GsTask::GsTask()
 {
 }
 
 
-Servant1::~Servant1()
+GsTask::~GsTask()
 {
-	std::cout << "Servant1 destory" << std::endl;
+	std::cout << "GsTask destory" << std::endl;
 }
 
-void Servant1::Init()
+void GsTask::Init()
 {
-	std::cout << "Servant1 Init." << std::endl;
+	std::cout << "GsTask Init." << std::endl;
 }
 
-void Servant1::CallBack(std::string msg)
+void GsTask::CallBack(std::string msg)
 {
-	std::cout << "Servant1 CallBack." << std::endl;
+	std::cout << "GsTask CallBack." << std::endl;
+	SendMsg(DB_TASK, "I am GsTask.");
 }

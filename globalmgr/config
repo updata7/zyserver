@@ -1,0 +1,8 @@
+#本文件等于号右边的配置关联machine.conf 的设置
+
+#本服务器
+address = globalmgr
+port = globalmgr-port
+prefix = globalmgr-prefix
+
+endpointlist = dbmgr;

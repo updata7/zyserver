@@ -1,12 +1,13 @@
 .PHONY:clean
 SERVER_BUILD_PATH ?= .
 SRC_PATH ?= $(SERVER_BUILD_PATH)/../source
+COMMON_PATH ?= $(SERVER_BUILD_PATH)/../common
 
 include $(SRC_PATH)/common.mk
 
 TAGET = main
-MODULE := Interface.cpp Servant1.cpp Servant2.cpp
-INC = -I$(SERVER_BUILD_PATH) -I$(SRC_PATH) -I$(COMMON) -I$(3RD) -I$(LIBEVENT_PATH)/include -I$(FLATCC_PATH)/portable \
+MODULE := Interface.cpp GsTask.cpp GsLogin.cpp
+INC = -I$(COMMON_PATH) -I$(SERVER_BUILD_PATH) -I$(SRC_PATH) -I$(COMMON) -I$(3RD) -I$(LIBEVENT_PATH)/include -I$(FLATCC_PATH)/portable \
 	-I$(FLATCC_PATH)/reflection -I$(FLATCC_PATH)/support -I$(FLATCC_PATH) -I$(FBS)
 # LIBS := -lmysqlclient
 FLATCC_PATH ?= $(SERVER_BUILD_PATH)/../3rd/flatcc

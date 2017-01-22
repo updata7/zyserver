@@ -1,23 +1,24 @@
 
-#include "Servant2.hpp"
+#include "GsLogin.hpp"
 
 
-Servant2::Servant2()
+GsLogin::GsLogin()
 {
 }
 
 
-Servant2::~Servant2()
+GsLogin::~GsLogin()
 {
-	std::cout << "Servant2 destory" << std::endl;
+	std::cout << "GsLogin destory" << std::endl;
 }
 
-void Servant2::Init()
+void GsLogin::Init()
 {
-	std::cout << "Servant2 Init." << std::endl;
+	std::cout << "GsLogin Init." << std::endl;
 }
 
-void Servant2::CallBack(std::string msg)
+void GsLogin::CallBack(std::string msg)
 {
-	std::cout << "Servant2 CallBack." << std::endl;
+	std::cout << "GsLogin CallBack." << std::endl;
+	SendMsg(DB_LOGIN, "I am GsLogin.");
 }

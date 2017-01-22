@@ -1,11 +1,11 @@
 #pragma once
 #include "ServantBase.hpp"
 
-class Servant1:public ServantBase
+class GsTask:public ServantBase
 {
 public:
-	Servant1();
-	virtual ~Servant1();
+	GsTask();
+	virtual ~GsTask();
 	virtual void CallBack(std::string msg);
 	virtual void Init();
 };

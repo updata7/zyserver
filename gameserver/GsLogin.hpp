@@ -2,11 +2,11 @@
 
 #include "ServantBase.hpp"
 
-class Servant2:public ServantBase
+class GsLogin:public ServantBase
 {
 public:
-	Servant2();
-	virtual ~Servant2();
+	GsLogin();
+	virtual ~GsLogin();
 	virtual void CallBack(std::string msg);
 	virtual void Init();
 };

@@ -21,8 +21,10 @@ class NetWork
 {
 public:
 	NetWork(struct server_config_t *sc);
-	void Start();
 	~NetWork();
+	void Start();
+	static void SendMsg(SERVANT_TYPE servant, const char *msg);
+
 private:
 	char address[MAX_SERVER][24];
 	char port[MAX_SERVER][8];

@@ -2,7 +2,7 @@
 #include "log.h"
 #include "malloc.h"
 #include "mq.h"
-#include "util.h"
+// #include "util.h"
 #include "server_thread.h"
 
 #include <stdlib.h>
@@ -18,7 +18,6 @@
 #define MESSAGE_LEN_SIZE 4
 #define IO_MAX_MESSAGE_SIZE 4096
 #define MAX_CONNECT 5
-#define SERVANT_TYPE long
 
 // 内部服务器间连接的数据
 struct socket_internal_t {
@@ -178,7 +177,6 @@ static void connect_eventcb(struct bufferevent *bev, short events, void *userdat
 		}
 
 	} else if (events & BEV_EVENT_CONNECTED) {
-		++ server_conn;
 		socket_t fd = bufferevent_getfd(bev);
 		set_tcp_no_delay(fd);
 		struct socket_internal_t *st = (struct socket_internal_t *)Malloc(sizeof(struct socket_internal_t));
@@ -186,15 +184,16 @@ static void connect_eventcb(struct bufferevent *bev, short events, void *userdat
 		st->bev = bev;
 		st->servant_prefix = *servant_prefix;
 		TAILQ_INSERT_TAIL(&si_mgr, st, entry);
-		log_debug("server_conn(%d) servant_prefix(0x%04X) success", server_conn, *servant_prefix);
+		log_debug("net_work:connect_eventcb servant_prefix(0x%04X) success", *servant_prefix);
 
 		char send_buf[11] = "RGST";
-		char sp[7] = {0};
+		char sp[6+1] = {0};
 		sprintf(sp, "0x%04X", self_servant_prefix);
 		strcpy(&send_buf[4], sp);
-		bufferevent_write(bev, send_buf, sizeof(send_buf));
+		bufferevent_write(bev, send_buf, strlen(send_buf));
 		serverconnected.nw_cb(fd, serverconnected.param);
 	} else if (events & BEV_EVENT_ERROR) {
+		-- server_conn;
 		log_debug("cant connect to servant_prefix(0x%04X).", *servant_prefix);
 	}
 }
@@ -289,6 +288,20 @@ void net_work_reg_onserverconnected(net_work_callback onserverconnected_cb, void
 {
 	serverconnected.nw_cb = onserverconnected_cb;
 	serverconnected.param = userdata;
+}
+
+// 主动发消息给内部服务器
+void send_msg(SERVANT_TYPE servant, const char *msg, int size)
+{
+	struct socket_internal_t *st;
+	TAILQ_FOREACH(st, &si_mgr, entry) {
+		if (st->servant_prefix == ((servant & SERVANT_MASK) >> SERVANT_SHIFT)) {
+			bufferevent_write(st->bev, msg, size);
+			return;
+		}
+	}
+
+	log_error("found no servant_prefix (0x%04X)", (servant & SERVANT_MASK) >> SERVANT_SHIFT);
 }
 
 // 得连接客户端数量
