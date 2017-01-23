@@ -1,4 +1,4 @@
-#include "MessageDispatch.hpp"
+#include "MessageDispatch.h"
 #include "mq.h"
 
 MessageDispatch::MessageDispatch()

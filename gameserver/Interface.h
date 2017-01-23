@@ -5,8 +5,7 @@
 #define socket_t int
 #endif 	// socket_t
 
-#include "ServantHandler.hpp"
-#include "log.h"
+#include "ServantHandler.h"
 #include "timer.h"
 
 class Interface

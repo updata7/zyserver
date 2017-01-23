@@ -1,6 +1,6 @@
-#include "Interface.hpp"
-#include "DbTask.hpp"
-#include "DbLogin.hpp"
+#include "Interface.h"
+#include "DbTask.h"
+#include "DbLogin.h"
 
 #include <iostream>
 

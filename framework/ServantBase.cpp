@@ -1,6 +1,6 @@
 
-#include "ServantBase.hpp"
-#include "NetWork.hpp"
+#include "ServantBase.h"
+#include "NetWork.h"
 #include "log.h"
 
 ServantBase::ServantBase()

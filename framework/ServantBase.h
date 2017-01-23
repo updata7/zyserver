@@ -1,7 +1,7 @@
 #ifndef SERVANTBASE_H
 #define SERVANTBASE_H
 
-#include "ServantDef.hpp"
+#include "ServantDef.h"
 #include "macro.h"
 
 #include <iostream>

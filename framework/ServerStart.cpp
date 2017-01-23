@@ -1,12 +1,12 @@
-#include "ServerStart.hpp"
+#include "ServerStart.h"
 #include "server_config.h"
-#include "NetWork.hpp"
+#include "NetWork.h"
 #include "timer.h"
-#include "MessageDispatch.hpp"
+#include "MessageDispatch.h"
 #include "malloc.h"
-#include "TimerMgr.hpp"
-#include "ServantHandler.hpp"
-#include "Interface.hpp" 
+#include "TimerMgr.h"
+#include "ServantHandler.h"
+#include "Interface.h" 
 #include "db_ops.h"
 
 #include <iostream>

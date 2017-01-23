@@ -1,6 +1,6 @@
-#include "Interface.hpp"
-#include "GsTask.hpp"
-#include "GsLogin.hpp"
+#include "Interface.h"
+#include "GsTask.h"
+#include "GsLogin.h"
 
 #include <iostream>
 

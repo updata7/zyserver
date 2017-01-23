@@ -1,5 +1,5 @@
 #pragma once
-#include "ServantBase.hpp"
+#include "ServantBase.h"
 
 class DbTask:public ServantBase
 {

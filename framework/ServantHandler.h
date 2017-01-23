@@ -2,7 +2,7 @@
 #define SERVANTHANDLER_H
 
 #include <map>
-#include "ServantBase.hpp"
+#include "ServantBase.h"
 #include "servant.h"
 #include "malloc.h"
 #include "log.h"
