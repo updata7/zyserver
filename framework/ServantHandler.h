@@ -22,7 +22,6 @@ public:
 	virtual ~ServantHandler();
 
 	void AddHandler(SERVANT_TYPE servant, ServantBase *callback);
-	void ExecuteHandler(SERVANT_TYPE servant);
 	void LoadHandler();
 	bool RunHandlerByServant(SERVANT_TYPE servant, std::string msg);
 	void ReleaseHandler();

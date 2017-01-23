@@ -9,11 +9,6 @@ ServantHandler::~ServantHandler()
 {
 }
 
-void ServantHandler::ExecuteHandler(SERVANT_TYPE servant)
-{
-
-}
-
 void ServantHandler::AddHandler(SERVANT_TYPE servant, ServantBase *servantClass)
 {
 	servantMap.insert(ServantMap::value_type(servant, servantClass));

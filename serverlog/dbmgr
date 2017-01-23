@@ -17179,3 +17179,26 @@
 2017-01-23 14:14:41.294 [DEBUG] message came 0x00020002I am GsTask. 
 2017-01-23 14:14:41.309 [DEBUG] servant(0x00020002) message(I am GsTask.)
  
+2017-01-23 15:15:52.369 [DEBUG] buf_len (RGST) 
+2017-01-23 15:15:52.370 [DEBUG] message(0x0001) each_recv_len(6) total_len(6) 
+2017-01-23 15:15:52.370 [INFO] servant_prefix(0x0001) register success. 
+2017-01-23 15:35:31.551 [DEBUG] Connection closed, fd = 10. 
+2017-01-23 15:35:31.552 [DEBUG] servant_prefix(0x0001) disconnected 
+2017-01-23 15:38:24.574 [DEBUG] buf_len (RGST) 
+2017-01-23 15:38:24.574 [DEBUG] message(0x0001) each_recv_len(6) total_len(6) 
+2017-01-23 15:38:24.575 [INFO] servant_prefix(0x0001) register success. 
+2017-01-23 15:39:10.386 [DEBUG] buf_len (RGST) 
+2017-01-23 15:39:10.386 [DEBUG] message(0x0001) each_recv_len(6) total_len(6) 
+2017-01-23 15:39:10.387 [INFO] servant_prefix(0x0001) register success. 
+2017-01-23 15:39:22.758 [DEBUG] buf_len (0023) 
+2017-01-23 15:39:22.759 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 15:39:22.759 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 15:39:22.760 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 15:39:22.766 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 15:39:22.766 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 15:39:22.831 [DEBUG] buf_len (0022) 
+2017-01-23 15:39:22.832 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 15:39:22.838 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 15:39:22.849 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 

@@ -31,8 +31,11 @@ void net_work_run(const char *address, int port, const char *endpointlist, int p
 int get_client_conn();
 int get_server_conn();
 
-void net_work_reg_onclientclose(net_work_callback onclientclose_cb, void *userdata); 		// 某个客户端断线的回调
+void net_work_reg_onclientout(net_work_callback onclientclose_cb, void *userdata); 		// 某个客户端掉线的回调
+void net_work_reg_onclientin(net_work_callback onclientin_cb, void *userdata); 			// 某个客户端连接上来的回调
 void net_work_reg_onserverconnected(net_work_callback onserverconnected_cb, void *userdata); 	// 连接上某个服务器的回调
+void net_work_reg_onserverclosed(net_work_callback onserverclosed_cb, void *userdata); 	// 连接的某个服务器掉线的回调
+
 void send_msg(SERVANT_TYPE servant, const char *msg, int size);
 
 #ifdef __cplusplus

@@ -23,11 +23,14 @@ public:
 	~NetWork();
 	void Start();
 	static void SendMsg(SERVANT_TYPE servant, const char *msg);
-
+	void RegServerConnectedCb(net_work_callback cb, void *userdata);
+	void RegServerClosedCb(net_work_callback cb, void *userdata);
+	void RegClientIn(net_work_callback cb, void *userdata);
+	void RegClientOut(net_work_callback cb, void *userdata);
 private:
 	struct server_config_t *server_config;
 	static void OnClientClose(socket_t fd, void *userdata);
-	static void OnServerConnected(socket_t fd, void *userdata);
+	// static void OnServerConnected(socket_t fd, void *userdata);
 	// static void listener_cb(struct evconnlistener* listener, int fd, struct sockaddr* sa, int socklen, void* user_data);
 	// static void read_cb(struct bufferevent *bev, void *userdata);
 	// static void connect_eventcb(struct bufferevent *bev, short events, void *userdata);

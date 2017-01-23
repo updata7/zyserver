@@ -36,8 +36,10 @@ static char prefix[MAX_CONNECT][10];
 static struct sockaddr_in sin[MAX_CONNECT];
 int px[MAX_CONNECT];
 
+static callback_t serverclosed;
 static callback_t serverconnected;
-static callback_t clientclose;
+static callback_t clientin;
+static callback_t clientout;
 
 static int client_conn = 0;
 static int server_conn = 0;
@@ -114,7 +116,7 @@ static void event_cb(struct bufferevent *bev, short events, void *userdata)
 			}
 		}
 
-		clientclose.nw_cb(fd, clientclose.param);
+		clientout.nw_cb(fd, clientout.param);
 
 		-- client_conn;
 	}
@@ -131,6 +133,8 @@ void accepted_cb(struct evconnlistener *listener, socket_t fd,
 
 	bufferevent_setcb(bev, read_cb, NULL, event_cb, NULL);
 	bufferevent_enable(bev, EV_READ|EV_WRITE);
+
+	clientin.nw_cb(fd, clientin.param);
 
 	++ client_conn;
 }
@@ -172,6 +176,8 @@ static void connect_eventcb(struct bufferevent *bev, short events, void *userdat
 			}
 		}
 
+		serverclosed.nw_cb(fd, serverclosed.param);
+		
 	} else if (events & BEV_EVENT_CONNECTED) {
 		socket_t fd = bufferevent_getfd(bev);
 		set_tcp_no_delay(fd);
@@ -274,16 +280,28 @@ void net_work_run(const char *address, int port, const char *endpointlist, int p
 	create_thread(&t_id, run_thread, listener);
 }
 
-void net_work_reg_onclientclose(net_work_callback onclientclose_cb, void *userdata)
+void net_work_reg_onclientin(net_work_callback onclientin_cb, void *userdata)
 {
-	clientclose.nw_cb = onclientclose_cb;
-	clientclose.param = userdata;
+	clientin.nw_cb = onclientin_cb;
+	clientin.param = userdata;
+}
+
+void net_work_reg_onclientout(net_work_callback onclientout_cb, void *userdata)
+{
+	clientout.nw_cb = onclientout_cb;
+	clientout.param = userdata;
 }
 
 void net_work_reg_onserverconnected(net_work_callback onserverconnected_cb, void *userdata)
 {
 	serverconnected.nw_cb = onserverconnected_cb;
 	serverconnected.param = userdata;
+}
+
+void net_work_reg_onserverclosed(net_work_callback onserverclosed_cb, void *userdata)
+{
+	serverclosed.nw_cb = onserverclosed_cb;
+	serverclosed.param = userdata;
 }
 
 // 主动发消息给内部服务器

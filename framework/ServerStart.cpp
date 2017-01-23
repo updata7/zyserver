@@ -13,8 +13,6 @@
 
 using namespace std;
 
-// extern struct server_config_t server_config;
-
 ServerStart::ServerStart(struct server_config_t *sc)
 {
 	server_config = sc;
@@ -31,28 +29,31 @@ ServerStart::ServerStart(struct server_config_t *sc, struct db_config_t *db)
 
 void ServerStart::Start()
 {
-	NetWork *nt = NEW NetWork(server_config);
-	nt->Start();
+	NetWork *nw = NEW NetWork(server_config);
 
-	TimerMgr *tm = NEW TimerMgr();
+	TimerMgr *timer_mgr = NEW TimerMgr();
+	ServantHandler *servant_handler = NEW ServantHandler();
+	Interface *inter_face = NEW Interface(servant_handler);
 
-	ServantHandler *sh = NEW ServantHandler();
-	Interface *ie = NEW Interface(sh);
-	ie->Start();
-	sh->LoadHandler();
+	nw->RegServerConnectedCb(inter_face->OnServerConnected, inter_face);
+	nw->RegServerClosedCb(inter_face->OnServerClosed, inter_face);
+	nw->RegClientIn(inter_face->OnClientIn, inter_face);
+	nw->RegClientOut(inter_face->OnClientOut, inter_face);
+	nw->Start();
+	
+	inter_face->Start();
+	servant_handler->LoadHandler();
 
-	tm->Start();
+	MessageDispatch *msg_dispatch = NEW MessageDispatch();
 
-	MessageDispatch *md = NEW MessageDispatch();
-	md->Start();
+	timer_mgr->Start();
+	msg_dispatch->Start();
 
-	// sh->RunHandlerByServant("2", "test");
+	servant_handler->ReleaseHandler();
+	DELETE inter_face;
+	DELETE servant_handler;
 
-	sh->ReleaseHandler();
-	DELETE ie;
-	DELETE sh;
-
-	DELETE nt;
-	DELETE md;
-	DELETE tm;
+	DELETE nw;
+	DELETE msg_dispatch;
+	DELETE timer_mgr;
 }

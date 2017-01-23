@@ -27,9 +27,24 @@ void NetWork::OnClientClose(socket_t fd, void *userdata)
 	std::cout << "OnClientClose fd = " << fd << std::endl;
 }
 
-void NetWork::OnServerConnected(socket_t fd, void *userdata)
+void NetWork::RegServerConnectedCb(net_work_callback cb, void *userdata)
 {
-	std::cout << "OnServerConnected fd = " << fd << std::endl;
+	net_work_reg_onserverconnected(cb, userdata);
+}
+
+void NetWork::RegServerClosedCb(net_work_callback cb, void *userdata)
+{
+	net_work_reg_onserverclosed(cb, userdata);
+}
+
+void NetWork::RegClientIn(net_work_callback cb, void *userdata)
+{
+	net_work_reg_onclientin(cb, userdata);
+}
+
+void NetWork::RegClientOut(net_work_callback cb, void *userdata)
+{
+	net_work_reg_onclientout(cb, userdata);
 }
 
 void NetWork::SendMsg(SERVANT_TYPE servant, const char *msg)
@@ -53,8 +68,7 @@ void NetWork::SendMsg(SERVANT_TYPE servant, const char *msg)
 void NetWork::Start()
 {
 	net_work_init();
-	net_work_reg_onclientclose(OnClientClose, this);
-	net_work_reg_onserverconnected(OnServerConnected, this);
+	// net_work_reg_onclientclose(OnClientClose, this);
 
 	net_work_run(server_config->address, server_config->port, 
 		server_config->endpointlist, server_config->prefix);
