@@ -8332,3 +8332,2502 @@
 2017-01-22 14:36:29.855 [DEBUG] buf_len (RGST) 
 2017-01-22 14:36:29.855 [DEBUG] message(0x0001) each_recv_len(6) total_len(6) 
 2017-01-22 14:36:29.856 [INFO] servant_prefix(0x0001) register success. 
+2017-01-23 09:57:59.831 [DEBUG] buf_len (RGST) 
+2017-01-23 09:57:59.846 [DEBUG] message(0x0001) each_recv_len(6) total_len(6) 
+2017-01-23 09:57:59.846 [INFO] servant_prefix(0x0001) register success. 
+2017-01-23 09:58:45.715 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:45.716 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:45.717 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:45.745 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:45.746 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:45.748 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:45.749 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:45.749 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:45.755 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:45.756 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:45.763 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:45.764 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:45.767 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:45.769 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:45.769 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:45.770 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:45.772 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:45.773 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:45.779 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:45.779 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:45.779 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:45.779 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:45.780 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:45.781 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:45.781 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:45.783 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:45.792 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:45.792 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:45.792 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:45.793 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:45.794 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:45.795 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:45.797 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:45.799 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:45.800 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:45.800 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:45.801 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:45.803 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:45.807 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:45.808 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:45.809 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:45.809 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:45.813 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:45.814 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:45.814 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:45.815 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:45.816 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:45.816 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:45.821 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:45.821 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:45.821 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:45.822 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:45.840 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:45.840 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:45.866 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:45.867 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:45.867 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:45.868 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:45.872 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:45.873 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:45.877 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:45.878 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:45.879 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:45.882 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:45.883 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:45.884 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:45.884 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:45.884 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:45.885 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:45.885 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:45.886 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:45.891 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:45.893 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:45.907 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:45.908 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:45.909 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:45.913 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:45.928 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:45.928 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:45.928 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:45.929 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:45.930 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:45.930 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:45.930 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:45.932 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:45.932 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:45.936 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:45.943 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:45.944 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:45.944 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:45.945 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:45.945 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:45.947 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:45.947 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:45.947 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:45.947 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:45.954 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:45.955 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:45.961 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:45.962 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:45.967 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:45.976 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:45.976 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:45.976 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:45.977 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:45.977 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:45.981 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:45.981 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:45.981 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:45.982 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:45.982 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:45.982 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:45.987 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:45.987 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:45.998 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:45.998 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:45.999 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.002 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.003 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.023 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.024 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.024 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.024 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.025 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.027 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.027 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.028 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.028 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.029 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.030 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.054 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.055 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.071 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.072 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.074 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.076 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.077 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.078 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.078 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.078 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.082 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.084 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.085 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.085 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.085 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.086 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.086 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.094 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.094 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.094 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.095 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.095 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.095 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.098 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.098 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.099 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.101 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.101 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.108 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.108 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.111 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.134 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.134 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.134 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.134 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.135 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.135 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.137 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.150 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.151 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.155 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.170 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.170 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.170 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.172 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.172 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.172 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.173 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.191 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.191 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.194 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.194 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.211 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.211 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.212 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.212 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.219 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.220 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.221 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.222 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.222 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.222 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.223 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.225 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.230 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.249 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.254 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.254 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.272 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.272 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.273 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.279 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.284 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.284 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.286 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.286 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.286 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.286 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.291 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.293 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.296 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.296 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.296 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.297 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.299 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.299 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.300 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.300 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.307 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.307 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.308 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.308 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.309 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.310 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.313 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.314 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.337 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.337 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.338 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.339 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.340 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.341 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.344 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.344 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.348 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.348 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.351 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.352 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.355 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.355 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.369 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.370 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.382 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.383 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.384 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.384 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.385 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.385 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.387 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.387 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.390 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.391 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.391 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.391 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.391 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.392 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.401 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.401 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.420 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.421 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.431 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.431 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.433 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.434 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.438 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.439 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.440 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.443 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.444 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.444 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.447 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.448 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.449 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.449 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.449 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.449 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.450 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.455 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.461 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.461 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.463 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.463 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.463 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.466 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.467 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.467 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.468 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.469 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.472 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.472 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.473 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.474 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.480 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.480 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.480 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.481 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.485 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.486 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.495 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.495 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.496 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.499 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.501 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.503 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.518 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.518 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.523 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.528 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.529 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.530 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.534 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.534 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.535 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.539 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.541 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.541 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.547 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.548 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.549 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.566 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.566 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.567 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.568 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.569 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.569 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.569 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.595 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.595 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.608 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.609 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.613 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.614 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.621 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.622 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.623 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.624 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.625 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.627 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.628 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.629 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.629 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.630 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.635 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.635 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.637 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.637 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.637 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.638 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.643 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.648 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.650 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.650 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.652 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.652 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.656 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.656 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.656 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.657 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.660 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.663 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.665 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.686 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.686 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.687 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.710 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.711 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.712 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.716 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.717 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.718 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.718 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.718 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.719 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.721 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.722 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.722 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.722 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.722 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.723 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.723 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.727 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.727 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.728 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.728 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.728 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.728 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.734 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.734 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.755 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.756 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.767 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.768 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.771 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.775 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.777 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.777 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.778 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.782 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.783 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.783 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.784 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.787 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.787 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.788 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.802 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.804 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.804 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.829 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.829 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.829 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.829 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.830 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.834 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.835 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.854 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.857 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.858 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.860 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.863 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.865 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.866 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.867 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.873 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.874 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.874 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.875 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.876 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.877 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.883 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.883 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.884 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.887 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.889 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.890 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.893 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.893 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.912 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.912 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.913 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:46.913 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:46.923 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.923 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.924 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.924 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.928 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.928 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.935 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.950 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.950 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.951 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.968 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.969 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.972 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.973 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.974 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:46.975 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:46.979 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.980 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.987 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:46.988 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:46.989 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.990 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.991 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.994 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.994 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.994 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.995 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:46.996 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:46.001 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:46.001 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:46.002 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.009 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.011 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.011 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.015 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.015 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.016 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.017 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.019 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.020 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.020 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.024 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.025 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.026 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.029 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.030 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.033 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.033 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.033 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.034 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.047 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.048 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.051 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.052 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.053 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.054 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.076 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.076 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.087 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.087 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.088 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.089 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.089 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.090 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.095 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.095 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.096 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.102 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.103 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.103 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.104 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.106 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.107 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.108 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.108 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.108 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.108 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.113 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.114 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.114 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.114 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.116 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.122 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.143 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.156 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.156 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.157 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.158 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.167 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.168 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.169 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.172 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.173 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.173 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.173 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.173 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.174 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.179 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.183 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.184 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.186 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.186 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.203 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.203 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.205 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.206 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.206 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.206 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.227 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.228 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.229 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.230 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.234 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.235 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.235 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.237 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.238 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.243 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.244 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.245 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.248 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.248 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.252 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.252 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.262 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.263 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.264 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.287 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.287 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.288 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.290 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.291 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.291 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.292 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.292 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.293 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.293 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.295 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.302 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.303 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.304 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.305 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.306 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.309 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.314 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.317 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.320 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.321 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.322 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.322 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.327 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.327 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.328 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.330 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.347 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.347 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.363 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.363 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.363 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.363 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.365 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.366 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.374 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.375 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.377 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.386 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.387 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.393 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.393 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.394 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.396 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.396 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.397 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.397 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.397 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.398 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.406 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.407 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.408 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.408 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.409 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.409 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.412 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.412 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.415 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.416 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.419 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.420 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.432 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.432 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.433 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.447 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.448 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.448 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.450 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.451 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.451 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.456 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.456 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.456 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.457 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.457 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.459 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.460 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.480 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.481 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.503 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.503 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.504 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.506 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.508 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.508 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.509 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.511 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.515 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.536 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.543 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.544 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.547 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.547 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.549 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.550 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.550 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.551 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.551 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.551 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.552 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.552 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.552 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.552 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.566 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.566 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.584 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.585 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.586 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.596 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.597 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.603 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.604 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.605 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.608 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.608 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.609 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.609 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.613 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.613 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.613 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.613 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.614 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.615 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.615 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.616 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.617 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.618 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.618 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.620 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.623 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.623 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.641 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.642 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.656 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.659 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.660 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.660 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.661 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.661 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.661 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.662 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.664 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.664 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.687 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.687 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.696 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.703 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.703 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.706 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.712 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.713 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.714 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.715 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.716 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.717 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.720 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.720 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.739 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.740 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.759 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.760 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.765 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.766 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.767 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.767 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.767 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.767 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.770 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.770 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.783 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.784 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.784 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.784 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.785 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.785 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.814 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.815 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.841 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.841 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.843 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.844 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.844 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.845 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.845 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.845 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.846 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.854 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.854 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.855 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.856 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.857 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.858 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.859 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.865 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.866 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.867 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.876 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.879 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.880 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.883 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.884 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.884 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.885 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.885 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.890 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.896 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.897 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.920 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:47.920 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:47.947 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.948 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.952 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:47.953 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:47.957 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.957 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.958 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.958 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.980 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.980 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.983 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.983 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.988 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:47.998 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.999 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.002 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:47.002 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:47.002 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:47.003 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:47.003 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:47.003 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.007 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.008 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.008 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.009 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.010 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.013 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.014 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.024 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.025 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.028 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.028 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.028 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.029 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.030 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.033 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.033 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.034 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.036 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.036 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.036 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.037 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.044 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.044 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.047 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.048 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.050 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.050 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.051 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.052 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.059 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.060 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.063 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.080 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.080 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.082 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.082 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.082 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.097 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.097 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.098 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.098 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.103 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.104 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.109 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.110 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.111 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.111 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.123 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.123 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.124 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.127 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.128 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.129 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.132 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.132 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.133 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.133 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.133 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.140 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.143 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.144 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.145 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.146 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.146 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.158 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.159 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.162 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.162 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.163 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.163 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.179 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.180 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.181 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.184 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.184 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.184 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.185 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.186 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.190 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.191 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.191 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.191 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.192 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.196 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.197 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.202 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.202 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.202 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.203 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.206 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.207 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.211 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.212 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.212 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.213 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.214 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.219 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.221 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.221 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.221 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.222 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.222 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.224 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.227 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.227 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.228 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.229 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.233 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.233 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.235 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.235 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.235 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.239 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.243 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.243 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.244 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.244 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.245 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.245 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.246 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.247 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.250 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.250 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.251 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.257 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.258 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.258 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.258 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.260 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.262 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.263 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.266 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.271 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.271 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.272 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.273 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.276 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.279 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.280 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.282 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.282 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.282 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.283 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.288 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.289 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.292 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.292 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.293 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.293 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.293 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.294 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.298 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.298 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.299 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.299 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.301 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.301 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.302 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.302 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.303 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.304 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.311 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.311 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.312 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.312 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.320 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.320 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.323 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.323 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.326 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.327 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.327 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.328 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.329 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.330 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.339 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.354 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.359 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.360 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.361 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.362 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.366 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.366 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.367 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.367 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.368 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.368 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.368 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.370 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.374 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.374 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.376 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.377 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.379 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.379 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.381 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.386 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.391 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.392 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.393 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.395 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.398 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.398 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.399 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.402 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.402 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.403 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.406 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.407 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.408 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.410 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.411 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.412 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.416 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.417 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.417 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.422 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.427 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.427 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.428 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.429 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.429 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.429 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.430 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.430 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.431 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.431 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.434 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.435 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.437 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.445 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.446 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.446 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.446 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.446 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.446 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.446 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.448 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.448 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.451 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.452 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.453 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.453 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.453 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.454 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.455 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.464 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.466 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.466 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.466 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.467 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.468 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.469 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.470 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.472 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.478 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.479 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.480 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.484 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.485 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.487 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.487 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.487 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.488 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.488 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.489 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.489 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.489 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.496 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.500 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.500 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.501 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.503 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.503 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.503 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.511 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.512 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.513 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.514 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.518 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.519 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.519 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.520 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.520 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.522 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.524 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.527 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.530 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.530 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.531 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.532 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.540 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.541 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.542 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.546 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.547 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.547 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.551 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.551 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.552 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.553 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.555 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.555 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.556 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.557 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.561 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.562 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.563 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.564 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.571 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.571 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.575 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.575 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.576 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.577 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.579 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.580 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.587 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.588 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.589 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.589 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.590 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.591 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.594 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.597 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.598 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.603 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.605 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.608 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.610 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.610 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.611 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.613 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.613 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.614 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.619 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.620 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.625 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.628 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.629 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.630 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.631 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.632 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.635 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.636 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.639 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.640 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.641 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.642 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.642 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.645 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.646 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.647 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.651 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.651 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.652 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.652 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.659 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.659 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.660 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.660 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.660 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.661 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.661 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.661 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.666 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.667 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.667 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.668 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.671 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.671 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.672 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.672 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.672 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.673 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.674 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.674 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.674 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.674 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.674 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.675 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.681 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.681 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.681 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.684 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.690 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.691 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.695 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.696 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.697 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.698 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.703 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.704 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.705 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.710 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.711 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.712 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.713 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.713 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.720 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.720 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.721 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.723 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.725 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.727 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.727 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.728 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.732 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.732 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.732 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.734 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.735 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.736 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.739 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.742 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.742 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.743 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.745 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.745 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.747 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.748 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.755 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.755 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.756 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.759 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.764 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.764 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.764 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.765 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.766 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.772 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.773 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.773 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.774 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.775 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.776 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.782 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.782 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.783 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.784 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.784 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.785 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.790 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.791 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.791 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.796 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.796 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.796 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.797 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.800 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.800 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.801 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.802 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.803 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.824 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.835 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.836 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.836 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.837 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.842 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.842 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.842 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.843 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.847 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.847 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.847 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.848 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.852 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.853 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.854 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.855 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.855 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.860 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.862 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.863 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.863 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.864 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.864 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.865 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.867 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.867 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.876 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.876 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.893 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.894 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.894 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.895 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.916 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.916 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.917 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.921 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.923 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.923 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.924 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.924 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.924 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.925 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.927 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.927 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.928 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.933 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.934 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.934 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.934 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.936 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.937 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.940 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.943 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.943 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.947 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.947 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.948 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.949 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.949 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.950 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.954 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.954 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.955 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.956 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.958 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.974 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.975 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:48.976 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:48.977 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.983 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.984 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.984 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.984 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.984 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.988 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:48.989 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:48.990 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:48.991 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:48.993 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:48.993 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:48.995 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:48.996 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:48.000 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.004 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.005 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.005 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.006 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.006 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.007 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.008 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.010 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.014 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.014 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.015 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.015 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.018 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.018 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.019 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.020 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.025 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.031 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.031 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.031 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.035 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.036 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.037 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.038 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.039 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.042 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.043 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.046 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.047 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.048 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.049 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.050 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.051 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.056 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.059 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.064 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.064 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.064 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.065 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.067 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.067 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.070 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.071 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.072 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.073 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.078 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.078 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.080 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.080 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.081 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.082 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.087 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.087 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.087 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.088 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.089 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.093 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.095 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.096 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.097 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.098 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.100 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.101 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.105 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.106 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.106 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.110 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.113 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.114 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.114 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.116 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.117 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.118 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.123 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.128 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.129 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.129 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.130 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.130 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.131 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.132 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.133 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.134 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.134 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.135 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.140 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.141 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.141 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.142 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.142 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.146 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.147 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.147 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.148 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.149 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.150 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.150 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.150 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.153 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.155 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.156 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.157 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.160 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.163 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.164 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.165 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.168 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.168 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.169 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.177 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.178 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.179 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.180 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.181 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.183 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.183 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.183 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.184 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.185 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.187 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.190 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.193 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.194 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.194 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.195 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.199 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.200 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.201 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.203 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.203 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.204 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.204 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.212 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.214 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.214 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.214 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.215 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.219 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.220 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.221 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.221 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.221 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.221 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.225 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.226 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.227 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.228 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.228 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.229 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.229 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.229 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.230 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.233 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.238 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.238 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.240 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.240 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.240 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.240 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.240 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.241 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.243 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.243 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.247 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.248 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.251 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.252 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.252 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.253 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.254 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.256 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.263 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.263 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.264 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.271 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.272 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.273 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.276 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.277 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.278 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.279 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.279 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.280 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.285 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.285 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.285 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.286 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.287 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.292 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.297 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.297 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.298 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.299 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.300 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.300 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.303 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.304 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.305 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.306 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.307 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.308 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.310 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.315 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.317 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.318 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.320 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.321 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.325 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.326 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.328 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.328 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.330 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.331 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.332 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.333 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.334 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.334 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.340 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.341 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.346 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.346 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.346 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.347 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.349 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.349 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.351 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.360 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.363 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.364 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.364 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.365 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.366 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.368 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.375 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.375 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.376 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.377 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.382 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.383 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.384 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.385 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.388 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.388 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.388 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.388 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.389 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.391 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.396 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.396 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.400 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.400 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.403 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.404 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.405 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.407 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.410 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.410 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.411 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.412 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.420 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.420 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.422 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.423 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.424 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.427 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.427 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.428 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.429 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.430 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.433 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.434 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.435 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.435 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.438 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.439 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.440 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.441 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.443 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.444 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.444 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.445 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.451 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.452 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.452 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.459 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.460 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.461 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.464 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.465 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.465 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.467 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.469 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.469 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.470 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.470 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.475 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.476 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.477 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.481 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.481 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.482 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.484 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.484 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.487 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.488 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.491 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.492 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.494 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.495 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.496 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.497 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.500 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.500 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.503 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.503 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.505 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.505 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.514 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.515 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.516 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.517 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.519 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.519 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.521 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.522 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.527 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.528 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.529 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.531 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.534 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.534 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.534 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.535 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.539 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.542 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.543 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.546 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.548 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.549 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.550 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.554 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.566 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.566 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.567 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.569 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.575 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.588 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.589 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.590 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.598 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.598 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.599 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.599 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.600 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.603 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.606 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.607 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.607 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.608 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.609 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.615 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.615 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.616 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.618 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.618 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.622 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.622 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.623 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.623 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.624 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.624 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.625 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.628 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.629 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.641 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.642 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.645 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.646 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.647 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.653 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.654 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.654 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.655 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.660 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.660 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.663 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.663 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.665 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.667 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.671 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.672 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.674 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.675 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.678 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.679 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.686 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.686 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.689 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.690 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.691 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.692 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.694 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.695 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.700 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.700 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.702 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.726 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.726 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.732 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.732 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.733 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.734 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.751 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.752 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.754 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.759 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.760 [DEBUG] buf_len (0023) 
+2017-01-23 09:58:49.761 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 09:58:49.762 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.765 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.766 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.767 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.771 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.776 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.777 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.778 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.778 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.779 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.779 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.780 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.781 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.781 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 09:58:49.785 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 09:58:49.785 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.785 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.786 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 09:58:49.786 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 09:58:49.787 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.789 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.793 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.794 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.795 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.795 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.804 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.805 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.806 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.807 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.810 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.810 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.811 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.811 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.843 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.846 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.846 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.852 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.855 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.873 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.895 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.896 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.897 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.899 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.900 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.901 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.902 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.910 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.912 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.912 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.914 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.938 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.943 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.943 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.958 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.958 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.959 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.960 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.961 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.961 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.964 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:49.965 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:49.984 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:49.984 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:49.985 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.010 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.010 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.011 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.016 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.016 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.023 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.024 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.024 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.025 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.028 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.028 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.030 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.031 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.036 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.036 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.036 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.039 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.063 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.064 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.090 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.090 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.091 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.091 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.095 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.096 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.097 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.098 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.101 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.102 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.104 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.106 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.106 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.106 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.110 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.110 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.114 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.115 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.123 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.123 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.128 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.129 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.130 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.130 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.138 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.139 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.147 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.148 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.171 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.172 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.173 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.174 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.176 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.177 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.178 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.182 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.182 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.182 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.187 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.187 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.190 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.190 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.207 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.207 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.227 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.227 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.228 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.228 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.229 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.229 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.252 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.252 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.262 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.262 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.262 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.264 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.268 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.271 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.272 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.272 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.273 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.273 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.274 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.274 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.281 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.281 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.281 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.281 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.281 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.281 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.298 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.298 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.323 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.323 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.324 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.325 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.326 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.327 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.328 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.331 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.335 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.335 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.336 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.341 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.343 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.344 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.349 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.349 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.353 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.353 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.355 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.378 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.379 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.380 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.381 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.394 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.394 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.395 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.399 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.399 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.400 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.401 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.405 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.405 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.406 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.410 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.411 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.411 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.412 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.415 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.417 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.417 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.418 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.419 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.420 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.424 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.424 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.424 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.431 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.451 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.465 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.466 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.467 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.472 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.476 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.477 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.503 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.503 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.509 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.510 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.515 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.515 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.523 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.525 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.527 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.527 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.529 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.529 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.534 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.548 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.549 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.555 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.555 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.556 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.558 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.560 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.562 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.562 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.566 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.567 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.573 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.573 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.573 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.576 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.576 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.576 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.582 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.582 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.598 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.599 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.600 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.615 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.617 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.617 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.623 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.626 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.627 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.628 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.629 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.630 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.634 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.635 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.637 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.638 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.638 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.638 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.639 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.639 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.647 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.647 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.647 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.648 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.660 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.660 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.675 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.675 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.675 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.679 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.680 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.681 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.682 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.687 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.689 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.689 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.691 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.691 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.699 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.700 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.702 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.703 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.704 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.704 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:50.816 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:50.817 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:50.819 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:50.823 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:58:51.007 [DEBUG] buf_len (0022) 
+2017-01-23 09:58:51.007 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:58:51.011 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:58:51.012 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 09:59:12.714 [DEBUG] buf_len (0022) 
+2017-01-23 09:59:12.715 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 09:59:12.726 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 09:59:12.726 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 10:02:09.263 [DEBUG] buf_len (RGST) 
+2017-01-23 10:02:09.264 [DEBUG] message(0x0001) each_recv_len(6) total_len(6) 
+2017-01-23 10:02:09.264 [INFO] servant_prefix(0x0001) register success. 
+2017-01-23 10:02:13.834 [DEBUG] buf_len (0023) 
+2017-01-23 10:02:13.839 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 10:02:13.854 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 10:02:13.855 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 10:02:13.857 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 10:02:13.861 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 10:02:13.934 [DEBUG] buf_len (0022) 
+2017-01-23 10:02:13.934 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 10:02:13.935 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 10:02:13.947 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 10:05:36.451 [DEBUG] buf_len (0023) 
+2017-01-23 10:05:36.451 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 10:05:36.451 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 10:05:36.452 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 10:05:36.463 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 10:05:36.463 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 10:05:36.534 [DEBUG] buf_len (0022) 
+2017-01-23 10:05:36.535 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 10:05:36.535 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 10:05:36.536 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 10:14:46.940 [DEBUG] buf_len (RGST) 
+2017-01-23 10:14:46.942 [DEBUG] message(0x0001) each_recv_len(6) total_len(6) 
+2017-01-23 10:14:46.942 [INFO] servant_prefix(0x0001) register success. 
+2017-01-23 10:14:50.810 [DEBUG] buf_len (0023) 
+2017-01-23 10:14:50.811 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-01-23 10:14:50.811 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-01-23 10:14:50.811 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-01-23 10:14:50.814 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-01-23 10:14:50.814 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-01-23 10:14:50.873 [DEBUG] buf_len (0022) 
+2017-01-23 10:14:50.873 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-01-23 10:14:50.874 [DEBUG] message came 0x00020002I am GsTask. 
+2017-01-23 10:14:50.874 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-01-23 11:11:19.187 [DEBUG] Connection closed, fd = 10. 
+2017-01-23 11:11:19.188 [DEBUG] servant_prefix(0x0001) disconnected 

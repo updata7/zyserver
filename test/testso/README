@@ -1,0 +1,2 @@
+before run the executable file,if found no libzyserver.so,must add the commond like this:
+export  LD_LIBRARY_PATH=LD_LIBRARY_PATH:../../source

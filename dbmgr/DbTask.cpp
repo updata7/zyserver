@@ -1,6 +1,5 @@
 #include "DbTask.hpp"
 
-
 DbTask::DbTask()
 {
 }

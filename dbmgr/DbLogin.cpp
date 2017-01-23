@@ -1,6 +1,5 @@
-
 #include "DbLogin.hpp"
-
+#include "db_ops.h"
 
 DbLogin::DbLogin()
 {
@@ -20,5 +19,8 @@ void DbLogin::Init()
 void DbLogin::CallBack(std::string msg)
 {
 	std::cout << "DbLogin CallBack." << std::endl;
+	db_ops("insert into test(count) value(17);");
+	db_get_data();
+
 	SendMsg(GS_TASK, "I am DbLogin.");
 }

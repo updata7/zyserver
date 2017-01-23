@@ -7,6 +7,7 @@
 #include "TimerMgr.hpp"
 #include "ServantHandler.hpp"
 #include "Interface.hpp" 
+#include "db_ops.h"
 
 #include <iostream>
 
@@ -17,12 +18,14 @@ using namespace std;
 ServerStart::ServerStart(struct server_config_t *sc)
 {
 	server_config = sc;
+	db_config = NULL;
 }
 
 ServerStart::ServerStart(struct server_config_t *sc, struct db_config_t *db)
 {
 	server_config = sc;
 	db_config = db;
+	db_connect(db_config->dbhost, db_config->dbuser, db_config->dbpwd, db_config->dbname, db_config->dbport);
 }
 
 

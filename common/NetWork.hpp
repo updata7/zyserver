@@ -1,7 +1,6 @@
 #ifndef NETWORK_HPP
 #define NETWORK_HPP
 
-#include "EndpointServer.hpp"
 #include "server_config.h"
 #include "net_work.h"
 
