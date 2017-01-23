@@ -25,7 +25,7 @@ void ServantBase::Decode(void *protocol)
 {
 }
 
-void ServantBase::CallBack(std::string msg)
+void ServantBase::CallBack(void *class_data)
 {
 	std::cout << "ServantBase CallBack" << std::endl;
 }

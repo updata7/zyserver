@@ -38,6 +38,9 @@ bool ServantHandler::RunHandlerByServant(SERVANT_TYPE servant, std::string msg)
 	ServantMap::iterator it = servantMap.find(servant);
 	if (it != servantMap.end())
 	{
+		// 解析数据
+		// void *data = it->second->Decode(msg);
+
 		it->second->CallBack(msg);
 		return true;
 	}
