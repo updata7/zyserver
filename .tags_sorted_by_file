@@ -1540,9 +1540,9 @@ dbpwd	source\MasterDbInfo.h	/^	static char *dbpwd;$/;"	m	class:MasterDbInfo
 dbpwd	source\MasterDbInfo.h	/^char *MasterDbInfo::dbpwd = NULL;$/;"	m	class:MasterDbInfo
 dbuser	source\MasterDbInfo.h	/^	static char *dbuser;$/;"	m	class:MasterDbInfo
 dbuser	source\MasterDbInfo.h	/^char *MasterDbInfo::dbuser = NULL;$/;"	m	class:MasterDbInfo
-DELETE	source\Memory.hpp	5;"	d
-MEMORY	source\Memory.hpp	2;"	d
-NEW	source\Memory.hpp	4;"	d
+DELETE	source\malloc.h	5;"	d
+MEMORY	source\malloc.h	2;"	d
+NEW	source\malloc.h	4;"	d
 DispatchMessage	source\MessageDispatch.cpp	/^void MessageDispatch::DispatchMessage(void *userdata)$/;"	f	class:MessageDispatch
 MessageDispatch	source\MessageDispatch.cpp	/^MessageDispatch::MessageDispatch()$/;"	f	class:MessageDispatch
 Start	source\MessageDispatch.cpp	/^void MessageDispatch::Start()$/;"	f	class:MessageDispatch

@@ -1,7 +1,6 @@
 #include "mq.h"
 #include "malloc.h"
 #include "servant.h"
-#include "util.h"
 #include "log.h"
 
 #include <assert.h>

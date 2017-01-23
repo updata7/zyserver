@@ -5,7 +5,7 @@ CFLAGS = -O3 -std=c++0x -pg -D_DEBUG -g -Wall -Wno-write-strings -DUSE_PTHREAD_L
 TAGET = libzyserver.so
 SHARED := -fPIC --shared
 
-MODULE = log.c timer.c malloc.c server_env.c util.c server_config.c server_thread.c \
+MODULE = log.c timer.c server_env.c util.c server_config.c server_thread.c \
 	servant.c mq.c net_work.c
 FLATCC_PATH ?= $(SERVER_BUILD_PATH)/../3rd/flatcc
 LIBEVENT_PATH ?= $(SERVER_BUILD_PATH)/../3rd/libevent

@@ -1,9 +1,11 @@
+#include "server_thread.h"
 #include "net_work.h"
 #include "log.h"
 #include "malloc.h"
 #include "mq.h"
-// #include "util.h"
-#include "server_thread.h"
+#include "queue.h"
+#include "macro.h"
+#include "util.h"
 
 #include <stdlib.h>
 #include <string.h>
@@ -12,12 +14,6 @@
 #include <arpa/inet.h>
 #include <netinet/tcp.h>
 #include <unistd.h>
-
-#include "queue.h"
-
-#define MESSAGE_LEN_SIZE 4
-#define IO_MAX_MESSAGE_SIZE 4096
-#define MAX_CONNECT 5
 
 // 内部服务器间连接的数据
 struct socket_internal_t {

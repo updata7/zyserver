@@ -6,7 +6,7 @@ extern "C" {
 #endif 	// __cplusplus
 
 #include "mq.h"
-#include "util.h"
+#include "macro.h"
 
 typedef void (*servant_cb)(void *userdata, SERVANT_TYPE servant, char *msg);
 

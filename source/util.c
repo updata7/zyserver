@@ -84,15 +84,3 @@ char * Strdup(char *str)
 	return p;
 	// return p;
 }
-
-// 拼接成 长度(4个字节，servant和message的长)+servant(10个字节)+message
-void pack(char *dest, int len, SERVANT_TYPE servant, char *message)
-{
-	// char size[MESSAGE_LEN_SIZE] = {0};
-	char sp[SERVANT_SIZE] = {0};
-	sprintf(dest, "%04d", len);
-	sprintf(sp, "0x%08X", (unsigned int)servant);
-	// strcpy(dest, size);
-	strcat(dest, sp);
-	strcat(dest, message);
-}

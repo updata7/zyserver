@@ -41,7 +41,7 @@ DB_TASK	.\common\ServantDef.hpp	8;"	d
 DECL	.\3rd\flatcc\portable\pstdint.h	810;"	d
 DECLI	.\3rd\flatcc\portable\pstdint.h	808;"	d
 DECLU	.\3rd\flatcc\portable\pstdint.h	807;"	d
-DELETE	.\source\Memory.hpp	5;"	d
+DELETE	.\source\malloc.h	5;"	d
 DbLogin	.\dbmgr\DbLogin.cpp	/^DbLogin::DbLogin()$/;"	f	class:DbLogin
 DbLogin	.\dbmgr\DbLogin.hpp	/^class DbLogin:public ServantBase$/;"	c
 DbTask	.\dbmgr\DbTask.cpp	/^DbTask::DbTask()$/;"	f	class:DbTask
@@ -284,7 +284,7 @@ MASTERDBINFO_H	.\source\MasterDbInfo.h	2;"	d
 MAX_CONNECT	.\source\net_work.c	20;"	d	file:
 MAX_ENDPOINT_COUNT	.\source\server_env.c	12;"	d	file:
 MAX_SERVER	.\source\NetWork.hpp	18;"	d
-MEMORY	.\source\Memory.hpp	2;"	d
+MEMORY	.\source\malloc.h	2;"	d
 MESSAGEQUEUE_H	.\source\MessageDispatch.hpp	2;"	d
 MESSAGE_LEN_SIZE	.\source\net_work.c	18;"	d	file:
 MESSAGE_LEN_SIZE	.\source\util.h	13;"	d
@@ -297,7 +297,7 @@ MessageDispatch	.\source\MessageDispatch.cpp	/^MessageDispatch::MessageDispatch(
 MessageDispatch	.\source\MessageDispatch.hpp	/^class MessageDispatch$/;"	c
 NETWORK_HPP	.\source\NetWork.hpp	2;"	d
 NETWROK_H	.\source\net_work.h	2;"	d
-NEW	.\source\Memory.hpp	4;"	d
+NEW	.\source\malloc.h	4;"	d
 NetWork	.\source\NetWork.cpp	/^NetWork::NetWork(struct server_config_t *sc)$/;"	f	class:NetWork
 NetWork	.\source\NetWork.hpp	/^class NetWork$/;"	c
 OBJECT	.\source\common.mk	/^OBJECT := server_main.cpp log.c timer.c malloc.c server_env.c util.c ServerStart.cpp server_config.c server_thread.c \\$/;"	m

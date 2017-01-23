@@ -1,9 +1,0 @@
-#本文件等于号右边的配置关联machine.conf 的设置
-#本服务器
-address = gamesv
-port = gamesv-port
-prefix = gamesv-prefix
-thread = 1
-
-#对端服务器,多个用分号隔开
-endpointlist = dbmgr;globalmgr;

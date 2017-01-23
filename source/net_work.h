@@ -14,8 +14,8 @@ extern "C" {
 #include <event2/event_compat.h>
 #include <event2/event_struct.h>
 
-#include "util.h"
-
+#include "macro.h"
+	
 #ifndef socket_t
 #define socket_t int
 #endif 	// socket_t
