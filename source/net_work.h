@@ -15,11 +15,7 @@ extern "C" {
 #include <event2/event_struct.h>
 
 #include "macro.h"
-	
-#ifndef socket_t
-#define socket_t int
-#endif 	// socket_t
-	
+
 typedef void (*net_work_callback)(socket_t, void *);
 
 void read_helper(struct bufferevent *bev);

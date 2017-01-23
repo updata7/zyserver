@@ -9,12 +9,6 @@ TAGET = main
 MODULE := Interface.cpp GsTask.cpp GsLogin.cpp
 INC = -I$(FRAME_PATH) -I$(SERVER_BUILD_PATH) -I$(SRC_PATH) -I$(COMMON) -I$(3RD) -I$(LIBEVENT_PATH)/include -I$(FLATCC_PATH)/portable \
 	-I$(FLATCC_PATH)/reflection -I$(FLATCC_PATH)/support -I$(FLATCC_PATH) -I$(FBS)
-# LIBS := -lmysqlclient
-# FLATCC_PATH ?= $(SERVER_BUILD_PATH)/../3rd/flatcc
-# LIBEVENT_PATH ?= $(SERVER_BUILD_PATH)/../3rd/libevent
-# FBS = $(SERVER_BUILD_PATH)/../fbs
-# 3RD = $(SERVER_BUILD_PATH)/../3rd
-# LIB_PATH = -L$(FLATCC_PATH)/lib/
 
 $(TAGET): \
   $(foreach v, $(BASE_OBJECT), $(SRC_PATH)/$(v)) \

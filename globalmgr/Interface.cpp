@@ -1,6 +1,6 @@
-#include "Interface.hpp"
-#include "GbmTask.hpp"
-#include "GbmLogin.hpp"
+#include "Interface.h"
+#include "GbmTask.h"
+#include "GbmLogin.h"
 
 #include <iostream>
 

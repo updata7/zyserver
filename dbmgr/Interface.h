@@ -1,13 +1,10 @@
 #ifndef INTERFACE_H
 #define INTERFACE_H
 
-#ifndef socket_t
-#define socket_t int
-#endif 	// socket_t
-
 #include "ServantHandler.h"
 #include "log.h"
 #include "timer.h"
+#include "macro.h"
 
 class Interface
 {

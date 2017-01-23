@@ -8,5 +8,6 @@
 #define SERVANT_MASK 0xffff0000
 #define MAX_CONNECT 5
 #define MESSAGE_LEN_SIZE 4
+#define socket_t int 
 
 #endif 	// MACRO_H

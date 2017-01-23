@@ -4,11 +4,13 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-AddHandler	.\source\ServantHandler.cpp	/^void ServantHandler::AddHandler(SERVANT_TYPE servant, ServantBase *servantClass)$/;"	f	class:ServantHandler
+3RD	.\framework\common.mk	/^3RD = $(SERVER_BUILD_PATH)\/..\/3rd$/;"	m
+AddHandler	.\framework\ServantHandler.cpp	/^void ServantHandler::AddHandler(SERVANT_TYPE servant, ServantBase *servantClass)$/;"	f	class:ServantHandler
 BASE	.\source\net_work.c	/^struct event_base *BASE = NULL;$/;"	v	typeref:struct:event_base
-CC	.\source\common.mk	/^CC = g++$/;"	m
+BASE_OBJECT	.\framework\common.mk	/^BASE_OBJECT := log.c timer.c server_env.c util.c server_config.c server_thread.c \\$/;"	m
+CC	.\framework\common.mk	/^CC = g++$/;"	m
 CDUMP_H	.\3rd\flatcc\support\cdump.h	2;"	d
-CFLAGS	.\source\common.mk	/^CFLAGS = -O3 -std=c++0x -pg -D_DEBUG -g -Wall -Wno-write-strings -DUSE_PTHREAD_LOCK -DEVENT__HAVE_EVENTFD -DSERVANT_TYPE=long \\$/;"	m
+CFLAGS	.\framework\common.mk	/^CFLAGS = -O3 -std=c++0x -pg -D_DEBUG -g -Wall -Wno-write-strings -DUSE_PTHREAD_LOCK -DEVENT__HAVE_EVENTFD$/;"	m
 CIRCLEQ_EMPTY	.\3rd\libevent\include\queue.h	401;"	d
 CIRCLEQ_END	.\3rd\libevent\include\queue.h	398;"	d
 CIRCLEQ_ENTRY	.\3rd\libevent\include\queue.h	387;"	d
@@ -27,40 +29,39 @@ CIRCLEQ_NEXT	.\3rd\libevent\include\queue.h	399;"	d
 CIRCLEQ_PREV	.\3rd\libevent\include\queue.h	400;"	d
 CIRCLEQ_REMOVE	.\3rd\libevent\include\queue.h	462;"	d
 CIRCLEQ_REPLACE	.\3rd\libevent\include\queue.h	475;"	d
-COMMONCLASS_H	.\source\CommonClass.h	2;"	d
+COMMONCLASS_H	.\framework\CommonClass.h	2;"	d
 CONF_MAX	.\source\server_env.c	10;"	d	file:
 CallBack	.\dbmgr\DbLogin.cpp	/^void DbLogin::CallBack(std::string msg)$/;"	f	class:DbLogin
 CallBack	.\dbmgr\DbTask.cpp	/^void DbTask::CallBack(std::string msg)$/;"	f	class:DbTask
+CallBack	.\framework\ServantBase.cpp	/^void ServantBase::CallBack(std::string msg)$/;"	f	class:ServantBase
 CallBack	.\gameserver\GsLogin.cpp	/^void GsLogin::CallBack(std::string msg)$/;"	f	class:GsLogin
 CallBack	.\gameserver\GsTask.cpp	/^void GsTask::CallBack(std::string msg)$/;"	f	class:GsTask
-CallBack	.\source\ServantBase.cpp	/^void ServantBase::CallBack(std::string msg)$/;"	f	class:ServantBase
-CommonClass	.\source\CommonClass.h	/^	CommonClass()$/;"	f	class:CommonClass
-CommonClass	.\source\CommonClass.h	/^class CommonClass$/;"	c
-DB_LOGIN	.\common\ServantDef.hpp	7;"	d
-DB_TASK	.\common\ServantDef.hpp	8;"	d
+CallBack	.\globalmgr\GbmLogin.cpp	/^void GbmLogin::CallBack(std::string msg)$/;"	f	class:GbmLogin
+CallBack	.\globalmgr\GbmTask.cpp	/^void GbmTask::CallBack(std::string msg)$/;"	f	class:GbmTask
+CommonClass	.\framework\CommonClass.h	/^	CommonClass()$/;"	f	class:CommonClass
+CommonClass	.\framework\CommonClass.h	/^class CommonClass$/;"	c
+DB_LOGIN	.\framework\ServantDef.h	11;"	d
+DB_PREFIX	.\framework\ServantDef.h	10;"	d
+DB_TASK	.\framework\ServantDef.h	12;"	d
 DECL	.\3rd\flatcc\portable\pstdint.h	810;"	d
 DECLI	.\3rd\flatcc\portable\pstdint.h	808;"	d
 DECLU	.\3rd\flatcc\portable\pstdint.h	807;"	d
-DELETE	.\source\malloc.h	5;"	d
+DELETE	.\source\malloc.h	10;"	d
 DbLogin	.\dbmgr\DbLogin.cpp	/^DbLogin::DbLogin()$/;"	f	class:DbLogin
-DbLogin	.\dbmgr\DbLogin.hpp	/^class DbLogin:public ServantBase$/;"	c
+DbLogin	.\dbmgr\DbLogin.h	/^class DbLogin:public ServantBase$/;"	c
 DbTask	.\dbmgr\DbTask.cpp	/^DbTask::DbTask()$/;"	f	class:DbTask
-DbTask	.\dbmgr\DbTask.hpp	/^class DbTask:public ServantBase$/;"	c
-Decode	.\source\ServantBase.cpp	/^void ServantBase::Decode(void *protocol)$/;"	f	class:ServantBase
-DeleteInstance	.\source\CommonClass.h	/^	void DeleteInstance()$/;"	f	class:CommonClass
-DispatchMessage	.\source\MessageDispatch.cpp	/^void MessageDispatch::DispatchMessage(void *userdata)$/;"	f	class:MessageDispatch
+DbTask	.\dbmgr\DbTask.h	/^class DbTask:public ServantBase$/;"	c
+Decode	.\framework\ServantBase.cpp	/^void ServantBase::Decode(void *protocol)$/;"	f	class:ServantBase
+DeleteInstance	.\framework\CommonClass.h	/^	void DeleteInstance()$/;"	f	class:CommonClass
+DispatchMessage	.\framework\MessageDispatch.cpp	/^void MessageDispatch::DispatchMessage(void *userdata)$/;"	f	class:MessageDispatch
 E	.\source\server_env.c	/^static struct server_env E[ENV_MAX];$/;"	v	typeref:struct:server_env	file:
 ELAPSED_H	.\3rd\flatcc\support\elapsed.h	2;"	d
-ENDPOINTSERVER_H	.\source\EndpointServer.hpp	2;"	d
 ENV_MAX	.\source\server_env.c	9;"	d	file:
-ERR_EXIT	.\test\client.c	12;"	d	file:
 ERR_EXIT	.\test\client\client.c	18;"	d	file:
-ERR_EXIT	.\test\epoll_client.c	14;"	d	file:
-Encode	.\source\ServantBase.cpp	/^void ServantBase::Encode(void *protocol)$/;"	f	class:ServantBase
-EndpointServer	.\source\EndpointServer.cpp	/^EndpointServer::EndpointServer(const char *Address, int Port, int Prefix)$/;"	f	class:EndpointServer
-EndpointServer	.\source\EndpointServer.hpp	/^class EndpointServer$/;"	c
-Execute	.\source\TimerMgr.cpp	/^void *TimerMgr::Execute(void *userdata)$/;"	f	class:TimerMgr
-ExecuteHandler	.\source\ServantHandler.cpp	/^void ServantHandler::ExecuteHandler(SERVANT_TYPE servant)$/;"	f	class:ServantHandler
+Encode	.\framework\ServantBase.cpp	/^void ServantBase::Encode(void *protocol)$/;"	f	class:ServantBase
+Execute	.\framework\TimerMgr.cpp	/^void *TimerMgr::Execute(void *userdata)$/;"	f	class:TimerMgr
+ExecuteHandler	.\framework\ServantHandler.cpp	/^void ServantHandler::ExecuteHandler(SERVANT_TYPE servant)$/;"	f	class:ServantHandler
+FBS	.\framework\common.mk	/^FBS = $(SERVER_BUILD_PATH)\/..\/fbs$/;"	m
 FLATBUFFERS_BOOL_MAX	.\3rd\flatcc\flatcc_types.h	50;"	d
 FLATBUFFERS_BOOL_WIDTH	.\3rd\flatcc\flatcc_types.h	62;"	d
 FLATBUFFERS_COMMON_BUILDER_H	.\3rd\flatcc\reflection\flatbuffers_common_builder.h	2;"	d
@@ -134,6 +135,7 @@ FLATCC_JSON_PRINT_HEX_FLOAT	.\3rd\flatcc\flatcc_rtconfig.h	75;"	d
 FLATCC_JSON_PRINT_MAX_LEVELS	.\3rd\flatcc\flatcc_rtconfig.h	64;"	d
 FLATCC_JSON_PRINT_RESERVE	.\3rd\flatcc\flatcc_json_printer.h	9;"	d
 FLATCC_PARSE_IGNORE_TRAILING_DATA	.\3rd\flatcc\flatcc_rtconfig.h	133;"	d
+FLATCC_PATH	.\framework\common.mk	/^FLATCC_PATH ?= $(SERVER_BUILD_PATH)\/..\/3rd\/flatcc$/;"	m
 FLATCC_PORTABLE_H	.\3rd\flatcc\flatcc_portable.h	2;"	d
 FLATCC_RTCONFIG_H	.\3rd\flatcc\flatcc_rtconfig.h	2;"	d
 FLATCC_TYPES_H	.\3rd\flatcc\flatcc_types.h	2;"	d
@@ -148,8 +150,12 @@ FLATCC_VERSION_MINOR	.\3rd\flatcc\flatcc_version.h	3;"	d
 FLATCC_VERSION_PATCH	.\3rd\flatcc\flatcc_version.h	4;"	d
 FLATCC_VERSION_RELEASED	.\3rd\flatcc\flatcc_version.h	6;"	d
 FLATCC_VERSION_TEXT	.\3rd\flatcc\flatcc_version.h	1;"	d
+FRAME_OBJECT	.\framework\common.mk	/^FRAME_OBJECT = MessageDispatch.cpp NetWork.cpp ServantBase.cpp ServantHandler.cpp ServerMain.cpp ServerStart.cpp TimerMgr.cpp$/;"	m
 FatalError	.\3rd\flatcc\support\elapsed.h	20;"	d
-Free	.\source\malloc.c	/^void Free(void *ptr)$/;"	f
+Free	.\source\malloc.h	8;"	d
+GBM_LOGIN	.\framework\ServantDef.h	16;"	d
+GBM_PREFIX	.\framework\ServantDef.h	15;"	d
+GBM_TASK	.\framework\ServantDef.h	17;"	d
 GRISU3_CACHED_EXP_STEP	.\3rd\flatcc\portable\grisu3_math.h	81;"	d
 GRISU3_D64_DENORM_EXP	.\3rd\flatcc\portable\grisu3_math.h	74;"	d
 GRISU3_D64_EXP_BIAS	.\3rd\flatcc\portable\grisu3_math.h	73;"	d
@@ -175,16 +181,18 @@ GRISU3_PARSE_FAST_CASE	.\3rd\flatcc\portable\grisu3_parse.h	59;"	d
 GRISU3_PARSE_H	.\3rd\flatcc\portable\grisu3_parse.h	27;"	d
 GRISU3_PRINT_H	.\3rd\flatcc\portable\grisu3_print.h	42;"	d
 GRISU3_PRINT_MAX	.\3rd\flatcc\portable\grisu3_print.h	61;"	d
-GS_LOGIN	.\common\ServantDef.hpp	4;"	d
-GS_TASK	.\common\ServantDef.hpp	5;"	d
-GetAddress	.\source\EndpointServer.cpp	/^const char *EndpointServer::GetAddress()$/;"	f	class:EndpointServer
-GetInstance	.\source\CommonClass.h	/^	T* GetInstance()$/;"	f	class:CommonClass
-GetPort	.\source\EndpointServer.cpp	/^int EndpointServer::GetPort()$/;"	f	class:EndpointServer
-GetPrefix	.\source\EndpointServer.cpp	/^int EndpointServer::GetPrefix()$/;"	f	class:EndpointServer
+GS_LOGIN	.\framework\ServantDef.h	6;"	d
+GS_PREFIX	.\framework\ServantDef.h	5;"	d
+GS_TASK	.\framework\ServantDef.h	7;"	d
+GbmLogin	.\globalmgr\GbmLogin.cpp	/^GbmLogin::GbmLogin()$/;"	f	class:GbmLogin
+GbmLogin	.\globalmgr\GbmLogin.hpp	/^class GbmLogin:public ServantBase$/;"	c
+GbmTask	.\globalmgr\GbmTask.cpp	/^GbmTask::GbmTask()$/;"	f	class:GbmTask
+GbmTask	.\globalmgr\GbmTask.hpp	/^class GbmTask:public ServantBase$/;"	c
+GetInstance	.\framework\CommonClass.h	/^	T* GetInstance()$/;"	f	class:CommonClass
 GsLogin	.\gameserver\GsLogin.cpp	/^GsLogin::GsLogin()$/;"	f	class:GsLogin
-GsLogin	.\gameserver\GsLogin.hpp	/^class GsLogin:public ServantBase$/;"	c
+GsLogin	.\gameserver\GsLogin.h	/^class GsLogin:public ServantBase$/;"	c
 GsTask	.\gameserver\GsTask.cpp	/^GsTask::GsTask()$/;"	f	class:GsTask
-GsTask	.\gameserver\GsTask.hpp	/^class GsTask:public ServantBase$/;"	c
+GsTask	.\gameserver\GsTask.h	/^class GsTask:public ServantBase$/;"	c
 HEXDUMP_H	.\3rd\flatcc\support\hexdump.h	2;"	d
 INT16_C	.\3rd\flatcc\portable\pstdint.h	308;"	d
 INT16_C	.\3rd\flatcc\portable\pstdint.h	410;"	d
@@ -210,9 +218,9 @@ INT8_C	.\3rd\flatcc\portable\pstdint.h	314;"	d
 INT8_C	.\3rd\flatcc\portable\pstdint.h	374;"	d
 INT8_MAX	.\3rd\flatcc\portable\pstdint.h	366;"	d
 INT8_MIN	.\3rd\flatcc\portable\pstdint.h	369;"	d
-INTERFACE_H	.\dbmgr\Interface.hpp	2;"	d
-INTERFACE_H	.\gameserver\Interface.hpp	2;"	d
-INTERFACE_H	.\source\interface.h	2;"	d
+INTERFACE_H	.\dbmgr\Interface.h	2;"	d
+INTERFACE_H	.\gameserver\Interface.h	2;"	d
+INTERFACE_H	.\globalmgr\Interface.hpp	2;"	d
 INTMAX_C	.\3rd\flatcc\portable\pstdint.h	605;"	d
 INTMAX_C	.\3rd\flatcc\portable\pstdint.h	621;"	d
 INTMAX_MAX	.\3rd\flatcc\portable\pstdint.h	332;"	d
@@ -239,19 +247,23 @@ INT_LEAST64_MAX	.\3rd\flatcc\portable\pstdint.h	663;"	d
 INT_LEAST64_MIN	.\3rd\flatcc\portable\pstdint.h	664;"	d
 INT_LEAST8_MAX	.\3rd\flatcc\portable\pstdint.h	650;"	d
 INT_LEAST8_MIN	.\3rd\flatcc\portable\pstdint.h	655;"	d
-IO_MAX_MESSAGE_SIZE	.\source\net_work.c	19;"	d	file:
-IO_MAX_MESSAGE_SIZE	.\source\util.h	11;"	d
+IO_MAX_MESSAGE_SIZE	.\source\macro.h	7;"	d
 Init	.\dbmgr\DbLogin.cpp	/^void DbLogin::Init()$/;"	f	class:DbLogin
 Init	.\dbmgr\DbTask.cpp	/^void DbTask::Init()$/;"	f	class:DbTask
+Init	.\framework\ServantBase.cpp	/^void ServantBase::Init()$/;"	f	class:ServantBase
 Init	.\gameserver\GsLogin.cpp	/^void GsLogin::Init()$/;"	f	class:GsLogin
 Init	.\gameserver\GsTask.cpp	/^void GsTask::Init()$/;"	f	class:GsTask
-Init	.\source\ServantBase.cpp	/^void ServantBase::Init()$/;"	f	class:ServantBase
-InsertServant	.\source\ServantMgr.cpp	/^void ServantMgr::InsertServant(string servant, class *T)$/;"	f	class:ServantMgr
+Init	.\globalmgr\GbmLogin.cpp	/^void GbmLogin::Init()$/;"	f	class:GbmLogin
+Init	.\globalmgr\GbmTask.cpp	/^void GbmTask::Init()$/;"	f	class:GbmTask
 Interface	.\dbmgr\Interface.cpp	/^Interface::Interface(ServantHandler *Sh)$/;"	f	class:Interface
-Interface	.\dbmgr\Interface.hpp	/^class Interface$/;"	c
+Interface	.\dbmgr\Interface.h	/^class Interface$/;"	c
 Interface	.\gameserver\Interface.cpp	/^Interface::Interface(ServantHandler *Sh)$/;"	f	class:Interface
-Interface	.\gameserver\Interface.hpp	/^class Interface$/;"	c
-LIBS	.\source\common.mk	/^LIBS := -levent_core -lpthread -lrt -levent_pthreads/;"	m
+Interface	.\gameserver\Interface.h	/^class Interface$/;"	c
+Interface	.\globalmgr\Interface.cpp	/^Interface::Interface(ServantHandler *Sh)$/;"	f	class:Interface
+Interface	.\globalmgr\Interface.hpp	/^class Interface$/;"	c
+LIBEVENT_PATH	.\framework\common.mk	/^LIBEVENT_PATH ?= $(SERVER_BUILD_PATH)\/..\/3rd\/libevent$/;"	m
+LIBS	.\framework\common.mk	/^LIBS := -levent_core -lpthread -lrt -levent_pthreads -lmysqlclient$/;"	m
+LIB_PATH	.\framework\common.mk	/^LIB_PATH = -L$(FLATCC_PATH)\/lib\//;"	m
 LIST_EMPTY	.\3rd\libevent\include\queue.h	159;"	d
 LIST_END	.\3rd\libevent\include\queue.h	158;"	d
 LIST_ENTRY	.\3rd\libevent\include\queue.h	148;"	d
@@ -278,33 +290,30 @@ LOG_LEVEL	.\source\log.c	/^}LOG_LEVEL;$/;"	t	typeref:enum:log_level_e	file:
 LOG_MESSAGE_SIZE	.\source\log.c	12;"	d	file:
 LOG_WARN	.\source\log.c	/^	LOG_WARN,$/;"	e	enum:log_level_e	file:
 LONG_LONG_MAX	.\3rd\flatcc\portable\pstdint.h	535;"	d
-LoadHandler	.\source\ServantHandler.cpp	/^void ServantHandler::LoadHandler()$/;"	f	class:ServantHandler
+LoadHandler	.\framework\ServantHandler.cpp	/^void ServantHandler::LoadHandler()$/;"	f	class:ServantHandler
+MACRO_H	.\source\macro.h	2;"	d
 MALLOC_H_	.\source\malloc.h	2;"	d
-MASTERDBINFO_H	.\source\MasterDbInfo.h	2;"	d
-MAX_CONNECT	.\source\net_work.c	20;"	d	file:
+MAX_COLUMN_LEN	.\source\db_ops.c	12;"	d	file:
+MAX_CONNECT	.\source\macro.h	9;"	d
 MAX_ENDPOINT_COUNT	.\source\server_env.c	12;"	d	file:
-MAX_SERVER	.\source\NetWork.hpp	18;"	d
-MEMORY	.\source\malloc.h	2;"	d
-MESSAGEQUEUE_H	.\source\MessageDispatch.hpp	2;"	d
-MESSAGE_LEN_SIZE	.\source\net_work.c	18;"	d	file:
-MESSAGE_LEN_SIZE	.\source\util.h	13;"	d
+MAX_SERVER	.\framework\NetWork.h	17;"	d
+MESSAGEQUEUE_H	.\framework\MessageDispatch.h	2;"	d
+MESSAGE_LEN_SIZE	.\source\macro.h	10;"	d
 MM_INTERNAL_H_INCLUDED_	.\3rd\libevent\include\mm-internal.h	27;"	d
 MQ_H	.\source\mq.h	2;"	d
-Malloc	.\source\malloc.c	/^void *Malloc(size_t size)$/;"	f
-MasterDbInfo	.\source\MasterDbInfo.h	/^	MasterDbInfo() {}$/;"	f	class:MasterDbInfo
-MasterDbInfo	.\source\MasterDbInfo.h	/^class MasterDbInfo$/;"	c
-MessageDispatch	.\source\MessageDispatch.cpp	/^MessageDispatch::MessageDispatch()$/;"	f	class:MessageDispatch
-MessageDispatch	.\source\MessageDispatch.hpp	/^class MessageDispatch$/;"	c
-NETWORK_HPP	.\source\NetWork.hpp	2;"	d
+Malloc	.\source\malloc.h	7;"	d
+MessageDispatch	.\framework\MessageDispatch.cpp	/^MessageDispatch::MessageDispatch()$/;"	f	class:MessageDispatch
+MessageDispatch	.\framework\MessageDispatch.h	/^class MessageDispatch$/;"	c
+NETWORK_HPP	.\framework\NetWork.h	2;"	d
 NETWROK_H	.\source\net_work.h	2;"	d
-NEW	.\source\malloc.h	4;"	d
-NetWork	.\source\NetWork.cpp	/^NetWork::NetWork(struct server_config_t *sc)$/;"	f	class:NetWork
-NetWork	.\source\NetWork.hpp	/^class NetWork$/;"	c
-OBJECT	.\source\common.mk	/^OBJECT := server_main.cpp log.c timer.c malloc.c server_env.c util.c ServerStart.cpp server_config.c server_thread.c \\$/;"	m
-OnClientClose	.\source\NetWork.cpp	/^void NetWork::OnClientClose(socket_t fd, void *userdata)$/;"	f	class:NetWork
-OnServerConnected	.\source\NetWork.cpp	/^void NetWork::OnServerConnected(socket_t fd, void *userdata)$/;"	f	class:NetWork
+NEW	.\source\malloc.h	11;"	d
+NetWork	.\framework\NetWork.cpp	/^NetWork::NetWork(struct server_config_t *sc)$/;"	f	class:NetWork
+NetWork	.\framework\NetWork.h	/^class NetWork$/;"	c
+OnClientClose	.\framework\NetWork.cpp	/^void NetWork::OnClientClose(socket_t fd, void *userdata)$/;"	f	class:NetWork
+OnServerConnected	.\framework\NetWork.cpp	/^void NetWork::OnServerConnected(socket_t fd, void *userdata)$/;"	f	class:NetWork
 OneClientOut	.\dbmgr\Interface.cpp	/^void Interface::OneClientOut(socket_t fd)$/;"	f	class:Interface
 OneClientOut	.\gameserver\Interface.cpp	/^void Interface::OneClientOut(socket_t fd)$/;"	f	class:Interface
+OneClientOut	.\globalmgr\Interface.cpp	/^void Interface::OneClientOut(socket_t fd)$/;"	f	class:Interface
 PARSE_INTEGER_END	.\3rd\flatcc\portable\pparseint.h	58;"	d
 PARSE_INTEGER_INVALID	.\3rd\flatcc\portable\pparseint.h	56;"	d
 PARSE_INTEGER_OVERFLOW	.\3rd\flatcc\portable\pparseint.h	54;"	d
@@ -347,7 +356,6 @@ PENDIAN_H	.\3rd\flatcc\portable\pendian.h	2;"	d
 PINLINE_H	.\3rd\flatcc\portable\pinline.h	2;"	d
 PINTTYPES_H	.\3rd\flatcc\portable\pinttypes.h	2;"	d
 PORT	.\test\client\client.c	/^static const int PORT = 8000;$/;"	v	file:
-PORT	.\test\epoll_client.c	/^static const int PORT = 9995;$/;"	v	file:
 PORTABLE_C11_ALIGNED_ALLOC	.\3rd\flatcc\portable\paligned_alloc.h	32;"	d
 PORTABLE_C11_ALIGNED_ALLOC	.\3rd\flatcc\portable\paligned_alloc.h	34;"	d
 PORTABLE_C11_ALIGNED_ALLOC	.\3rd\flatcc\portable\paligned_alloc.h	36;"	d
@@ -489,25 +497,23 @@ READFILE_H	.\3rd\flatcc\support\readfile.h	2;"	d
 REFLECTION_BUILDER_H	.\3rd\flatcc\reflection\reflection_builder.h	2;"	d
 REFLECTION_READER_H	.\3rd\flatcc\reflection\reflection_reader.h	2;"	d
 REFLECTION_VERIFIER_H	.\3rd\flatcc\reflection\reflection_verifier.h	2;"	d
-REGISTER_SERVANT	.\source\interface.h	4;"	d
 REPORTERROR	.\3rd\flatcc\portable\pstdint.h	814;"	d
-RealseServant	.\source\ServantMgr.cpp	/^void ServantMgr::RealseServant()$/;"	f	class:ServantMgr
-RegisterHandler	.\source\ServantHandler.hpp	13;"	d
+RegisterHandler	.\framework\ServantHandler.h	14;"	d
 RegisterTimer	.\dbmgr\Interface.cpp	/^void Interface::RegisterTimer(timer_execute_func func, void *userdata, int msec)$/;"	f	class:Interface
 RegisterTimer	.\gameserver\Interface.cpp	/^void Interface::RegisterTimer(timer_execute_func func, void *userdata, int msec)$/;"	f	class:Interface
-ReleaseHandler	.\source\ServantHandler.cpp	/^void ServantHandler::ReleaseHandler()$/;"	f	class:ServantHandler
-RunHandlerByServant	.\source\ServantHandler.cpp	/^bool ServantHandler::RunHandlerByServant(SERVANT_TYPE servant, std::string msg)$/;"	f	class:ServantHandler
+RegisterTimer	.\globalmgr\Interface.cpp	/^void Interface::RegisterTimer(timer_execute_func func, void *userdata, int msec)$/;"	f	class:Interface
+ReleaseHandler	.\framework\ServantHandler.cpp	/^void ServantHandler::ReleaseHandler()$/;"	f	class:ServantHandler
+RunHandlerByServant	.\framework\ServantHandler.cpp	/^bool ServantHandler::RunHandlerByServant(SERVANT_TYPE servant, std::string msg)$/;"	f	class:ServantHandler
 S	.\source\servant.c	/^static struct servant_t S;$/;"	v	typeref:struct:servant_t	file:
-SERVANTBASE_H	.\source\ServantBase.hpp	2;"	d
-SERVANTDEF_H	.\common\ServantDef.hpp	2;"	d
-SERVANTHANDLER_H	.\source\ServantHandler.hpp	2;"	d
-SERVANT_MASK	.\source\util.h	12;"	d
-SERVANT_MGR	.\source\ServantMgr.h	2;"	d
-SERVANT_SHIFT	.\source\util.h	9;"	d
-SERVANT_SIZE	.\source\util.h	10;"	d
-SERVANT_TYPE	.\source\ServantHandler.hpp	10;"	d
-SERVANT_TYPE	.\source\util.h	8;"	d
-SERVERSTART_H	.\source\ServerStart.hpp	2;"	d
+SERVANTBASE_H	.\framework\ServantBase.h	2;"	d
+SERVANTDEF_H	.\framework\ServantDef.h	2;"	d
+SERVANTHANDLER_H	.\framework\ServantHandler.h	2;"	d
+SERVANT_MASK	.\source\macro.h	8;"	d
+SERVANT_SHIFT	.\source\macro.h	5;"	d
+SERVANT_SIZE	.\source\macro.h	6;"	d
+SERVANT_TYPE	.\framework\ServantHandler.h	11;"	d
+SERVANT_TYPE	.\source\macro.h	4;"	d
+SERVERSTART_H	.\framework\ServerStart.h	2;"	d
 SERVER_ENV_H	.\source\server_env.h	2;"	d
 SERVER_IMP_H	.\source\server_config.h	2;"	d
 SERVER_THREAD_H	.\source\server_thread.h	2;"	d
@@ -547,25 +553,24 @@ STDINT_H_UINTPTR_T_DEFINED	.\3rd\flatcc\portable\pstdint.h	780;"	d
 STR	.\3rd\flatcc\portable\pstdint.h	878;"	d
 STR_MAX	.\source\server_env.c	11;"	d	file:
 SYS_QUEUE_H__	.\3rd\libevent\include\queue.h	36;"	d
-SendMsg	.\source\NetWork.cpp	/^void NetWork::SendMsg(SERVANT_TYPE servant, const char *msg)$/;"	f	class:NetWork
-SendMsg	.\source\ServantBase.cpp	/^void ServantBase::SendMsg(SERVANT_TYPE servant, const char *msg)$/;"	f	class:ServantBase
-ServantBase	.\source\ServantBase.cpp	/^ServantBase::ServantBase()$/;"	f	class:ServantBase
-ServantBase	.\source\ServantBase.hpp	/^class ServantBase$/;"	c
-ServantCallBack	.\source\ServantHandler.cpp	/^void ServantHandler::ServantCallBack(void *userdata, SERVANT_TYPE servant, char *msg)$/;"	f	class:ServantHandler
-ServantHandler	.\source\ServantHandler.cpp	/^ServantHandler::ServantHandler()$/;"	f	class:ServantHandler
-ServantHandler	.\source\ServantHandler.hpp	/^class ServantHandler$/;"	c
-ServantList	.\source\ServantMgr.h	/^	typedef std::map<string, class *> ServantList;$/;"	t	class:ServantMgr
-ServantMap	.\source\ServantHandler.hpp	/^	typedef std::map<SERVANT_TYPE, ServantBase*> ServantMap;$/;"	t	class:ServantHandler
-ServantMgr	.\source\ServantMgr.cpp	/^ServantMgr::ServantMgr()$/;"	f	class:ServantMgr
-ServantMgr	.\source\ServantMgr.h	/^class ServantMgr$/;"	c
-ServerStart	.\source\ServerStart.cpp	/^ServerStart::ServerStart(struct server_config_t *sc)$/;"	f	class:ServerStart
-ServerStart	.\source\ServerStart.hpp	/^class ServerStart$/;"	c
+SendMsg	.\framework\NetWork.cpp	/^void NetWork::SendMsg(SERVANT_TYPE servant, const char *msg)$/;"	f	class:NetWork
+SendMsg	.\framework\ServantBase.cpp	/^void ServantBase::SendMsg(SERVANT_TYPE servant, const char *msg)$/;"	f	class:ServantBase
+ServantBase	.\framework\ServantBase.cpp	/^ServantBase::ServantBase()$/;"	f	class:ServantBase
+ServantBase	.\framework\ServantBase.h	/^class ServantBase$/;"	c
+ServantCallBack	.\framework\ServantHandler.cpp	/^void ServantHandler::ServantCallBack(void *userdata, SERVANT_TYPE servant, char *msg)$/;"	f	class:ServantHandler
+ServantHandler	.\framework\ServantHandler.cpp	/^ServantHandler::ServantHandler()$/;"	f	class:ServantHandler
+ServantHandler	.\framework\ServantHandler.h	/^class ServantHandler$/;"	c
+ServantMap	.\framework\ServantHandler.h	/^	typedef std::map<SERVANT_TYPE, ServantBase*> ServantMap;$/;"	t	class:ServantHandler
+ServerStart	.\framework\ServerStart.cpp	/^ServerStart::ServerStart(struct server_config_t *sc)$/;"	f	class:ServerStart
+ServerStart	.\framework\ServerStart.cpp	/^ServerStart::ServerStart(struct server_config_t *sc, struct db_config_t *db)$/;"	f	class:ServerStart
+ServerStart	.\framework\ServerStart.h	/^class ServerStart$/;"	c
 Start	.\dbmgr\Interface.cpp	/^void Interface::Start()$/;"	f	class:Interface
+Start	.\framework\MessageDispatch.cpp	/^void MessageDispatch::Start()$/;"	f	class:MessageDispatch
+Start	.\framework\NetWork.cpp	/^void NetWork::Start()$/;"	f	class:NetWork
+Start	.\framework\ServerStart.cpp	/^void ServerStart::Start()$/;"	f	class:ServerStart
+Start	.\framework\TimerMgr.cpp	/^void TimerMgr::Start()$/;"	f	class:TimerMgr
 Start	.\gameserver\Interface.cpp	/^void Interface::Start()$/;"	f	class:Interface
-Start	.\source\MessageDispatch.cpp	/^void MessageDispatch::Start()$/;"	f	class:MessageDispatch
-Start	.\source\NetWork.cpp	/^void NetWork::Start()$/;"	f	class:NetWork
-Start	.\source\ServerStart.cpp	/^void ServerStart::Start()$/;"	f	class:ServerStart
-Start	.\source\TimerMgr.cpp	/^void TimerMgr::Start()$/;"	f	class:TimerMgr
+Start	.\globalmgr\Interface.cpp	/^void Interface::Start()$/;"	f	class:Interface
 Strdup	.\source\util.c	/^char * Strdup(char *str)$/;"	f
 T	.\source\timer.c	/^struct timer *T = NULL;$/;"	v	typeref:struct:timer
 TAILQ_EMPTY	.\3rd\libevent\include\queue.h	301;"	d
@@ -592,13 +597,13 @@ TESTUMAX	.\3rd\flatcc\portable\pstdint.h	812;"	d
 TEST_BUILDER_H	.\fbs\test_builder.h	2;"	d
 TEST_READER_H	.\fbs\test_reader.h	2;"	d
 TF	.\source\timer.c	/^struct timer_f *TF = NULL;$/;"	v	typeref:struct:timer_f
-THREADMUTEX_H	.\source\ThreadMutex.hpp	2;"	d
-TIMERMGR_H	.\source\TimerMgr.hpp	2;"	d
+THREADMUTEX_H	.\framework\ThreadMutex.h	2;"	d
+TIMERMGR_H	.\framework\TimerMgr.h	2;"	d
 TIMER_H	.\source\timer.h	2;"	d
-ThreadMutex	.\source\ThreadMutex.hpp	/^	ThreadMutex()$/;"	f	class:ThreadMutex
-ThreadMutex	.\source\ThreadMutex.hpp	/^class ThreadMutex$/;"	c
-TimerMgr	.\source\TimerMgr.cpp	/^TimerMgr::TimerMgr()$/;"	f	class:TimerMgr
-TimerMgr	.\source\TimerMgr.hpp	/^class TimerMgr$/;"	c
+ThreadMutex	.\framework\ThreadMutex.h	/^	ThreadMutex()$/;"	f	class:ThreadMutex
+ThreadMutex	.\framework\ThreadMutex.h	/^class ThreadMutex$/;"	c
+TimerMgr	.\framework\TimerMgr.cpp	/^TimerMgr::TimerMgr()$/;"	f	class:TimerMgr
+TimerMgr	.\framework\TimerMgr.h	/^class TimerMgr$/;"	c
 UINT16_C	.\3rd\flatcc\portable\pstdint.h	311;"	d
 UINT16_C	.\3rd\flatcc\portable\pstdint.h	389;"	d
 UINT16_C	.\3rd\flatcc\portable\pstdint.h	392;"	d
@@ -647,12 +652,12 @@ _Alignas	.\3rd\flatcc\portable\pstdalign.h	30;"	d
 _Alignas	.\3rd\flatcc\portable\pstdalign.h	33;"	d
 _Alignof	.\3rd\flatcc\portable\pstdalign.h	31;"	d
 _Alignof	.\3rd\flatcc\portable\pstdalign.h	34;"	d
+_DB_OPS_H_	.\source\db_ops.h	2;"	d
 _PSTDINT_H_INCLUDED	.\3rd\flatcc\portable\pstdint.h	202;"	d
 _PSTDINT_H_INCLUDED	.\3rd\flatcc\portable\pstdint.h	341;"	d
 _Portable_bool	.\3rd\flatcc\portable\pstdbool.h	/^typedef unsigned char _Portable_bool;$/;"	t
 _SERVANT_H_	.\source\servant.h	2;"	d
 _SPINLOCK_H_	.\source\spinlock.h	2;"	d
-_TEST_CB_H_	.\test\test_cb.h	2;"	d
 __BIG_ENDIAN__	.\3rd\flatcc\portable\pendian_detect.h	88;"	d
 __BYTE_ORDER__	.\3rd\flatcc\portable\pendian_detect.h	58;"	d
 __BYTE_ORDER__	.\3rd\flatcc\portable\pendian_detect.h	71;"	d
@@ -872,14 +877,9 @@ __response_formal_args	.\fbs\test_builder.h	28;"	d
 __response_required	.\fbs\login_builder.h	/^static const flatbuffers_voffset_t __response_required[] = {0 };$/;"	v
 __response_required	.\fbs\task_builder.h	/^static const flatbuffers_voffset_t __response_required[] = {0 };$/;"	v
 __response_required	.\fbs\test_builder.h	/^static const flatbuffers_voffset_t __response_required[] = {0 };$/;"	v
-_fprintf	.\test\server.c	/^void _fprintf(const char *str)$/;"	f
 _get_date_buf	.\source\log.c	/^static void _get_date_buf(char *buf)$/;"	f	file:
 _log	.\source\log.c	/^static void _log(LOG_LEVEL log_level, const char *log_msg)$/;"	f	file:
-a	.\test\test.c	/^	int *a;$/;"	m	struct:func_t	file:
-a	.\test\test_cb.h	/^	int a;$/;"	m	struct:st
 accepted_cb	.\source\net_work.c	/^void accepted_cb(struct evconnlistener *listener, socket_t fd,$/;"	f
-address	.\source\EndpointServer.hpp	/^	const char *address;$/;"	m	class:EndpointServer
-address	.\source\NetWork.hpp	/^	char address[MAX_SERVER][24];$/;"	m	class:NetWork
 address	.\source\net_work.c	/^static char address[MAX_CONNECT][24];$/;"	v	file:
 address	.\source\server_config.h	/^	const char *address;$/;"	m	struct:server_config_t
 align	.\3rd\flatcc\flatcc_builder.h	/^    uint16_t align;$/;"	m	struct:__flatcc_builder_frame
@@ -903,13 +903,11 @@ allow_string_key	.\3rd\flatcc\flatcc.h	/^    int allow_string_key;$/;"	m	struct:
 allow_struct_field_deprecate	.\3rd\flatcc\flatcc.h	/^    int allow_struct_field_deprecate;$/;"	m	struct:flatcc_options
 allow_struct_field_key	.\3rd\flatcc\flatcc.h	/^    int allow_struct_field_key;$/;"	m	struct:flatcc_options
 allow_struct_root	.\3rd\flatcc\flatcc.h	/^    int allow_struct_root;$/;"	m	struct:flatcc_options
-as_root	.\test\test.c	8;"	d	file:
 ascending_enum	.\3rd\flatcc\flatcc.h	/^    int ascending_enum;$/;"	m	struct:flatcc_options
 b_exp	.\3rd\flatcc\portable\grisu3_math.h	/^    int16_t b_exp, d_exp;$/;"	m	struct:grisu3_diy_fp_power
 back	.\3rd\flatcc\flatcc_emitter.h	/^    flatcc_emitter_page_t *front, *back;$/;"	m	struct:flatcc_emitter
 back_cursor	.\3rd\flatcc\flatcc_emitter.h	/^    uint8_t *back_cursor;$/;"	m	struct:flatcc_emitter
 back_left	.\3rd\flatcc\flatcc_emitter.h	/^    size_t back_left;$/;"	m	struct:flatcc_emitter
-base	.\source\NetWork.hpp	/^	struct event_base* base;$/;"	m	class:NetWork	typeref:struct:NetWork::event_base
 be16toh	.\3rd\flatcc\portable\pendian.h	101;"	d
 be16toh	.\3rd\flatcc\portable\pendian.h	119;"	d
 be16toh	.\3rd\flatcc\portable\pendian.h	137;"	d
@@ -983,24 +981,28 @@ ctx	.\3rd\flatcc\flatcc_json_parser.h	/^    void *ctx;$/;"	m	struct:flatcc_json_
 currenttime	.\source\timer.c	/^	zy_uint64_t currenttime; 	\/\/ 当前时间戳$/;"	m	struct:timer	file:
 d64	.\3rd\flatcc\portable\grisu3_math.h	/^    double d64;$/;"	m	union:__anon2
 d_exp	.\3rd\flatcc\portable\grisu3_math.h	/^    int16_t b_exp, d_exp;$/;"	m	struct:grisu3_diy_fp_power
+db_check_connect	.\source\db_ops.c	/^static bool db_check_connect()$/;"	f	file:
+db_close	.\source\db_ops.c	/^void db_close(void)$/;"	f
+db_config	.\framework\ServerStart.h	/^	struct db_config_t *db_config;$/;"	m	class:ServerStart	typeref:struct:ServerStart::db_config_t
+db_config	.\source\server_config.c	/^static struct db_config_t db_config;$/;"	v	typeref:struct:db_config_t	file:
+db_config_t	.\source\server_config.h	/^struct db_config_t {$/;"	s
+db_connect	.\source\db_ops.c	/^void db_connect(const char *db_host, const char *db_user, const char *db_pwd,$/;"	f
+db_connected	.\source\db_ops.c	/^static int db_connected = 0;$/;"	v	file:
+db_get_data	.\source\db_ops.c	/^int db_get_data()$/;"	f
+db_ops	.\source\db_ops.c	/^int db_ops(char *fmt, ...)$/;"	f
+db_query	.\source\db_ops.c	/^void db_query()$/;"	f
 dbenable	.\source\server_config.h	/^	int dbenable;$/;"	m	struct:server_config_t
-dbhost	.\source\MasterDbInfo.h	/^	static char *dbhost;$/;"	m	class:MasterDbInfo
-dbhost	.\source\MasterDbInfo.h	/^char *MasterDbInfo::dbhost = NULL;$/;"	m	class:MasterDbInfo
-dbname	.\source\MasterDbInfo.h	/^	static char *dbname;$/;"	m	class:MasterDbInfo
-dbname	.\source\MasterDbInfo.h	/^char *MasterDbInfo::dbname = NULL;$/;"	m	class:MasterDbInfo
-dbport	.\source\MasterDbInfo.h	/^	static int dbport;$/;"	m	class:MasterDbInfo
-dbport	.\source\MasterDbInfo.h	/^int MasterDbInfo::dbport = 0;$/;"	m	class:MasterDbInfo
-dbpwd	.\source\MasterDbInfo.h	/^	static char *dbpwd;$/;"	m	class:MasterDbInfo
-dbpwd	.\source\MasterDbInfo.h	/^char *MasterDbInfo::dbpwd = NULL;$/;"	m	class:MasterDbInfo
-dbuser	.\source\MasterDbInfo.h	/^	static char *dbuser;$/;"	m	class:MasterDbInfo
-dbuser	.\source\MasterDbInfo.h	/^char *MasterDbInfo::dbuser = NULL;$/;"	m	class:MasterDbInfo
+dbhost	.\source\server_config.h	/^	const char *dbhost;$/;"	m	struct:db_config_t
+dbname	.\source\server_config.h	/^	const char *dbname;$/;"	m	struct:db_config_t
+dbport	.\source\server_config.h	/^	int dbport;$/;"	m	struct:db_config_t
+dbpwd	.\source\server_config.h	/^	const char *dbpwd;$/;"	m	struct:db_config_t
+dbuser	.\source\server_config.h	/^	const char *dbuser;$/;"	m	struct:db_config_t
 default_bin_ext	.\3rd\flatcc\flatcc.h	/^    const char *default_bin_ext;$/;"	m	struct:flatcc_options
 default_bin_schema_ext	.\3rd\flatcc\flatcc.h	/^    const char *default_bin_schema_ext;$/;"	m	struct:flatcc_options
 default_emit_context	.\3rd\flatcc\flatcc_builder.h	/^    flatcc_emitter_t default_emit_context;$/;"	m	struct:flatcc_builder
 default_schema_ext	.\3rd\flatcc\flatcc.h	/^    const char *default_schema_ext;$/;"	m	struct:flatcc_options
 disable_includes	.\3rd\flatcc\flatcc.h	/^    int disable_includes;$/;"	m	struct:flatcc_options
 disable_vt_clustering	.\3rd\flatcc\flatcc_builder.h	/^    int disable_vt_clustering;$/;"	m	struct:flatcc_builder
-do_sleep	.\test\signal.c	/^void do_sleep(int seconds) {$/;"	f
 ds	.\3rd\flatcc\flatcc_builder.h	/^    uint8_t *ds;$/;"	m	struct:flatcc_builder
 ds_first	.\3rd\flatcc\flatcc_builder.h	/^    flatbuffers_uoffset_t ds_first;$/;"	m	struct:__flatcc_builder_frame
 ds_first	.\3rd\flatcc\flatcc_builder.h	/^    flatbuffers_uoffset_t ds_first;$/;"	m	struct:flatcc_builder
@@ -1009,7 +1011,6 @@ ds_offset	.\3rd\flatcc\flatcc_builder.h	/^    flatbuffers_uoffset_t ds_offset;$/
 ds_offset	.\3rd\flatcc\flatcc_builder.h	/^    flatbuffers_uoffset_t ds_offset;$/;"	m	struct:flatcc_builder
 e	.\3rd\flatcc\portable\grisu3_math.h	/^    int e;$/;"	m	struct:grisu3_diy_fp
 echo_cli	.\test\client\client.c	/^void echo_cli(int sock)  $/;"	f
-echo_cli	.\test\epoll_client.c	/^void echo_cli(int sock)  $/;"	f
 elapsed_realtime	.\3rd\flatcc\support\elapsed.h	/^static double elapsed_realtime(void) { \/\/ granularity about 50 microsecs on my machine$/;"	f
 elapsed_realtime	.\3rd\flatcc\support\elapsed.h	/^static double elapsed_realtime(void) { \/\/ returns 0 seconds first time called$/;"	f
 elem_size	.\3rd\flatcc\flatcc_builder.h	/^    flatbuffers_uoffset_t elem_size;$/;"	m	struct:__flatcc_builder_vector_frame
@@ -1020,7 +1021,6 @@ emit_start	.\3rd\flatcc\flatcc_builder.h	/^    flatcc_builder_ref_t emit_start;$
 end	.\3rd\flatcc\flatcc_json_parser.h	/^    const char *end;$/;"	m	struct:flatcc_json_parser_ctx
 end	.\3rd\flatcc\flatcc_verifier.h	/^    flatbuffers_uoffset_t end;$/;"	m	struct:flatcc_table_verifier_descriptor
 end_loc	.\3rd\flatcc\flatcc_json_parser.h	/^    const char *end_loc;$/;"	m	struct:flatcc_json_parser_ctx
-endpointServerList	.\source\NetWork.hpp	/^	std::list<EndpointServer> endpointServerList;$/;"	m	class:NetWork
 endpointlist	.\source\server_config.h	/^	const char *endpointlist;$/;"	m	struct:server_config_t
 env_index	.\source\server_env.c	/^static int env_index = 0;$/;"	v	file:
 env_init	.\source\server_env.c	/^void env_init(const char *machine_conf, const char *config)$/;"	f
@@ -1028,11 +1028,8 @@ error	.\3rd\flatcc\flatcc_json_parser.h	/^    int error;$/;"	m	struct:flatcc_jso
 error	.\3rd\flatcc\flatcc_json_printer.h	/^    int error;$/;"	m	struct:flatcc_json_printer_ctx
 error_loc	.\3rd\flatcc\flatcc_json_parser.h	/^    const char *error_loc;$/;"	m	struct:flatcc_json_parser_ctx
 event_cb	.\source\net_work.c	/^static void event_cb(struct bufferevent *bev, short events, void *userdata)$/;"	f	file:
-eventcb	.\test\lib_client.c	/^static void eventcb(struct bufferevent *bev, short events, void *ptr)$/;"	f	file:
 exit_thread	.\source\server_thread.c	/^void exit_thread()$/;"	f
 f	.\3rd\flatcc\portable\grisu3_math.h	/^    uint64_t f;$/;"	m	struct:grisu3_diy_fp
-f	.\test\test.c	/^	void (*f)(int *a);$/;"	m	struct:func_t	file:
-f	.\test\test_cb.c	/^void f(struct st *s)$/;"	f
 false	.\3rd\flatcc\portable\pstdbool.h	15;"	d
 false	.\3rd\flatcc\portable\pstdbool.h	22;"	d
 false	.\3rd\flatcc\portable\pstdbool.h	30;"	d
@@ -1232,9 +1229,6 @@ front	.\3rd\flatcc\flatcc_emitter.h	/^    flatcc_emitter_page_t *front, *back;$/
 front_cursor	.\3rd\flatcc\flatcc_emitter.h	/^    uint8_t *front_cursor;$/;"	m	struct:flatcc_emitter
 front_left	.\3rd\flatcc\flatcc_emitter.h	/^    size_t front_left;$/;"	m	struct:flatcc_emitter
 func	.\source\timer.c	/^	timer_execute_func func;$/;"	m	struct:timer_f	file:
-func	.\test\test.c	/^void func(int *a)$/;"	f
-func_cb	.\test\test_cb.h	/^typedef void (*func_cb)(struct st *);$/;"	t
-func_t	.\test\test.c	/^struct func_t {$/;"	s	file:
 gen_append	.\3rd\flatcc\flatcc.h	/^    int gen_append;$/;"	m	struct:flatcc_options
 gen_dep	.\3rd\flatcc\flatcc.h	/^    int gen_dep;$/;"	m	struct:flatcc_options
 gen_depfile	.\3rd\flatcc\flatcc.h	/^    const char *gen_depfile;$/;"	m	struct:flatcc_options
@@ -1243,7 +1237,9 @@ gen_outfile	.\3rd\flatcc\flatcc.h	/^    const char *gen_outfile;$/;"	m	struct:fl
 gen_stdout	.\3rd\flatcc\flatcc.h	/^    int gen_stdout;$/;"	m	struct:flatcc_options
 get_client_conn	.\source\net_work.c	/^int get_client_conn()$/;"	f
 get_currenttime	.\source\timer.c	/^zy_uint64_t get_currenttime()$/;"	f
+get_db_config	.\source\server_config.c	/^struct db_config_t *get_db_config()$/;"	f
 get_env_value	.\source\server_env.c	/^char * get_env_value(char *key, char *def_value)$/;"	f
+get_num_rows	.\source\db_ops.c	/^static int get_num_rows(MYSQL_RES *res)$/;"	f	file:
 get_server_config	.\source\server_config.c	/^struct server_config_t * get_server_config()$/;"	f
 get_server_conn	.\source\net_work.c	/^int get_server_conn()$/;"	f
 get_starttime	.\source\timer.c	/^zy_uint64_t get_starttime()$/;"	f
@@ -1282,10 +1278,7 @@ grisu3_pow10_cache	.\3rd\flatcc\portable\grisu3_math.h	/^static const unsigned i
 grisu3_print_double	.\3rd\flatcc\portable\grisu3_print.h	/^static int grisu3_print_double(double v, char *dst)$/;"	f
 grisu3_print_double_is_defined	.\3rd\flatcc\portable\grisu3_print.h	53;"	d
 grisu3_round_weed	.\3rd\flatcc\portable\grisu3_print.h	/^static int grisu3_round_weed(char *buffer, int len, uint64_t wp_W, uint64_t delta, uint64_t rest, uint64_t ten_kappa, uint64_t ulp)$/;"	f
-handle_sigalrm	.\test\signal.c	/^void handle_sigalrm(int signal) {$/;"	f
-handle_signal	.\test\signal.c	/^void handle_signal(int signal) {$/;"	f
 handle_sigpipe	.\test\client\client.c	/^void handle_sigpipe(int sig)  $/;"	f
-handle_sigpipe	.\test\epoll_client.c	/^void handle_sigpipe(int sig)  $/;"	f
 head	.\source\mq.h	/^	struct message_queue *head;$/;"	m	struct:global_queue	typeref:struct:global_queue::message_queue
 hexdump	.\3rd\flatcc\support\hexdump.h	/^static void hexdump(char *desc, void *addr, size_t len, FILE *fp) {$/;"	f
 hide_later_enum	.\3rd\flatcc\flatcc.h	/^    int hide_later_enum;$/;"	m	struct:flatcc_options
@@ -1318,6 +1311,7 @@ id_end	.\3rd\flatcc\flatcc_builder.h	/^    flatbuffers_voffset_t id_end;$/;"	m	s
 identifier	.\3rd\flatcc\flatcc_builder.h	/^    flatcc_builder_identifier_t identifier;$/;"	m	struct:__flatcc_builder_buffer_frame
 identifier	.\3rd\flatcc\flatcc_builder.h	/^    flatcc_builder_identifier_t identifier;$/;"	m	struct:flatcc_builder
 indent	.\3rd\flatcc\flatcc_json_printer.h	/^    uint8_t indent;$/;"	m	struct:flatcc_json_printer_ctx
+init_db_config	.\source\server_config.c	/^void init_db_config(const char *dbhost,	int dbport,	const char *dbname,	const char *dbuser,	const char *dbpwd)$/;"	f
 init_server_config	.\source\server_config.c	/^void init_server_config(const char *address, int port, int prefix, const char *logpath, const char *endpointlist, int thread, int dbenable)$/;"	f
 inline	.\3rd\flatcc\portable\pinline.h	10;"	d
 inline	.\3rd\flatcc\portable\pinline.h	12;"	d
@@ -1390,19 +1384,13 @@ log_t	.\source\log.c	/^struct log_t {$/;"	s	file:
 log_warn	.\source\log.c	/^void log_warn(const char *fmt, ...)$/;"	f
 logpath	.\source\log.c	/^	const char *logpath;$/;"	m	struct:log_t	file:
 logpath	.\source\server_config.h	/^	const char *logpath;$/;"	m	struct:server_config_t
-m_pInstance	.\source\CommonClass.h	/^	T* m_pInstance;$/;"	m	class:CommonClass
+m_pInstance	.\framework\CommonClass.h	/^	T* m_pInstance;$/;"	m	class:CommonClass
 main	.\3rd\flatcc\portable\pprintint.h	/^int main() {$/;"	f
 main	.\3rd\flatcc\portable\pprintint.h	/^int main()$/;"	f
 main	.\3rd\flatcc\portable\pstdint.h	/^int main () {$/;"	f
-main	.\source\server_main.cpp	/^int main(int argc, char *argv[])$/;"	f
-main	.\test\client.c	/^int main()$/;"	f
+main	.\framework\ServerMain.cpp	/^int main(int argc, char *argv[])$/;"	f
 main	.\test\client\client.c	/^int main(int argc, char *argv[])  $/;"	f
-main	.\test\epoll_client.c	/^int main(void)  $/;"	f
-main	.\test\lib_client.c	/^int main(int argc, char **argv)$/;"	f
-main	.\test\server.c	/^int main()$/;"	f
-main	.\test\signal.c	/^int main() {$/;"	f
-main	.\test\test.c	/^int main(int argc, char *argv[])$/;"	f
-main	.\test\test_cb.c	/^int main()$/;"	f
+main	.\test\testso\test.cpp	/^int main(int argc, char *argv[])$/;"	f
 mark	.\3rd\flatcc\flatcc_builder.h	/^    flatcc_builder_ref_t mark;$/;"	m	struct:__flatcc_builder_buffer_frame
 max_count	.\3rd\flatcc\flatcc_builder.h	/^    flatbuffers_uoffset_t max_count;$/;"	m	struct:__flatcc_builder_vector_frame
 max_include_count	.\3rd\flatcc\flatcc.h	/^    int max_include_count;$/;"	m	struct:flatcc_options
@@ -1428,8 +1416,9 @@ mq_pop	.\source\mq.c	/^struct message_queue *mq_pop()$/;"	f
 mq_push	.\source\mq.c	/^void mq_push(struct bufferevent *bev, char *msg)$/;"	f
 mq_release	.\source\mq.c	/^void mq_release(struct message_queue *mq)$/;"	f
 msg	.\source\mq.h	/^	char *msg;$/;"	m	struct:message_queue
-mutex	.\source\ThreadMutex.hpp	/^	pthread_mutex_t mutex;$/;"	m	class:ThreadMutex
+mutex	.\framework\ThreadMutex.h	/^	pthread_mutex_t mutex;$/;"	m	class:ThreadMutex
 mutex	.\test\client\client.c	/^pthread_mutex_t mutex;$/;"	v
+mysql	.\source\db_ops.c	/^MYSQL mysql;$/;"	v
 net_work_callback	.\source\net_work.h	/^typedef void (*net_work_callback)(socket_t, void *);$/;"	t
 net_work_connect	.\source\net_work.c	/^void net_work_connect(const char *endpointlist)$/;"	f
 net_work_init	.\source\net_work.c	/^void net_work_init()$/;"	f
@@ -1447,7 +1436,6 @@ offset_size	.\3rd\flatcc\flatcc.h	/^    int offset_size;$/;"	m	struct:flatcc_opt
 outpath	.\3rd\flatcc\flatcc.h	/^    const char *outpath;$/;"	m	struct:flatcc_options
 own_buffer	.\3rd\flatcc\flatcc_json_printer.h	/^    uint8_t own_buffer;$/;"	m	struct:flatcc_json_printer_ctx
 p	.\3rd\flatcc\flatcc_json_printer.h	/^    char *p;$/;"	m	struct:flatcc_json_printer_ctx
-pack	.\source\util.c	/^void pack(char *dest, int len, SERVANT_TYPE servant, char *message)$/;"	f
 page	.\3rd\flatcc\flatcc_emitter.h	/^    uint8_t page[FLATCC_EMITTER_PAGE_SIZE];$/;"	m	struct:flatcc_emitter_page
 page_offset	.\3rd\flatcc\flatcc_emitter.h	/^    flatbuffers_soffset_t page_offset;$/;"	m	struct:flatcc_emitter_page
 param	.\source\net_work.c	/^	void *param;$/;"	m	struct:callback_t	file:
@@ -1464,13 +1452,9 @@ parse_uint64	.\3rd\flatcc\portable\pparseint.h	/^static inline const char *parse
 pflush	.\3rd\flatcc\flatcc_json_printer.h	/^    const char *pflush;$/;"	m	struct:flatcc_json_printer_ctx
 pl	.\3rd\flatcc\flatcc_builder.h	/^    flatbuffers_voffset_t *pl;$/;"	m	struct:flatcc_builder
 pl_end	.\3rd\flatcc\flatcc_builder.h	/^    flatbuffers_uoffset_t pl_end;$/;"	m	struct:__flatcc_builder_table_frame
-port	.\source\EndpointServer.hpp	/^	int port;$/;"	m	class:EndpointServer
-port	.\source\NetWork.hpp	/^	char port[MAX_SERVER][8];$/;"	m	class:NetWork
 port	.\source\net_work.c	/^static char port[MAX_CONNECT][8];$/;"	v	file:
 port	.\source\server_config.h	/^	int port;$/;"	m	struct:server_config_t
 pos	.\3rd\flatcc\flatcc_json_parser.h	/^    int line, pos;$/;"	m	struct:flatcc_json_parser_ctx
-prefix	.\source\EndpointServer.hpp	/^	int prefix;$/;"	m	class:EndpointServer
-prefix	.\source\NetWork.hpp	/^	char prefix[MAX_SERVER][7];$/;"	m	class:NetWork
 prefix	.\source\net_work.c	/^static char prefix[MAX_CONNECT][10];$/;"	v	file:
 prefix	.\source\server_config.h	/^	int prefix;$/;"	m	struct:server_config_t
 prev	.\3rd\flatcc\flatcc_emitter.h	/^    flatcc_emitter_page_t *prev;$/;"	m	struct:flatcc_emitter_page
@@ -1490,20 +1474,14 @@ print_uint32	.\3rd\flatcc\portable\pprintint.h	/^static int print_uint32(uint32_
 print_uint64	.\3rd\flatcc\portable\pprintint.h	/^static int print_uint64(uint64_t n, char *p)$/;"	f
 print_uint8	.\3rd\flatcc\portable\pprintint.h	/^static int print_uint8(uint8_t n, char *p)$/;"	f
 pthread_cl	.\test\client\client.c	/^void *pthread_cl(void *argv)$/;"	f
-pthread_cl	.\test\epoll_client.c	/^void *pthread_cl(void *argv)$/;"	f
 pthread_num	.\test\client\client.c	/^int pthread_num = 2;$/;"	v
-pthread_num	.\test\epoll_client.c	/^static const int pthread_num = 10;$/;"	v	file:
 px	.\source\net_work.c	/^int px[MAX_CONNECT];$/;"	v
 read_cb	.\source\net_work.c	/^void read_cb(struct bufferevent *bev, void *userdata)$/;"	f
 read_helper	.\source\net_work.c	/^void read_helper(struct bufferevent *bev)$/;"	f
-readcb	.\test\lib_client.c	/^static void readcb(struct bufferevent *bev, void *ctx)$/;"	f	file:
 readfile	.\3rd\flatcc\support\readfile.h	/^static char *readfile(const char *filename, size_t max_size, size_t *size_out)$/;"	f
 readline	.\test\client\client.c	/^ssize_t readline(int sockfd, void *buf, size_t maxline)  $/;"	f
-readline	.\test\epoll_client.c	/^ssize_t readline(int sockfd, void *buf, size_t maxline)  $/;"	f
 readn	.\test\client\client.c	/^ssize_t readn(int fd, void *buf, size_t count)  $/;"	f
-readn	.\test\epoll_client.c	/^ssize_t readn(int fd, void *buf, size_t count)  $/;"	f
 recv_peek	.\test\client\client.c	/^ssize_t recv_peek(int sockfd, void *buf, size_t len)  $/;"	f
-recv_peek	.\test\epoll_client.c	/^ssize_t recv_peek(int sockfd, void *buf, size_t len)  $/;"	f
 reflection_BaseType_Bool	.\3rd\flatcc\reflection\reflection_reader.h	43;"	d
 reflection_BaseType_Byte	.\3rd\flatcc\reflection\reflection_reader.h	44;"	d
 reflection_BaseType_Double	.\3rd\flatcc\reflection\reflection_reader.h	53;"	d
@@ -1606,7 +1584,6 @@ reflection_Type_verify_as_root	.\3rd\flatcc\reflection\reflection_verifier.h	/^s
 reflection_Type_verify_as_root_with_identifier	.\3rd\flatcc\reflection\reflection_verifier.h	/^static inline int reflection_Type_verify_as_root_with_identifier(const void *buf, size_t bufsiz, const char *fid)$/;"	f
 reflection_Type_verify_as_root_with_type_hash	.\3rd\flatcc\reflection\reflection_verifier.h	/^static inline int reflection_Type_verify_as_root_with_type_hash(const void *buf, size_t bufsiz, flatbuffers_thash_t thash)$/;"	f
 reflection_Type_verify_as_typed_root	.\3rd\flatcc\reflection\reflection_verifier.h	/^static inline int reflection_Type_verify_as_typed_root(const void *buf, size_t bufsiz)$/;"	f
-reg	.\test\test_cb.c	/^void reg(int param, func_cb cb)$/;"	f
 request_create	.\fbs\login_builder.h	/^static inline request_ref_t request_create(flatbuffers_builder_t *B __request_formal_args)$/;"	f
 request_create	.\fbs\task_builder.h	/^static inline request_ref_t request_create(flatbuffers_builder_t *B __request_formal_args)$/;"	f
 request_create	.\fbs\test_builder.h	/^static inline request_ref_t request_create(flatbuffers_builder_t *B __request_formal_args)$/;"	f
@@ -1659,34 +1636,33 @@ response_vec_t	.\fbs\test_reader.h	/^typedef const flatbuffers_uoffset_t *respon
 run_thread	.\source\net_work.c	/^void *run_thread(void *userdata)$/;"	f
 self_servant_prefix	.\source\net_work.c	/^int self_servant_prefix = 0;$/;"	v
 send_count	.\test\client\client.c	/^int send_count = 1;$/;"	v
-send_msg	.\source\net_work.c	/^void send_msg(SERVANT_TYPE servant, const char *msg) $/;"	f
-servantList	.\source\ServantMgr.h	/^	ServantList servantList;$/;"	m	class:ServantMgr
-servantMap	.\source\ServantHandler.hpp	/^	ServantMap servantMap;$/;"	m	class:ServantHandler
+send_msg	.\source\net_work.c	/^void send_msg(SERVANT_TYPE servant, const char *msg, int size)$/;"	f
+servantMap	.\framework\ServantHandler.h	/^	ServantMap servantMap;$/;"	m	class:ServantHandler
 servant_cb	.\source\servant.h	/^typedef void (*servant_cb)(void *userdata, SERVANT_TYPE servant, char *msg);$/;"	t
 servant_dispatch	.\source\servant.c	/^void servant_dispatch(struct message_queue *mq)$/;"	f
 servant_init	.\source\servant.c	/^static bool servant_init = false; 	\/\/ 注册完回调之后则认为初始化成功$/;"	v	file:
 servant_prefix	.\source\net_work.c	/^	SERVANT_TYPE servant_prefix;$/;"	m	struct:socket_internal_t	file:
 servant_reg_callback	.\source\servant.c	/^void servant_reg_callback(servant_cb cb, void *userdata)$/;"	f
 servant_t	.\source\servant.c	/^struct servant_t {$/;"	s	file:
-server_config	.\source\NetWork.hpp	/^	struct server_config_t *server_config;$/;"	m	class:NetWork	typeref:struct:NetWork::server_config_t
-server_config	.\source\ServerStart.hpp	/^	struct server_config_t *server_config;$/;"	m	class:ServerStart	typeref:struct:ServerStart::server_config_t
+server_config	.\framework\NetWork.h	/^	struct server_config_t *server_config;$/;"	m	class:NetWork	typeref:struct:NetWork::server_config_t
+server_config	.\framework\ServerStart.h	/^	struct server_config_t *server_config;$/;"	m	class:ServerStart	typeref:struct:ServerStart::server_config_t
 server_config	.\source\server_config.c	/^static server_config_t server_config;$/;"	v	file:
 server_config_t	.\source\server_config.h	/^struct server_config_t {$/;"	s
 server_conn	.\source\net_work.c	/^static int server_conn = 0;$/;"	v	file:
 server_env	.\source\server_env.c	/^struct server_env {$/;"	s	file:
 serverconnected	.\source\net_work.c	/^static callback_t serverconnected;$/;"	v	file:
 set_tcp_no_delay	.\source\net_work.c	/^static void set_tcp_no_delay(socket_t fd)$/;"	f	file:
-set_tcp_no_delay	.\test\lib_client.c	/^static void set_tcp_no_delay(evutil_socket_t fd)$/;"	f	file:
-sh	.\dbmgr\Interface.hpp	/^	ServantHandler *sh;$/;"	m	class:Interface
-sh	.\gameserver\Interface.hpp	/^	ServantHandler *sh;$/;"	m	class:Interface
+sh	.\dbmgr\Interface.h	/^	ServantHandler *sh;$/;"	m	class:Interface
+sh	.\gameserver\Interface.h	/^	ServantHandler *sh;$/;"	m	class:Interface
+sh	.\globalmgr\Interface.hpp	/^	ServantHandler *sh;$/;"	m	class:Interface
 show_benchmark	.\3rd\flatcc\support\elapsed.h	/^static int show_benchmark(const char *descr, double t1, double t2, size_t size, int rep, const char *reptext)$/;"	f
-sin	.\source\NetWork.hpp	/^	struct sockaddr_in sin[MAX_SERVER]; $/;"	m	class:NetWork	typeref:struct:NetWork::sockaddr_in
 sin	.\source\net_work.c	/^static struct sockaddr_in sin[MAX_CONNECT];$/;"	v	typeref:struct:sockaddr_in	file:
 size	.\3rd\flatcc\flatcc_json_printer.h	/^    size_t size;$/;"	m	struct:flatcc_json_printer_ctx
 skip_default	.\3rd\flatcc\flatcc_json_printer.h	/^    uint8_t skip_default;$/;"	m	struct:flatcc_json_printer_ctx
 socket_internal_t	.\source\net_work.c	/^struct socket_internal_t {$/;"	s	file:
-socket_t	.\dbmgr\Interface.hpp	5;"	d
-socket_t	.\gameserver\Interface.hpp	5;"	d
+socket_t	.\dbmgr\Interface.h	5;"	d
+socket_t	.\gameserver\Interface.h	5;"	d
+socket_t	.\globalmgr\Interface.hpp	5;"	d
 socket_t	.\source\net_work.h	20;"	d
 spinlock	.\source\spinlock.h	/^struct spinlock {$/;"	s
 spinlock_destroy	.\source\spinlock.h	/^spinlock_destroy(struct spinlock *lock) {$/;"	f
@@ -1696,7 +1672,6 @@ spinlock_trylock	.\source\spinlock.h	/^spinlock_trylock(struct spinlock *lock) {
 spinlock_unlock	.\source\spinlock.h	/^spinlock_unlock(struct spinlock *lock) {$/;"	f
 srcpath_count	.\3rd\flatcc\flatcc.h	/^    int srcpath_count;$/;"	m	struct:flatcc_options
 srcpaths	.\3rd\flatcc\flatcc.h	/^    const char **srcpaths;$/;"	m	struct:flatcc_options
-st	.\test\test_cb.h	/^struct st {$/;"	s
 start	.\3rd\flatcc\flatcc_json_parser.h	/^    const char *start;$/;"	m	struct:flatcc_json_parser_ctx
 starttime	.\source\timer.c	/^	zy_uint64_t starttime; 	\/\/ 启动时的时间戳$/;"	m	struct:timer	file:
 static_assert	.\3rd\flatcc\portable\pstatic_assert.h	14;"	d
@@ -1724,9 +1699,9 @@ table	.\3rd\flatcc\flatcc_builder.h	/^        __flatcc_builder_table_frame_t tab
 table	.\3rd\flatcc\flatcc_json_printer.h	/^    const void *table;$/;"	m	struct:flatcc_json_printer_table_descriptor
 table	.\3rd\flatcc\flatcc_verifier.h	/^    flatbuffers_uoffset_t table;$/;"	m	struct:flatcc_table_verifier_descriptor
 tail	.\source\mq.h	/^	struct message_queue *tail;$/;"	m	struct:global_queue	typeref:struct:global_queue::message_queue
-test_ch	.\test\test.c	/^void test_ch()$/;"	f
 test_timer	.\dbmgr\Interface.cpp	/^static void test_timer(void *userdata)$/;"	f	file:
 test_timer	.\gameserver\Interface.cpp	/^static void test_timer(void *userdata)$/;"	f	file:
+test_timer	.\globalmgr\Interface.cpp	/^static void test_timer(void *userdata)$/;"	f	file:
 thread	.\source\server_config.h	/^	int thread;$/;"	m	struct:server_config_t
 timer	.\source\timer.c	/^struct timer {$/;"	s	file:
 timer_execute_func	.\source\timer.h	/^typedef void (*timer_execute_func)(void *userdata);$/;"	t
@@ -1736,8 +1711,6 @@ timer_register	.\source\timer.c	/^void timer_register(timer_execute_func func, v
 timer_release	.\source\timer.c	/^void timer_release()$/;"	f
 timer_update	.\source\timer.c	/^void timer_update()$/;"	f
 total	.\3rd\flatcc\flatcc_json_printer.h	/^    size_t total;$/;"	m	struct:flatcc_json_printer_ctx
-total_bytes_read	.\test\lib_client.c	/^int64_t total_bytes_read = 0;$/;"	v
-total_messages_read	.\test\lib_client.c	/^int64_t total_messages_read = 0;$/;"	v
 trim_crlf	.\source\util.c	/^void trim_crlf(char *str)$/;"	f
 true	.\3rd\flatcc\portable\pstdbool.h	14;"	d
 true	.\3rd\flatcc\portable\pstdbool.h	21;"	d
@@ -1827,23 +1800,24 @@ vt_hash	.\3rd\flatcc\flatcc_builder.h	/^    uint32_t vt_hash;$/;"	m	struct:flatc
 vt_max_count	.\3rd\flatcc\flatcc.h	/^    uint64_t vt_max_count;$/;"	m	struct:flatcc_options
 vtable	.\3rd\flatcc\flatcc_json_printer.h	/^    const void *vtable;$/;"	m	struct:flatcc_json_printer_table_descriptor
 vtable	.\3rd\flatcc\flatcc_verifier.h	/^    const void *vtable;$/;"	m	struct:flatcc_table_verifier_descriptor
-writecb	.\test\lib_client.c	/^static void writecb(struct bufferevent *bev, void *ctx)$/;"	f	file:
 writen	.\test\client\client.c	/^ssize_t writen(int fd, const void *buf, size_t count)  $/;"	f
-writen	.\test\epoll_client.c	/^ssize_t writen(int fd, const void *buf, size_t count)  $/;"	f
+zy_evutil_vsnprintf	.\source\db_ops.c	13;"	d	file:
 zy_evutil_vsnprintf	.\source\log.c	11;"	d	file:
 zy_gettimeofday	.\source\timer.c	9;"	d	file:
 zy_uint32_t	.\source\timer.c	8;"	d	file:
 zy_uint64_t	.\source\timer.c	7;"	d	file:
 ~DbLogin	.\dbmgr\DbLogin.cpp	/^DbLogin::~DbLogin()$/;"	f	class:DbLogin
 ~DbTask	.\dbmgr\DbTask.cpp	/^DbTask::~DbTask()$/;"	f	class:DbTask
-~EndpointServer	.\source\EndpointServer.cpp	/^EndpointServer::~EndpointServer()$/;"	f	class:EndpointServer
+~GbmLogin	.\globalmgr\GbmLogin.cpp	/^GbmLogin::~GbmLogin()$/;"	f	class:GbmLogin
+~GbmTask	.\globalmgr\GbmTask.cpp	/^GbmTask::~GbmTask()$/;"	f	class:GbmTask
 ~GsLogin	.\gameserver\GsLogin.cpp	/^GsLogin::~GsLogin()$/;"	f	class:GsLogin
 ~GsTask	.\gameserver\GsTask.cpp	/^GsTask::~GsTask()$/;"	f	class:GsTask
 ~Interface	.\dbmgr\Interface.cpp	/^Interface::~Interface()$/;"	f	class:Interface
 ~Interface	.\gameserver\Interface.cpp	/^Interface::~Interface()$/;"	f	class:Interface
-~MessageDispatch	.\source\MessageDispatch.cpp	/^MessageDispatch::~MessageDispatch()$/;"	f	class:MessageDispatch
-~NetWork	.\source\NetWork.cpp	/^NetWork::~NetWork()$/;"	f	class:NetWork
-~ServantBase	.\source\ServantBase.cpp	/^ServantBase::~ServantBase()$/;"	f	class:ServantBase
-~ServantHandler	.\source\ServantHandler.cpp	/^ServantHandler::~ServantHandler()$/;"	f	class:ServantHandler
-~ThreadMutex	.\source\ThreadMutex.hpp	/^	~ThreadMutex()$/;"	f	class:ThreadMutex
-~TimerMgr	.\source\TimerMgr.cpp	/^TimerMgr::~TimerMgr()$/;"	f	class:TimerMgr
+~Interface	.\globalmgr\Interface.cpp	/^Interface::~Interface()$/;"	f	class:Interface
+~MessageDispatch	.\framework\MessageDispatch.cpp	/^MessageDispatch::~MessageDispatch()$/;"	f	class:MessageDispatch
+~NetWork	.\framework\NetWork.cpp	/^NetWork::~NetWork()$/;"	f	class:NetWork
+~ServantBase	.\framework\ServantBase.cpp	/^ServantBase::~ServantBase()$/;"	f	class:ServantBase
+~ServantHandler	.\framework\ServantHandler.cpp	/^ServantHandler::~ServantHandler()$/;"	f	class:ServantHandler
+~ThreadMutex	.\framework\ThreadMutex.h	/^	~ThreadMutex()$/;"	f	class:ThreadMutex
+~TimerMgr	.\framework\TimerMgr.cpp	/^TimerMgr::~TimerMgr()$/;"	f	class:TimerMgr
