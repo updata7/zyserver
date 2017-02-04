@@ -17202,3 +17202,10 @@
 2017-01-23 15:39:22.838 [DEBUG] message came 0x00020002I am GsTask. 
 2017-01-23 15:39:22.849 [DEBUG] servant(0x00020002) message(I am GsTask.)
  
+2017-02-04 18:20:35.699 [INFO] zredis:redis_connect success. 
+2017-02-04 18:20:44.104 [ERROR] connect error: Connection refused 
+2017-02-04 18:20:44.104 [INFO] zredis:redis_connect success. 
+2017-02-04 18:21:11.708 [ERROR] connect error: Connection refused 
+2017-02-04 18:27:43.516 [INFO] zredis:redis_connect success. 
+2017-02-04 18:28:17.765 [INFO] zredis:redis_connect success. 
+2017-02-04 18:29:54.846 [INFO] zredis:redis_connect success. 

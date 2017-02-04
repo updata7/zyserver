@@ -25,8 +25,8 @@ public:
 	static void SendMsg(SERVANT_TYPE servant, const char *msg);
 	void RegServerConnectedCb(net_work_callback cb, void *userdata);
 	void RegServerClosedCb(net_work_callback cb, void *userdata);
-	void RegClientIn(net_work_callback cb, void *userdata);
-	void RegClientOut(net_work_callback cb, void *userdata);
+	void RegClientInCb(net_work_callback cb, void *userdata);
+	void RegClientOutCb(net_work_callback cb, void *userdata);
 private:
 	struct server_config_t *server_config;
 	static void OnClientClose(socket_t fd, void *userdata);

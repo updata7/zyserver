@@ -7,6 +7,9 @@ dbhost = 127.0.0.1
 dbport = 3308
 dbuser = root
 dbpwd = 123456
+redisable = 1
+redishost = 127.0.0.1
+redisport = 6379
 
 #本服务器
 address = dbmgr

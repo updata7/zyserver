@@ -37,8 +37,8 @@ void ServerStart::Start()
 
 	nw->RegServerConnectedCb(inter_face->OnServerConnected, inter_face);
 	nw->RegServerClosedCb(inter_face->OnServerClosed, inter_face);
-	nw->RegClientIn(inter_face->OnClientIn, inter_face);
-	nw->RegClientOut(inter_face->OnClientOut, inter_face);
+	nw->RegClientInCb(inter_face->OnClientIn, inter_face);
+	nw->RegClientOutCb(inter_face->OnClientOut, inter_face);
 	nw->Start();
 	
 	inter_face->Start();

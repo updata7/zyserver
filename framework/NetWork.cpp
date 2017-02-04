@@ -37,12 +37,12 @@ void NetWork::RegServerClosedCb(net_work_callback cb, void *userdata)
 	net_work_reg_onserverclosed(cb, userdata);
 }
 
-void NetWork::RegClientIn(net_work_callback cb, void *userdata)
+void NetWork::RegClientInCb(net_work_callback cb, void *userdata)
 {
 	net_work_reg_onclientin(cb, userdata);
 }
 
-void NetWork::RegClientOut(net_work_callback cb, void *userdata)
+void NetWork::RegClientOutCb(net_work_callback cb, void *userdata)
 {
 	net_work_reg_onclientout(cb, userdata);
 }
