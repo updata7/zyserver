@@ -5,6 +5,7 @@
 extern "C" {
 #endif 	// __cplusplus
 
+#define zy_evutil_vsnprintf vsnprintf
 void log_init(const char *logpath);
 void log_error(const char *fmt, ...);
 void log_debug(const char *fmt, ...);

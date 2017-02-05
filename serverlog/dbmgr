@@ -17209,3 +17209,32 @@
 2017-02-04 18:27:43.516 [INFO] zredis:redis_connect success. 
 2017-02-04 18:28:17.765 [INFO] zredis:redis_connect success. 
 2017-02-04 18:29:54.846 [INFO] zredis:redis_connect success. 
+2017-02-05 08:32:31.077 [ERROR] connect error: Connection refused 
+2017-02-05 08:33:10.912 [INFO] zredis:redis_connect success. 
+2017-02-05 09:22:10.090 [INFO] zredis:redis_connect success. 
+2017-02-05 09:23:28.026 [INFO] zredis:redis_connect success. 
+2017-02-05 09:23:28.027 [INFO] ==== k1 = v1 
+2017-02-05 09:24:04.831 [INFO] zredis:redis_connect success. 
+2017-02-05 09:24:04.832 [INFO] ==== set_ret =  
+2017-02-05 09:24:04.833 [INFO] ==== k1 = v1 
+2017-02-05 09:24:36.647 [INFO] zredis:redis_connect success. 
+2017-02-05 09:24:36.648 [INFO] ==== set_ret =  
+2017-02-05 09:24:36.648 [INFO] ==== k1 = v1 
+2017-02-05 09:24:59.979 [INFO] zredis:redis_connect success. 
+2017-02-05 09:24:59.980 [INFO] ==== set_ret =  
+2017-02-05 09:26:26.315 [INFO] zredis:redis_connect success. 
+2017-02-05 09:26:29.552 [INFO] ==== set_ret = ERR unknown command 'set1' 
+2017-02-05 09:27:43.698 [INFO] zredis:redis_connect success. 
+2017-02-05 09:27:43.699 [INFO] ==== set_ret = ERR unknown command 'set1' 
+2017-02-05 09:27:43.699 [INFO] ==== k2 = v1 
+2017-02-05 09:30:27.816 [INFO] zredis:redis_connect success. 
+2017-02-05 09:30:27.816 [INFO] ==== set_ret = ERR unknown command 'set1' 
+2017-02-05 09:33:33.449 [INFO] zredis:redis_connect success. 
+2017-02-05 09:33:33.450 [INFO] ==== set_ret = ERR unknown command 'set1' 
+2017-02-05 09:34:19.731 [INFO] zredis:redis_connect success. 
+2017-02-05 09:34:19.731 [INFO] ==== set_ret = ERR unknown command 'set1' 
+2017-02-05 09:35:51.714 [INFO] zredis:redis_connect success. 
+2017-02-05 09:35:51.715 [INFO] ==== set_ret = ERR unknown command 'set1' 
+2017-02-05 09:35:51.715 [INFO] ==== k2 =  
+2017-02-05 09:40:41.375 [INFO] zredis:redis_connect success. 
+2017-02-05 09:40:48.336 [ERROR] connect error: Connection refused 

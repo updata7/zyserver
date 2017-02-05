@@ -8,7 +8,6 @@
 #include <string.h>
 #include <sys/time.h>
 
-#define zy_evutil_vsnprintf vsnprintf
 #define LOG_MESSAGE_SIZE 4096
 #define LOG_DATE_SIZE 24
 
