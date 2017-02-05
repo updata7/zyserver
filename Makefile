@@ -1,21 +1,29 @@
-.PHONY:all gamesv dbmgr clean_gamesv clean_dbmgr clean
+.PHONY:all gameserver dbmgr clean_gameserver clean_dbmgr clean
 
 all:
-	make -C gamesv
+	make -C gameserver
 	make -C dbmgr
+	make -C globalmgr
 
-gamesv:
-	make -C gamesv
+gameserver:
+	make -C gameserver
 
 dbmgr:
 	make -C dbmgr
 
-clean_gamesv:
-	make clean -C gamesv
+globalmgr:
+	make -C globalmgr
+
+clean_gameserver:
+	make clean -C gameserver
 
 clean_dbmgr:
 	make clean -C dbmgr
 
+clean_globalmgr:
+	make clean -C globalmgr
+	
 clean:
-	make clean -C gamesv
+	make clean -C gameserver
 	make clean -C dbmgr
+	make clean -C globalmgr

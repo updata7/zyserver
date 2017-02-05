@@ -22,10 +22,9 @@
                 exit(EXIT_FAILURE); \
         } while(0)
 
-static const int PORT = 8000;
+int port = 8000;
 int pthread_num = 2;
 int messagelen = 20;
-int send_count = 1;
 pthread_mutex_t mutex;
 
 ssize_t readn(int fd, void *buf, size_t count)  
@@ -131,31 +130,7 @@ ssize_t readline(int sockfd, void *buf, size_t maxline)
 }  
   
 void echo_cli(int sock)  
-{  
-    /* 
-        char sendbuf[1024] = {0}; 
-            char recvbuf[1024] = {0}; 
-            while (fgets(sendbuf, sizeof(sendbuf), stdin) != NULL) 
-            { 
-                    writen(sock, sendbuf, strlen(sendbuf)); 
-     
-                    int ret = readline(sock, recvbuf, sizeof(recvbuf)); 
-                    if (ret == -1) 
-                            ERR_EXIT("readline"); 
-                    else if (ret == 0) 
-                    { 
-                            printf("client close\n"); 
-                            break; 
-                    } 
-     
-                    fputs(recvbuf, stdout); 
-                    memset(sendbuf, 0, sizeof(sendbuf)); 
-                    memset(recvbuf, 0, sizeof(recvbuf)); 
-            } 
-     
-            close(sock); 
-    */  
-  
+{
     fd_set rset;  
     FD_ZERO(&rset);  
   
@@ -169,7 +144,8 @@ void echo_cli(int sock)
     
     int i;
     char sendbuf[1024+4] = {0};
-    
+    char sendbuf2[1024] = {0};
+
     messagelen = messagelen > 1024 ? 1024 : messagelen;
     messagelen = messagelen < 15 ? 15 : messagelen;
     sprintf(sendbuf, "%04d", messagelen);
@@ -183,6 +159,10 @@ void echo_cli(int sock)
     int stdineof = 0;  
     i = 0;
     maxfd += 1;
+    // if (fgets(sendbuf2, sizeof(sendbuf2), stdin) != NULL) {
+    //     write(sock, sendbuf, strlen(sendbuf));  
+    //     memset(sendbuf, 0, sizeof(sendbuf));
+    // }
 
     while (1)
     {  
@@ -196,20 +176,20 @@ void echo_cli(int sock)
         if (nready == 0)  
             continue;  
   
-        if (FD_ISSET(sock, &rset))  
-        {  
-            int ret = readline(sock, recvbuf, sizeof(recvbuf));  
-            if (ret == -1)  
-                ERR_EXIT("readline");  
-            else if (ret == 0)  
-            {  
-                printf("server close\n");  
-                break;  
-            }  
+        // if (FD_ISSET(sock, &rset))  
+        // {  
+        //     int ret = readline(sock, recvbuf, sizeof(recvbuf));  
+        //     if (ret == -1)  
+        //         ERR_EXIT("readline");  
+        //     else if (ret == 0)  
+        //     {  
+        //         printf("server close\n");  
+        //         break;  
+        //     }  
 
-            fputs(recvbuf, stdout);  
-            memset(recvbuf, 0, sizeof(recvbuf));  
-        }  
+        //     fputs(recvbuf, stdout);  
+        //     memset(recvbuf, 0, sizeof(recvbuf));  
+        // }  
         if (FD_ISSET(fd_stdin, &rset))  
         {  
             // if (fgets(sendbuf, sizeof(sendbuf), stdin) == NULL)  
@@ -319,7 +299,7 @@ int main(int argc, char *argv[])
         "a:"
         "t:"
         "l:"
-        "c:"))){
+        "p:"))){
         switch(c) {
             case 'a':
                 ip = optarg;
@@ -330,8 +310,8 @@ int main(int argc, char *argv[])
             case 'l':
                 messagelen = atoi(optarg);
                 break;
-            case 'c':
-                send_count = atoi(optarg);
+            case 'p':
+                port = atoi(optarg);
                 break;
             default:
                 fprintf(stderr, "invalid param %c\n", c);
@@ -348,7 +328,7 @@ int main(int argc, char *argv[])
     struct sockaddr_in servaddr;  
     memset(&servaddr, 0, sizeof(servaddr));  
     servaddr.sin_family = AF_INET;  
-    servaddr.sin_port = htons(PORT);  
+    servaddr.sin_port = htons(port);  
     // servaddr.sin_addr.s_addr = inet_addr("10.21.210.242"); 
     servaddr.sin_addr.s_addr = inet_addr(ip); 
     

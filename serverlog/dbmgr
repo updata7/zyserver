@@ -17238,3 +17238,256 @@
 2017-02-05 09:35:51.715 [INFO] ==== k2 =  
 2017-02-05 09:40:41.375 [INFO] zredis:redis_connect success. 
 2017-02-05 09:40:48.336 [ERROR] connect error: Connection refused 
+2017-02-05 09:57:06.621 [INFO] zredis:redis_connect success. 
+2017-02-05 10:18:27.031 [ERROR] redis connect error: Connection refused 
+2017-02-05 10:18:45.614 [INFO] zredis:redis_connect success. 
+2017-02-05 19:04:19.631 [DEBUG] buf_len (RGST) 
+2017-02-05 19:04:19.636 [DEBUG] message(0x0002) each_recv_len(6) total_len(6) 
+2017-02-05 19:04:19.639 [INFO] servant_prefix(0x0002) register success. 
+2017-02-05 19:04:45.948 [DEBUG] Connection closed, fd = 10. 
+2017-02-05 19:04:45.949 [DEBUG] servant_prefix(0x0002) disconnected 
+2017-02-05 19:04:47.414 [DEBUG] buf_len (RGST) 
+2017-02-05 19:04:47.415 [DEBUG] message(0x0002) each_recv_len(6) total_len(6) 
+2017-02-05 19:04:47.415 [INFO] servant_prefix(0x0002) register success. 
+2017-02-05 19:05:30.613 [DEBUG] buf_len (RGST) 
+2017-02-05 19:05:30.613 [DEBUG] message(0x0003) each_recv_len(6) total_len(6) 
+2017-02-05 19:05:30.616 [INFO] servant_prefix(0x0003) register success. 
+2017-02-05 19:05:36.536 [DEBUG] Connection closed, fd = 11. 
+2017-02-05 19:05:36.537 [DEBUG] servant_prefix(0x0003) disconnected 
+2017-02-05 19:05:37.279 [DEBUG] buf_len (RGST) 
+2017-02-05 19:05:37.280 [DEBUG] message(0x0003) each_recv_len(6) total_len(6) 
+2017-02-05 19:05:37.280 [INFO] servant_prefix(0x0003) register success. 
+2017-02-05 19:17:35.100 [DEBUG] buf_len (0050) 
+2017-02-05 19:17:35.101 [DEBUG] message(0x000100016666666666666666666666666666666666666666) each_recv_len(50) total_len(50) 
+2017-02-05 19:17:35.104 [DEBUG] buf_len (0050) 
+2017-02-05 19:17:35.104 [DEBUG] message(0x000100016666666666666666666666666666666666666666) each_recv_len(50) total_len(50) 
+2017-02-05 19:17:35.111 [DEBUG] buf_len (0050) 
+2017-02-05 19:17:35.112 [DEBUG] message(0x000100016666666666666666666666666666666666666666) each_recv_len(50) total_len(50) 
+2017-02-05 19:17:35.112 [DEBUG] buf_len (0050) 
+2017-02-05 19:17:35.120 [DEBUG] message(0x000100016666666666666666666666666666666666666666) each_recv_len(50) total_len(50) 
+2017-02-05 19:17:35.120 [DEBUG] buf_len (0050) 
+2017-02-05 19:17:35.120 [DEBUG] message(0x000100016666666666666666666666666666666666666666) each_recv_len(50) total_len(50) 
+2017-02-05 19:17:35.123 [DEBUG] message came 0x000100016666666666666666666666666666666666666666 
+2017-02-05 19:17:35.123 [DEBUG] servant(0x00010001) message(6666666666666666666666666666666666666666)
+ 
+2017-02-05 19:17:35.124 [ERROR] found no servant(0x00010001) 
+2017-02-05 19:17:35.124 [DEBUG] message came 0x000100016666666666666666666666666666666666666666 
+2017-02-05 19:17:35.125 [DEBUG] servant(0x00010001) message(6666666666666666666666666666666666666666)
+ 
+2017-02-05 19:17:35.125 [ERROR] found no servant(0x00010001) 
+2017-02-05 19:17:35.131 [DEBUG] message came 0x000100016666666666666666666666666666666666666666 
+2017-02-05 19:17:35.131 [DEBUG] servant(0x00010001) message(6666666666666666666666666666666666666666)
+ 
+2017-02-05 19:17:35.132 [ERROR] found no servant(0x00010001) 
+2017-02-05 19:17:35.132 [DEBUG] message came 0x000100016666666666666666666666666666666666666666 
+2017-02-05 19:17:35.134 [DEBUG] servant(0x00010001) message(6666666666666666666666666666666666666666)
+ 
+2017-02-05 19:17:35.135 [ERROR] found no servant(0x00010001) 
+2017-02-05 19:17:35.142 [DEBUG] message came 0x000100016666666666666666666666666666666666666666 
+2017-02-05 19:17:35.149 [DEBUG] servant(0x00010001) message(6666666666666666666666666666666666666666)
+ 
+2017-02-05 19:17:35.150 [ERROR] found no servant(0x00010001) 
+2017-02-05 19:17:47.975 [DEBUG] Connection closed, fd = 12. 
+2017-02-05 19:17:47.980 [DEBUG] Connection closed, fd = 13. 
+2017-02-05 19:17:47.981 [DEBUG] Connection closed, fd = 14. 
+2017-02-05 19:17:47.981 [DEBUG] Connection closed, fd = 15. 
+2017-02-05 19:17:47.982 [DEBUG] Connection closed, fd = 16. 
+2017-02-05 19:24:46.290 [DEBUG] Connection closed, fd = 10. 
+2017-02-05 19:24:46.291 [DEBUG] servant_prefix(0x0002) disconnected 
+2017-02-05 19:26:29.353 [DEBUG] Connection closed, fd = 11. 
+2017-02-05 19:26:29.354 [DEBUG] servant_prefix(0x0003) disconnected 
+2017-02-05 19:26:35.463 [DEBUG] buf_len (RGST) 
+2017-02-05 19:26:35.464 [DEBUG] message(0x0003) each_recv_len(6) total_len(6) 
+2017-02-05 19:26:35.465 [INFO] servant_prefix(0x0003) register success. 
+2017-02-05 19:26:39.239 [DEBUG] buf_len (RGST) 
+2017-02-05 19:26:39.240 [DEBUG] message(0x0001) each_recv_len(6) total_len(6) 
+2017-02-05 19:26:39.240 [INFO] servant_prefix(0x0001) register success. 
+2017-02-05 19:26:42.263 [DEBUG] buf_len (0023) 
+2017-02-05 19:26:42.264 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:26:42.280 [DEBUG] buf_len (0023) 
+2017-02-05 19:26:42.281 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:26:42.284 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:26:42.288 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:26:42.292 [ERROR] db_ops: mysql_real_query failed, error(Table 'test_db.test' doesn't exist) 
+2017-02-05 19:26:42.292 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-02-05 19:26:42.292 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-02-05 19:26:42.293 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:26:42.293 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:26:42.294 [ERROR] db_ops: mysql_real_query failed, error(Table 'test_db.test' doesn't exist) 
+2017-02-05 19:26:42.294 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-02-05 19:26:42.295 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-02-05 19:26:42.320 [DEBUG] buf_len (0023) 
+2017-02-05 19:26:42.320 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:26:42.338 [DEBUG] buf_len (0023) 
+2017-02-05 19:26:42.338 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:26:42.340 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:26:42.343 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:26:42.347 [ERROR] db_ops: mysql_real_query failed, error(Table 'test_db.test' doesn't exist) 
+2017-02-05 19:26:42.347 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-02-05 19:26:42.357 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-02-05 19:26:42.360 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:26:42.360 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:26:42.361 [DEBUG] buf_len (0023) 
+2017-02-05 19:26:42.361 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:26:42.361 [ERROR] db_ops: mysql_real_query failed, error(Table 'test_db.test' doesn't exist) 
+2017-02-05 19:26:42.362 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-02-05 19:26:42.362 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-02-05 19:26:42.366 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:26:42.369 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:26:42.374 [ERROR] db_ops: mysql_real_query failed, error(Table 'test_db.test' doesn't exist) 
+2017-02-05 19:26:42.374 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-02-05 19:26:42.375 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-02-05 19:26:42.407 [DEBUG] buf_len (0022) 
+2017-02-05 19:26:42.408 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-02-05 19:26:42.429 [DEBUG] message came 0x00020002I am GsTask. 
+2017-02-05 19:26:42.430 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-02-05 19:26:42.483 [DEBUG] buf_len (0022) 
+2017-02-05 19:26:42.487 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-02-05 19:26:42.488 [DEBUG] message came 0x00020002I am GsTask. 
+2017-02-05 19:26:42.490 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-02-05 19:34:12.324 [DEBUG] buf_len (0022) 
+2017-02-05 19:34:12.324 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-02-05 19:34:12.325 [DEBUG] message came 0x00020002I am GsTask. 
+2017-02-05 19:34:12.331 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-02-05 19:34:14.839 [DEBUG] buf_len (0022) 
+2017-02-05 19:34:14.840 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-02-05 19:34:14.847 [DEBUG] message came 0x00020002I am GsTask. 
+2017-02-05 19:34:14.848 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-02-05 19:34:16.302 [DEBUG] buf_len (0022) 
+2017-02-05 19:34:16.302 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-02-05 19:34:16.319 [DEBUG] message came 0x00020002I am GsTask. 
+2017-02-05 19:34:16.320 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-02-05 19:34:17.075 [DEBUG] buf_len (0023) 
+2017-02-05 19:34:17.075 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:34:17.080 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:34:17.099 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:34:17.099 [ERROR] db_ops: mysql_real_query failed, error(Table 'test_db.test' doesn't exist) 
+2017-02-05 19:34:17.100 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-02-05 19:34:17.101 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-02-05 19:34:17.171 [DEBUG] buf_len (0023) 
+2017-02-05 19:34:17.172 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:34:17.172 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:34:17.183 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:34:17.192 [ERROR] db_ops: mysql_real_query failed, error(Table 'test_db.test' doesn't exist) 
+2017-02-05 19:34:17.192 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-02-05 19:34:17.193 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-02-05 19:34:17.244 [DEBUG] buf_len (0023) 
+2017-02-05 19:34:17.245 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:34:17.271 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:34:17.272 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:34:17.275 [ERROR] db_ops: mysql_real_query failed, error(Table 'test_db.test' doesn't exist) 
+2017-02-05 19:34:17.275 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-02-05 19:34:17.276 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-02-05 19:34:17.323 [DEBUG] buf_len (0023) 
+2017-02-05 19:34:17.323 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:34:17.324 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:34:17.324 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:34:17.327 [ERROR] db_ops: mysql_real_query failed, error(Table 'test_db.test' doesn't exist) 
+2017-02-05 19:34:17.327 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-02-05 19:34:17.328 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-02-05 19:34:17.383 [DEBUG] buf_len (0022) 
+2017-02-05 19:34:17.384 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-02-05 19:34:17.384 [DEBUG] message came 0x00020002I am GsTask. 
+2017-02-05 19:34:17.385 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-02-05 19:34:17.911 [DEBUG] buf_len (0022) 
+2017-02-05 19:34:17.911 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-02-05 19:34:17.925 [DEBUG] message came 0x00020002I am GsTask. 
+2017-02-05 19:34:17.928 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-02-05 19:35:37.989 [DEBUG] buf_len (0022) 
+2017-02-05 19:35:37.989 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-02-05 19:35:38.016 [DEBUG] buf_len (0022) 
+2017-02-05 19:35:38.020 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-02-05 19:35:38.020 [DEBUG] message came 0x00020002I am GsTask. 
+2017-02-05 19:35:38.020 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-02-05 19:35:38.028 [DEBUG] message came 0x00020002I am GsTask. 
+2017-02-05 19:35:38.028 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-02-05 19:35:38.048 [DEBUG] buf_len (0023) 
+2017-02-05 19:35:38.049 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:35:38.066 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:35:38.067 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:35:38.072 [ERROR] db_ops: mysql_real_query failed, error(Table 'test_db.test' doesn't exist) 
+2017-02-05 19:35:38.072 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-02-05 19:35:38.072 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-02-05 19:35:38.152 [DEBUG] buf_len (0023) 
+2017-02-05 19:35:38.152 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:35:38.153 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:35:38.153 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:35:38.154 [ERROR] db_ops: mysql_real_query failed, error(Table 'test_db.test' doesn't exist) 
+2017-02-05 19:35:38.154 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-02-05 19:35:38.155 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-02-05 19:35:38.182 [DEBUG] buf_len (0023) 
+2017-02-05 19:35:38.182 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:35:38.211 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:35:38.212 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:35:38.215 [ERROR] db_ops: mysql_real_query failed, error(Table 'test_db.test' doesn't exist) 
+2017-02-05 19:35:38.216 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-02-05 19:35:38.216 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-02-05 19:35:38.303 [DEBUG] buf_len (0023) 
+2017-02-05 19:35:38.304 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:35:38.304 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:35:38.328 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:35:38.329 [ERROR] db_ops: mysql_real_query failed, error(Table 'test_db.test' doesn't exist) 
+2017-02-05 19:35:38.329 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-02-05 19:35:38.329 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-02-05 19:35:38.398 [DEBUG] buf_len (0023) 
+2017-02-05 19:35:38.398 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:35:38.399 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:35:38.400 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:35:38.401 [ERROR] db_ops: mysql_real_query failed, error(Table 'test_db.test' doesn't exist) 
+2017-02-05 19:35:38.401 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-02-05 19:35:38.403 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-02-05 19:35:38.456 [DEBUG] buf_len (0023) 
+2017-02-05 19:35:38.457 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:35:38.457 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:35:38.471 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:35:38.472 [ERROR] db_ops: mysql_real_query failed, error(Table 'test_db.test' doesn't exist) 
+2017-02-05 19:35:38.472 [DEBUG] ServantBase:SendMsg(I am DbLogin.) to servant(0x00010002) 
+2017-02-05 19:35:38.472 [DEBUG] NetWork:SendMsg final_msg(00230x00010002I am DbLogin.) final_msg_len(27) 
+2017-02-05 19:35:38.511 [DEBUG] buf_len (0022) 
+2017-02-05 19:35:38.512 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-02-05 19:35:38.524 [DEBUG] message came 0x00020002I am GsTask. 
+2017-02-05 19:35:38.525 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-02-05 19:35:52.532 [DEBUG] buf_len (0022) 
+2017-02-05 19:35:52.532 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-02-05 19:35:52.543 [DEBUG] buf_len (0022) 
+2017-02-05 19:35:52.544 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-02-05 19:35:52.544 [DEBUG] message came 0x00020002I am GsTask. 
+2017-02-05 19:35:52.545 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-02-05 19:35:52.548 [DEBUG] message came 0x00020002I am GsTask. 
+2017-02-05 19:35:52.548 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-02-05 19:35:52.558 [DEBUG] buf_len (0022) 
+2017-02-05 19:35:52.576 [DEBUG] message(0x00020002I am GsTask.) each_recv_len(22) total_len(22) 
+2017-02-05 19:35:52.577 [DEBUG] message came 0x00020002I am GsTask. 
+2017-02-05 19:35:52.591 [DEBUG] servant(0x00020002) message(I am GsTask.)
+ 
+2017-02-05 19:40:09.968 [DEBUG] Connection closed, fd = 11. 
+2017-02-05 19:40:09.968 [DEBUG] servant_prefix(0x0001) disconnected 
+2017-02-05 19:40:10.895 [DEBUG] Connection closed, fd = 10. 
+2017-02-05 19:40:10.895 [DEBUG] servant_prefix(0x0003) disconnected 

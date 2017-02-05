@@ -82,5 +82,4 @@ char * Strdup(char *str)
 	strcpy(p, str);
 	p[len] = '\0';
 	return p;
-	// return p;
 }

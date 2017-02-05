@@ -1,0 +1,10 @@
+运行client时，后面带的参数如下。
+address和port是客户端可以直接连接服务器的ip地址和端口
+messagelen是指要发送数据的长度，最小长度是15(servant(如0x00010001)计10个字节，
+最前面字段指明后续有多少数据的，用4个字节，加上最少发送一个字节的数据，10+4+1=15)
+thread_count是指开多少线程，这里理解为同时多少个客户端访问服务器并发送数据
+
+./client -p port -a address -l messagelen -t thread_count
+
+例：
+./client -p 8000 -a 127.0.0.1 -l 50 -t 5

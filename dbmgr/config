@@ -7,12 +7,11 @@ dbhost = 127.0.0.1
 dbport = 3308
 dbuser = root
 dbpwd = 123456
-redisenable = 1
+redisenable = 0
 redishost = 127.0.0.1
-redisport = 6379
+redisport = 10000
 
 #本服务器
 address = dbmgr
 port = dbmgr-port
 prefix = dbmgr-prefix
-thread = 2

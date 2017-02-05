@@ -4,7 +4,6 @@ DbTask::DbTask()
 {
 }
 
-
 DbTask::~DbTask()
 {
 	std::cout << "DbTask destory" << std::endl;

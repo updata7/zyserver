@@ -8,3 +8,73 @@
 2017-01-22 14:36:29.857 [DEBUG] message(0x0001) each_recv_len(6) total_len(6) 
 2017-01-22 14:36:29.857 [INFO] servant_prefix(0x0001) register success. 
 2017-01-22 14:45:08.763 [DEBUG] servant_prefix(0x0002) disconnected 
+2017-02-05 19:04:19.626 [DEBUG] net_work:connect_eventcb servant_prefix(0x0001) success 
+2017-02-05 19:04:47.403 [DEBUG] net_work:connect_eventcb servant_prefix(0x0001) success 
+2017-02-05 19:05:30.616 [DEBUG] buf_len (RGST) 
+2017-02-05 19:05:30.616 [DEBUG] message(0x0003) each_recv_len(6) total_len(6) 
+2017-02-05 19:05:30.620 [INFO] servant_prefix(0x0003) register success. 
+2017-02-05 19:05:36.532 [DEBUG] Connection closed, fd = 10. 
+2017-02-05 19:05:36.532 [DEBUG] servant_prefix(0x0003) disconnected 
+2017-02-05 19:05:37.272 [DEBUG] buf_len (RGST) 
+2017-02-05 19:05:37.272 [DEBUG] message(0x0003) each_recv_len(6) total_len(6) 
+2017-02-05 19:05:37.275 [INFO] servant_prefix(0x0003) register success. 
+2017-02-05 19:18:51.804 [DEBUG] buf_len (0023) 
+2017-02-05 19:18:51.805 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:18:51.806 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:18:51.820 [DEBUG] buf_len (0023) 
+2017-02-05 19:18:51.820 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:18:51.823 [DEBUG] buf_len (0023) 
+2017-02-05 19:18:51.825 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:18:51.828 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:18:51.828 [ERROR] found no servant(0x00020001) 
+2017-02-05 19:18:51.831 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:18:51.832 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:18:51.836 [ERROR] found no servant(0x00020001) 
+2017-02-05 19:18:51.839 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:18:51.840 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:18:51.840 [ERROR] found no servant(0x00020001) 
+2017-02-05 19:18:51.856 [DEBUG] buf_len (0023) 
+2017-02-05 19:18:51.856 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:18:51.860 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:18:51.879 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:18:51.879 [ERROR] found no servant(0x00020001) 
+2017-02-05 19:18:51.901 [DEBUG] buf_len (0023) 
+2017-02-05 19:18:51.901 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:18:51.914 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:18:51.914 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:18:51.915 [ERROR] found no servant(0x00020001) 
+2017-02-05 19:22:14.020 [DEBUG] buf_len (0023) 
+2017-02-05 19:22:14.020 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:22:14.041 [DEBUG] buf_len (0023) 
+2017-02-05 19:22:14.041 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:22:14.046 [DEBUG] buf_len (0023) 
+2017-02-05 19:22:14.047 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:22:14.048 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:22:14.048 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:22:14.049 [ERROR] found no servant(0x00020001) 
+2017-02-05 19:22:14.059 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:22:14.060 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:22:14.060 [ERROR] found no servant(0x00020001) 
+2017-02-05 19:22:14.061 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:22:14.064 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:22:14.064 [ERROR] found no servant(0x00020001) 
+2017-02-05 19:22:14.076 [DEBUG] buf_len (0023) 
+2017-02-05 19:22:14.091 [DEBUG] message(0x00020001I am GsLogin.) each_recv_len(23) total_len(23) 
+2017-02-05 19:22:14.111 [DEBUG] message came 0x00020001I am GsLogin. 
+2017-02-05 19:22:14.112 [DEBUG] servant(0x00020001) message(I am GsLogin.)
+ 
+2017-02-05 19:22:14.119 [ERROR] found no servant(0x00020001) 
+2017-02-05 19:26:35.459 [DEBUG] net_work:connect_eventcb servant_prefix(0x0002) success 
+2017-02-05 19:26:39.240 [DEBUG] buf_len (RGST) 
+2017-02-05 19:26:39.241 [DEBUG] message(0x0001) each_recv_len(6) total_len(6) 
+2017-02-05 19:26:39.244 [INFO] servant_prefix(0x0001) register success. 
+2017-02-05 19:40:09.968 [DEBUG] Connection closed, fd = 10. 
+2017-02-05 19:40:09.969 [DEBUG] servant_prefix(0x0001) disconnected 
