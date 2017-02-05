@@ -64,10 +64,10 @@ int main(int argc, char *argv[])
 	const char *endpointlist = get_env_value("endpointlist", NULL);
 	int thread = atoi(get_env_value("thread", "2"));
 	int dbenable = atoi(get_env_value("dbenable", "0"));
-	int redisable = atoi(get_env_value("redisable", "0"));
+	int redisenable = atoi(get_env_value("redisenable", "0"));
 	init_server_config(address, port, prefix, logpath, endpointlist, thread, dbenable);
 
-	if (redisable) {
+	if (redisenable) {
 		const char *redishost = get_env_value("redishost", "127.0.0.1");
 		const int redisport = atoi(get_env_value("redisport", "6379"));
 		struct timeval timeout = {2, 0}; 	// 超时时间2s
@@ -81,17 +81,19 @@ int main(int argc, char *argv[])
 		const char *dbuser = get_env_value("dbuser", "root");
 		const char *dbpwd = get_env_value("dbpwd", "123456");
 		init_db_config(dbhost, dbport, dbname, dbuser, dbpwd);
-		ServerStart *server = NEW ServerStart(get_server_config(), get_db_config());
-		server->Start();
-		DELETE server;
-	} else {
-		ServerStart *server = NEW ServerStart(get_server_config());
-		server->Start();
-		DELETE server;
+		db_connect(dbhost, dbuser, dbpwd, dbname, dbport);
 	}
 
-	if (redisable) {
+	ServerStart *server = NEW ServerStart(get_server_config());
+	server->Start();
+	DELETE server;
+
+	if (redisenable) {
 		redis_free();
+	}
+
+	if (dbenable) {
+
 	}
 	
 	log_release();
