@@ -10,6 +10,7 @@
 #include "ServerStart.h"
 #include "malloc.h"
 #include "zredis.h"
+#include "db_ops.h"
 
 using namespace std;
 
@@ -93,7 +94,7 @@ int main(int argc, char *argv[])
 	}
 
 	if (dbenable) {
-
+		db_close();
 	}
 	
 	log_release();
