@@ -26,8 +26,8 @@
 	./zyserver/test/client -a address -p port -l msglen -t thread_num
 	more detail read the zyserver/test/client/readme
 
-##说明
-	#### 1、本服务器还未投入项目使用，存在很多问题，仅供学习。
+#说明
+	1、本服务器还未投入项目使用，存在很多问题，仅供学习。
 	2、fbs及3rd/flatcc这两个目录，本是为flatcc准备，后面没用上，暂时搁着，以后也许用得上
 	3、数据库方面，有redis的相关测试，考虑到redis和mysql的数据互转时会比较繁琐，暂时没有
 	   考虑，另外，mysql的操作，也只是简单提供了接口，要用需要再封装优化
