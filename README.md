@@ -19,6 +19,9 @@
 #run server:
 	./start_all.sh
 
+#environment:
+	support linux only
+	
 #client test: 
 	./zyserver/test/client -a address -p port -l msglen -t thread_num
 	more detail read the zyserver/test/client/readme
