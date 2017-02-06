@@ -1,4 +1,0 @@
-thread = 2
-name = gateway
-addr = 
-#logpath = ./log
