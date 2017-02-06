@@ -111,3 +111,9 @@
 2017-02-06 14:46:06.676 [INFO] servant_prefix(0x0001) register success. 
 2017-02-06 15:05:42.310 [DEBUG] Connection closed, fd = 10. 
 2017-02-06 15:05:42.313 [DEBUG] servant_prefix(0x0001) disconnected 
+2017-02-06 15:07:19.835 [DEBUG] net_work:connect_eventcb servant_prefix(0x0002) success 
+2017-02-06 15:07:20.176 [DEBUG] buf_len (RGST) 
+2017-02-06 15:07:20.176 [DEBUG] message(0x0001) each_recv_len(6) total_len(6) 
+2017-02-06 15:07:20.176 [INFO] servant_prefix(0x0001) register success. 
+2017-02-06 15:07:22.412 [DEBUG] Connection closed, fd = 10. 
+2017-02-06 15:07:22.413 [DEBUG] servant_prefix(0x0001) disconnected 
