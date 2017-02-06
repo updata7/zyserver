@@ -5,6 +5,7 @@ CREATE TABLE `tb_account` (
 	`loginname` varchar(24) NOT NULL COMMENT '登录账号',
 	`password` varchar(24) NOT NULL COMMENT '密码',
 	`user_status` smallint(8) DEFAULT '0' COMMENT '玩家在线状态',
+	`last_ip` varchar(16) NOT NULL COMMENT '上一次登录的ip',
 	`create_data` datetime NOT NULL COMMENT '创建时间，这里指注册账号的时间',
 	`last_modified_date` datetime NOT NULL,
 	PRIMARY KEY (`user_id`),

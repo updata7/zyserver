@@ -78,3 +78,36 @@
 2017-02-05 19:26:39.244 [INFO] servant_prefix(0x0001) register success. 
 2017-02-05 19:40:09.968 [DEBUG] Connection closed, fd = 10. 
 2017-02-05 19:40:09.969 [DEBUG] servant_prefix(0x0001) disconnected 
+2017-02-06 09:37:50.357 [DEBUG] net_work:connect_eventcb servant_prefix(0x0002) success 
+2017-02-06 09:38:26.770 [DEBUG] buf_len (RGST) 
+2017-02-06 09:38:26.770 [DEBUG] message(0x0001) each_recv_len(6) total_len(6) 
+2017-02-06 09:38:26.773 [INFO] servant_prefix(0x0001) register success. 
+2017-02-06 09:43:35.399 [DEBUG] Connection closed, fd = 10. 
+2017-02-06 09:43:35.399 [DEBUG] servant_prefix(0x0001) disconnected 
+2017-02-06 09:44:34.361 [DEBUG] buf_len (RGST) 
+2017-02-06 09:44:34.361 [DEBUG] message(0x0001) each_recv_len(6) total_len(6) 
+2017-02-06 09:44:34.365 [INFO] servant_prefix(0x0001) register success. 
+2017-02-06 10:41:29.422 [DEBUG] net_work:connect_eventcb servant_prefix(0x0002) success 
+2017-02-06 11:05:03.053 [DEBUG] net_work:connect_eventcb servant_prefix(0x0002) success 
+2017-02-06 11:07:34.909 [DEBUG] net_work:connect_eventcb servant_prefix(0x0002) success 
+2017-02-06 11:07:56.842 [ERROR] Couldn't create listener 
+2017-02-06 11:11:10.305 [ERROR] Couldn't create listener 
+2017-02-06 11:14:26.094 [DEBUG] net_work:connect_eventcb servant_prefix(0x0002) success 
+2017-02-06 11:14:58.729 [DEBUG] net_work:connect_eventcb servant_prefix(0x0002) success 
+2017-02-06 11:16:14.687 [DEBUG] servant_prefix(0x0002) disconnected 
+2017-02-06 11:18:32.697 [DEBUG] net_work:connect_eventcb servant_prefix(0x0002) success 
+2017-02-06 11:19:07.186 [DEBUG] servant_prefix(0x0002) disconnected 
+2017-02-06 11:21:01.785 [DEBUG] cant connect to servant_prefix(0x0002). 
+2017-02-06 14:12:09.405 [ERROR] Couldn't create listener 
+2017-02-06 14:13:45.682 [ERROR] Couldn't create listener 
+2017-02-06 14:14:21.446 [ERROR] Couldn't create listener 
+2017-02-06 14:18:01.852 [DEBUG] net_work:connect_eventcb servant_prefix(0x0002) success 
+2017-02-06 14:18:21.281 [DEBUG] servant_prefix(0x0002) disconnected 
+2017-02-06 14:19:36.231 [DEBUG] net_work:connect_eventcb servant_prefix(0x0002) success 
+2017-02-06 14:40:43.440 [DEBUG] net_work:connect_eventcb servant_prefix(0x0002) success 
+2017-02-06 14:46:06.298 [DEBUG] net_work:connect_eventcb servant_prefix(0x0002) success 
+2017-02-06 14:46:06.670 [DEBUG] buf_len (RGST) 
+2017-02-06 14:46:06.671 [DEBUG] message(0x0001) each_recv_len(6) total_len(6) 
+2017-02-06 14:46:06.676 [INFO] servant_prefix(0x0001) register success. 
+2017-02-06 15:05:42.310 [DEBUG] Connection closed, fd = 10. 
+2017-02-06 15:05:42.313 [DEBUG] servant_prefix(0x0001) disconnected 

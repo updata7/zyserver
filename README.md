@@ -1,6 +1,6 @@
-# zyserver
+# zyserver(the game server base on libevent)
 
-#libevent:2.0.22 stable
+#libevent:2.0.22 stable(download from http://libevent.org/)
 	./configure -prefix=/usr
 	make
 	make install
@@ -12,3 +12,9 @@
 	start: sudo start mysql
 	stop: sudo stop mysql
 	change port: sudo vi /etc/mysql/my.cnf(two point:client port and mysqld port)
+
+#build all server(at the path of zyserver):
+	make
+
+#run server:
+	./start_all.sh

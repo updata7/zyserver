@@ -4,29 +4,8 @@
 #include <string>
 #include <stdarg.h>
 
-void test2(const char *format, ...)
-{
-	char log_msg[1024] = {0};
-
-	va_list ap;
-	va_start(ap,format);
-	vsnprintf(log_msg, sizeof(log_msg), format, ap);
-	printf("======%s\n", log_msg);
-	va_end(ap);
-}
-
-// #define test test2
-
-void test(const char *format, ...)
-{
-	test2(format, ...);
-}
-
 int main(int argc, char **argv)
 {
-	test("%d + %d = %d", 1, 1, 2);
-	return 0;
-
     struct timeval timeout = {2, 0};    //2s的超时时间
     //redisContext是Redis操作对象
     redisContext *pRedisContext = (redisContext*)redisConnectWithTimeout("127.0.0.1", 6379, timeout);

@@ -10,6 +10,9 @@
 #include <stdio.h>
 #include <errno.h>  
 #include <string.h>  
+#include <fcntl.h>  
+#include <sys/wait.h>  
+#include <sys/epoll.h>
 
 #include "flatcc_builder.h"
 #include "flatcc/support/elapsed.h"
@@ -22,7 +25,7 @@
                 exit(EXIT_FAILURE); \
         } while(0)
 
-int port = 8000;
+int port = 8002;
 int pthread_num = 2;
 int messagelen = 20;
 pthread_mutex_t mutex;
@@ -130,22 +133,11 @@ ssize_t readline(int sockfd, void *buf, size_t maxline)
 }  
   
 void echo_cli(int sock)  
-{
-    fd_set rset;  
-    FD_ZERO(&rset);  
-  
-    int nready;  
-    int maxfd;  
-    int fd_stdin = fileno(stdin);  
-    if (fd_stdin > sock)  
-        maxfd = fd_stdin;  
-    else  
-        maxfd = sock;  
-    
+{   
     int i;
     char sendbuf[1024+4] = {0};
     char sendbuf2[1024] = {0};
-
+    char recvbuf[1024] = {0};  
     messagelen = messagelen > 1024 ? 1024 : messagelen;
     messagelen = messagelen < 15 ? 15 : messagelen;
     sprintf(sendbuf, "%04d", messagelen);
@@ -154,111 +146,55 @@ void echo_cli(int sock)
         sendbuf[i] = '6';
     }
 
-    char recvbuf[1024] = {0};  
-    char sendbuf1[1024] = {0};
-    int stdineof = 0;  
-    i = 0;
-    maxfd += 1;
-    // if (fgets(sendbuf2, sizeof(sendbuf2), stdin) != NULL) {
-    //     write(sock, sendbuf, strlen(sendbuf));  
-    //     memset(sendbuf, 0, sizeof(sendbuf));
-    // }
+    int epollfd;  
+    epollfd = epoll_create1(EPOLL_CLOEXEC); 
+    int fd_stdin = fileno(stdin);
+    struct epoll_event event;  
+    event.data.fd = fd_stdin;  
+    event.events = EPOLLIN | EPOLLET;  
+    epoll_ctl(epollfd, EPOLL_CTL_ADD, fd_stdin, &event);
+    
+    event.data.fd = sock;
+    event.events = EPOLLIN | EPOLLET;
+    epoll_ctl(epollfd, EPOLL_CTL_ADD, sock, &event);
 
+    struct epoll_event events[2];
     while (1)
-    {  
-        if (stdineof == 0)  
-            FD_SET(fd_stdin, &rset);  
-        FD_SET(sock, &rset);  
-        nready = select(maxfd+1, &rset, NULL, NULL, NULL);  
-        if (nready == -1)  
-            ERR_EXIT("select");  
-  
-        if (nready == 0)  
-            continue;  
-  
-        // if (FD_ISSET(sock, &rset))  
-        // {  
-        //     int ret = readline(sock, recvbuf, sizeof(recvbuf));  
-        //     if (ret == -1)  
-        //         ERR_EXIT("readline");  
-        //     else if (ret == 0)  
-        //     {  
-        //         printf("server close\n");  
-        //         break;  
-        //     }  
+    {
+        int n = epoll_wait(epollfd, events, 2, 0);
 
-        //     fputs(recvbuf, stdout);  
-        //     memset(recvbuf, 0, sizeof(recvbuf));  
-        // }  
-        if (FD_ISSET(fd_stdin, &rset))  
+        if (n == -1)  
         {  
-            // if (fgets(sendbuf, sizeof(sendbuf), stdin) == NULL)  
-            // {  
-            //     stdineof = 1;  
-                 
-            //     close(sock); 
-            //     sleep(5); 
-            //     exit(EXIT_FAILURE); 
-                  
-            //     shutdown(sock, SHUT_WR);  
-            // }  
-            // else
-            // { 
-                
-                    // flatcc_builder_t builder, *B;
-                    // size_t size;
-                    // B = &builder;
-                    // char *buffer;
-                    // flatcc_builder_init(B);
+            if (errno == EINTR)
+                continue;  
+              
+            exit(1);
+        }  
+        if (n == 0)  
+            continue;
 
-                    // flatbuffers_string_ref_t nick_name = flatbuffers_string_create_str(B, "n1");
-                    // flatbuffers_string_ref_t password = flatbuffers_string_create_str(B, "p1");
-
-                    // flatbuffers_string_ref_t player_id = flatbuffers_string_create_str(B, "");
-                    // flatbuffers_string_ref_t session = flatbuffers_string_create_str(B, "");
-
-                    // request_ref_t rt = request_create(B, nick_name, password);
-                    // response_ref_t st = response_create(B, 0, player_id, session);
-                    // Protocol_create_as_root(B, rt, st);
-                    // buffer = flatcc_builder_finalize_buffer(B, &size);
-
-                    // =====================================
-                    // Protocol_table_t pt = Protocol_as_root(buffer);
-
-
-                    // request_table_t rt2 = Protocol_request(pt);
-
-                    // const char *nick_name2 = request_nick_name(rt2);
-                    // const char *password2 = request_password(rt2);
-
-                    // fprintf(stderr, "add receive:nick_name(%s) password(%s)\n", nick_name2, password2);
-                    // ======================================
-                    
-                    // assert(buffer);
-                    // writen(sock, buffer, size);
-                    // free(buffer);
-                
-
-            //     write(sock, sendbuf, strlen(sendbuf));  
-            //     memset(sendbuf, 0, sizeof(sendbuf));
-            // }
+        for (i = 0; i < n; i ++) {
+            if (events[i].events & EPOLLIN) {
+                if (events[i].data.fd == fd_stdin) {
+                    if (fgets(sendbuf2, sizeof(sendbuf2), stdin) == NULL)  
+                    {
+                        event = events[i];  
+                        epoll_ctl(epollfd, EPOLL_CTL_DEL, fd_stdin, &event);
+                    } else {
+                        write(sock, sendbuf, strlen(sendbuf));  
+                        // memset(sendbuf, 0, sizeof(sendbuf));
+                        memset(sendbuf2, 0, sizeof(sendbuf2));
+                    }
+                } else if(events[i].data.fd == sock) {
+                    int recv_size = readline(sock, recvbuf, 1024);
+                    printf("%s\n", recvbuf);
+                }
+            }
         }
-        write(sock, sendbuf, strlen(sendbuf));  
-        memset(sendbuf, 0, sizeof(sendbuf));
     }  
 
-    // while(1) {
-    //     pthread_mutex_lock(&mutex);
-    //     write(sock, sendbuf, strlen(sendbuf));  
-    //     // memset(sendbuf, 0, sizeof(sendbuf));
-    //     pthread_mutex_unlock(&mutex);
-    //     ++ i;
-    //     if (i >= send_count) {
-    //         break;
-    //     }
-    // }
-
-    // close(sock);
+    close(epollfd);
+    close(sock);
 }
   
 void handle_sigpipe(int sig)  
@@ -292,7 +228,7 @@ void *pthread_cl(void *argv)
   
 int main(int argc, char *argv[])  
 {
-    const char *ip = NULL;
+    const char *ip = "127.0.0.1";
 
     int c;
     while (-1 != (c = getopt(argc, argv, 
