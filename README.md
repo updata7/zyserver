@@ -1,6 +1,6 @@
 # zyserver
 
-#libevent:2.0.22 stable([download]http://libevent.org/)
+#libevent:2.0.22 stable([download ](http://libevent.org/))
 	./configure -prefix=/usr
 	make
 	make install
